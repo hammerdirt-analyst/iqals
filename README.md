@@ -1,4 +1,5 @@
 ## Identification, quantififcation and analysis of observable anthropogenic debris along swiss freshwater systems.
+![alt text](http://url/to/img.png)
 
 ### <span style="color:#008891">Purpose</span>
 
