@@ -12,6 +12,8 @@ The data was collected by a variety of organisations and indivdiduals. The earli
 
 Clone the repo, Jupyter lab or JupyterNotebooks are required. The workbook 'getdataforrepo' will preprocess the data for you and attach BFS numbers. All other modules draw from the data provided by 'getdataforrepo'.
 
+**Syncing of geo data and economic data** as new survey locations get added, there is a delay between 
+
 ### Copyright
 
 This repo is for public use: GNU General Public License v2.0. The current project was sponsored by the Swiss federal office for the environment.
