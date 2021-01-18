@@ -1,0 +1,213 @@
+UUID,DATUM_AEND,DATUM_ERST,ERSTELL_J,ERSTELL_M,REVISION_J,REVISION_M,GRUND_AEND,HERKUNFT,HERKUNFT_J,HERKUNFT_M,OBJEKTART,REVISION_Q,BAU_NAME_U,NAME,NUTZUNG,slug,water_name,city_slug,area
+{5B9CCEA0-1982-4D83-988E-484CCB0C04F2},2014/12/09,2011/06/10,2010,4,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,,baye-de-montreux-d,Lac Léman,montreux,100626.459
+{1D314FDB-BCF2-4AA5-9574-2582E7A1908F},2016/05/26,2016/05/26,2016,5,2017,6,verbessert,3D-GebCH_T2016,2014,6,Gebaeude,2018_Aufbau,,,,la-petite-plage,Neuenburgersee,yverdon-les-bains,2162.961
+{F52288D8-FFD0-4FE7-B017-55903659C3B4},2014/01/22,2009/08/10,2008,8,2014,6,verbessert,swisstopo,2011,6,Offenes Gebaeude,2015_Aufbau,,,,seez_spennwiesenbrucke,Seez,walenstadt,10056.979
+{B821BA82-1278-448C-AA3F-D7D50B825B83},2013/11/08,2011/10/26,2011,3,2018,6,real,swisstopo,2011,6,Gebaeude,2018_Aufbau,,,,birskopfli-rusco,Birs,birsfelden,93081.389
+{F74492E8-4632-41FE-8C10-24224DFBBCFC},2015/08/19,2015/08/19,2015,8,2015,8,verbessert,3D-GebCH_T2015,2014,6,Gebaeude,2015_Aufbau,,,,gasi-strand,Walensee,weesen,556.289
+{6F813094-2FB1-4FAE-B46D-D2D72F2514AF},2016/01/05,2016/01/05,2016,1,2016,1,verbessert,3D-GebCH_T2015,2015,6,Gebaeude,2016_Aufbau,,,,lacleman_gland_kubela,Lac Léman,gland,2041.404
+{9ACCE134-5B1A-4E99-8046-E7D4D0C23D9C},2014/02/18,2011/11/24,2008,5,2014,6,verbessert,swisstopo,2011,6,Gebaeude,2015_Aufbau,,,,murg_waengi_strickerr,Murg,wangi,17780.862
+{57D91FFB-1739-4DA7-8B0E-7C2B3D6A6D03},2018/07/10,2013/08/07,2010,7,2016,6,verbessert,swisstopo,2016,6,Sakrales Gebaeude,1412_Aufbau,,,,kusnachter-dorfbach-tobelweg-1-4,Dorfbach,kusnacht,114929.558
+{704A05F4-6AC3-4F00-B840-8EEF8848960E},2014/05/13,2014/05/13,2013,6,2013,6,verbessert,swisstopo,2013,6,Gebaeude,2015_Aufbau,{6933803A-8868-46D4-845D-58D37356CF41},Restaurant Sihlmatt,Gasthof abgelegen,sihl_menzingen_kucharska_magdalena,Sihl,menzingen,3312.026
+{D50CEFAF-D0B1-4284-B42C-E9A53C7BF5B3},2014/12/09,2011/06/09,2010,4,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,,lac-leman-hammerdirt,Lac Léman,la-tour-de-peilz,77264.163
+{EEF9BBAE-B9A3-44C0-8D9E-C79DAB5A0387},2014/12/09,2011/06/09,2010,4,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,,oyonne,Lac Léman,la-tour-de-peilz,112982.407
+{0A5E8C98-0A2A-472A-BDAC-35D8B0999098},2015/11/10,2013/08/05,2010,6,2014,6,verbessert,swisstopo,2010,6,Flugdach,1412_Aufbau,,,,limmat_dietikon_keiserp,Limmat,dietikon,101611.890
+{B6BB51ED-FE29-4410-AF60-25948C87E48C},2013/10/10,2013/10/10,2011,6,2018,6,verbessert,swisstopo,2011,6,Hochkamin,2018_Aufbau,,,,spackmatt,Aare,luterbach,91639.905
+{101931EA-C37E-442D-9CC1-625B1B5175FD},2017/01/19,2013/10/18,2012,3,2019,6,verbessert,swisstopo,2015,6,Kapelle,2018_Aufbau,,,,ascona-traghetto-spiaggia,Lago Maggiore,ascona,127181.762
+{5529B514-B2F6-42D0-8708-9AAC6CAE2251},2016/07/19,2009/02/19,2005,6,2018,6,verbessert,swisstopo,2015,6,Gebaeude,2018_Aufbau,,,,luscherz-two,Bielersee,luscherz,43340.962
+{EE69A62F-A070-4400-99BD-296F74C122F3},2015/10/01,2009/08/18,2008,8,2014,6,verbessert,swisstopo,2014,6,Gebaeude,2015_Aufbau,,,,seez,Seez,walenstadt,30124.519
+{CEF0D636-F028-4AFB-A3DC-524951CD87B9},2016/02/26,2010/05/04,2009,6,2015,6,verbessert,swisstopo,2015,6,Gebaeude,2016_Aufbau,,,,rolle-plage,Lac Léman,rolle,46578.425
+{D5876BE8-CD36-46AD-99EB-F2177CF7FFB6},2014/03/12,2011/08/02,2010,4,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,,les-vieux-ronquoz,Rhône,sion,106394.403
+{8F78C01B-BFF6-4277-943B-DF4650B039FE},2016/07/19,2009/02/19,2005,6,2018,6,verbessert,swisstopo,2015,6,Gebaeude,2018_Aufbau,{9341DCE6-0742-4CA8-9DFE-512E6812BD65},Port 300/50m,Schiessstand,aare_post,Aare|Nidau-Büren-Kanal,port,33241.352
+{3C53168A-AD23-4B99-A5ED-F2BFB5FF27BD},2018/03/08,2014/06/27,2013,6,2016,6,verbessert,swisstopo,2016,6,Gebaeude,1412_Aufbau,,,,limmat_zuerich_suterdglauserp,Limmat,zurich,199157.260
+{71AC989D-EF64-4E71-8963-04B523B17461},2013/11/19,2011/06/20,2008,5,2014,6,verbessert,swisstopo,2011,6,Gebaeude,2015_Aufbau,,,,mammern-swisslitterreport,Untersee,steckborn,8928.561
+{A68E74AC-0A29-48B7-93DA-65E44D0CEE49},2015/01/29,2014/12/16,2014,12,2013,6,verbessert,swisstopo,2013,6,Gebaeude,2015_Aufbau,,,,sihlsee_einsiedeln_schilligerllacherl,Sihlsee,einsiedeln,9709.226
+{04D08B78-FEE7-4020-A7E8-095D51C3DAC5},2016/02/05,2011/06/06,2009,6,2015,6,verbessert,swisstopo,2015,6,Gebaeude,2016_Aufbau,,,,vidy,Lac Léman,lausanne,22277.876
+{14BE09C7-8944-4182-BA0F-573036F09630},2015/12/09,2015/12/09,2015,12,2018,6,verbessert,3D-GebCH_T2015,2015,6,Gebaeude,2018_Aufbau,,,,gals-reserve,Bielersee,gals,2476.090
+{3BAD3903-2FCD-48A3-85FE-D8320A5ABFA3},2016/08/29,2016/08/29,2016,8,2018,6,verbessert,3D-GebCH_T2016,2014,6,Gebaeude,2018_Aufbau,,,,aare-solothurn-lido-strand,Aare,solothurn,7833.625
+{C197319D-9214-4082-9E2E-D4699433A7F2},2013/07/31,2013/07/31,2012,6,2012,6,verbessert,swisstopo,2012,6,Gebaeude,1312_Aufbau,,,,wycheley,Brienzersee,brienze-be,5120.631
+{6CB07BB9-E860-4D2D-A34A-87FF6A58A81B},2014/09/29,2011/06/07,2009,6,2015,6,verbessert,swisstopo,2012,6,Gebaeude,2016_Aufbau,,,,cully-plage,Lac Léman,bourg-en-lavaux,11338.686
+{D9AB4B9C-91E8-4442-AA2C-822A0341D586},2014/01/13,2008/12/11,2008,5,2014,6,verbessert,swisstopo,2011,6,Gebaeude,2015_Aufbau,,,,toss_winterthur-2,Töss,winterthur,16363.595
+{66F4B88D-31DC-4E91-9CE0-3362F435999E},2013/10/09,2013/10/09,2013,6,2013,6,verbessert,swisstopo,2013,6,Kapelle,2015_Aufbau,,,,vierwaldstattersee_weggis_schoberls_3,Quatre Cantons,weggis,23961.974
+{6109B877-3A6C-46A2-B2CB-F72F7C72D730},2014/03/03,2009/11/24,2009,4,2015,6,verbessert,swisstopo,2012,6,Gebaeude,2016_Aufbau,,,,san-nazzaro-gambarogno,Lago Maggiore,gambarogno,26207.072
+{4D2C4815-1A65-4BC5-95FD-73FDCE9F9A06},2016/03/30,2014/05/06,2012,6,2015,6,verbessert,swisstopo,2015,6,Turm,2016_Aufbau,{3531C7D8-980F-4AE1-A5A4-CE1A31C924F9},Le Phare de Genève,Leuchtturm,baby-plage-geneva,Lac Léman,geneve,61378.836
+{1CE87EF9-6E7E-4A9F-8BD4-5C8D344270FB},2014/05/26,2011/06/06,2009,6,2015,6,verbessert,swisstopo,2012,6,Gebaeude,2016_Aufbau,,,,lacleman_vidy_santie,Lac Léman,lausanne,17644.493
+{3C8842A5-AC31-4E87-93C2-2F75A94C326A},2013/08/16,2013/08/16,2013,6,2013,6,verbessert,swisstopo,2013,6,Hochkamin,1412_Aufbau,,,,aare-limmatspitz,Aare,gebenstorf,45453.103
+{B4618493-073F-4D65-B482-64CBC6E9BD0D},2018/11/27,2009/08/18,2008,8,2014,6,verbessert,swisstopo,2014,6,Gebaeude,2015_Aufbau,,,,mols-rocks,Walensee,quarten,13991.526
+{EC628EBE-91D6-4EEE-8590-3AD73B3DB681},2014/04/01,2010/12/08,2010,3,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2016_Aufbau,{51FCAF62-EE1D-410D-99B0-BABECBC71261},Restaurant Sensestrand Hollywood,Gasthof abgelegen,sense_torishaus_g-cubes,Sense,koniz,12497.815
+{8219780F-E3ED-4A7D-A9B7-9D293F29B7BB},2013/05/29,2013/05/29,2010,6,2013,6,verbessert,swisstopo,2010,6,Treibhaus,1412_Aufbau,,,,greifensee_uster_fischerb_1,Greifensee,uster,13077.175
+{B3365C8D-7264-4B55-B6F5-7DE2F0B39A22},2016/01/05,2016/01/05,2016,1,2016,1,verbessert,3D-GebCH_T2015,2015,6,Gebaeude,2016_Aufbau,,,,saint-sulpice,Lac Léman,saint-sulpice,12112.926
+{85EA5288-02D9-4293-B062-FBE1978622A2},2016/10/28,2014/02/25,2011,6,2018,6,verbessert,swisstopo,2014,6,Sakraler Turm,2018_Aufbau,,,,schusspark-strand,Schüss,biel,155775.724
+{386992B7-40A1-465D-90D4-6D96C5D8D1CE},2014/03/03,2009/11/24,2009,4,2015,6,verbessert,swisstopo,2012,6,Gebaeude,2016_Aufbau,,,,pacha-mama-gerra,Lago Maggiore,gambarogno,25608.726
+{75DBFCAF-8E42-4BD8-9985-B779A6DBCE27},2014/07/08,2014/06/03,2014,6,2013,6,verbessert,swisstopo,2013,6,Gebaeude,1412_Aufbau,,,,greifensee_maur_simmenc,Greifensee,maur,3046.419
+{8C708B86-ED7A-49AD-AC00-3341F0E522B9},2015/01/13,2011/01/31,2010,3,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2016_Aufbau,,,,bern-fahrstrasse,Aare,bern,59905.024
+{C45ADD63-0458-4936-8A96-2FDC659BA8F6},2016/07/19,2009/02/19,2005,6,2018,6,verbessert,swisstopo,2015,6,Treibhaus,2018_Aufbau,,,,bielersee_vinelz_fankhausers,Bielersee,vinelz,25628.504
+{2482AAF7-8CB0-421F-86CC-26BA9E9C95C5},2013/08/28,2013/08/28,2012,6,2012,6,verbessert,swisstopo,2012,6,Gebaeude,1312_Aufbau,,,,weissenau-neuhaus,Thunersee,unterseen,7772.041
+{0019B339-EEDB-421D-AA51-8D9E19A532F1},2014/02/18,2009/03/17,2008,5,2014,6,verbessert,swisstopo,2011,6,Gebaeude,2015_Aufbau,,,,thur_schwarzenbach_meiliw,Thur,wil,66789.938
+{386992B7-40A1-465D-90D4-6D96C5D8D1CE},2014/03/03,2009/11/24,2009,4,2015,6,verbessert,swisstopo,2012,6,Gebaeude,2016_Aufbau,,,,gerra-gambarogno,Lago Maggiore,gambarogno,32537.818
+{C5E4A542-45E0-462B-8DD3-F74FBA54F96F},2018/11/27,2008/03/19,2002,6,2014,6,verbessert,swisstopo,2014,6,Gebaeude,2015_Aufbau,,,,linth_mollis,Linthkanal,glarus-nord,45498.102
+{5A2E9089-9B09-49F7-B910-2247DA4C5E69},2016/01/05,2016/01/05,2016,1,2016,1,verbessert,3D-GebCH_T2015,2015,6,Gebaeude,2016_Aufbau,,,,versoix,Lac Léman,versoix,33440.663
+{A4A1DBF4-7B8E-4028-94CD-9D2423F48E13},2014/12/09,2011/06/09,2010,4,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,,pierrier-sud,Lac Léman,montreux,90676.894
+{A38409F6-37CA-4CD3-B67F-15BFE09BFF33},2013/12/03,2009/08/11,2008,7,2014,6,verbessert,swisstopo,2011,6,Gebaeude,2015_Aufbau,,,,urnaesch_urnaesch_meierr,Urnäsch,hundwil,13966.481
+{05ADD605-266C-4F2F-B4E4-68C79BF1A527},2014/05/26,2010/05/07,2009,6,2015,6,verbessert,swisstopo,2012,6,Gebaeude,2016_Aufbau,,,,plage-de-st-sulpice,Lac Léman,saint-sulpice,33692.049
+{AE05F59A-20A2-401C-B2A6-13126BED2304},2018/03/20,2014/06/27,2013,6,2016,6,verbessert,swisstopo,2016,6,Gebaeude,1412_Aufbau,,,,zuerichsee_zurich_kullg,Zurichsee,zurich,59694.916
+{D1140257-1170-42F6-8B96-C19A962A0E87},2018/01/17,2013/08/06,2010,6,2016,6,verbessert,swisstopo,2016,6,Gebaeude,1412_Aufbau,,,,zurichsee_wollishofen_langendorfm,Zurichsee,zurich,90068.380
+{071794B6-71E4-4F67-BDFD-C608DA89D5C8},2013/08/07,2013/08/07,2010,7,2013,6,verbessert,swisstopo,2010,7,Sakrales Gebaeude,1412_Aufbau,,,,zurichsee_kusnachterhorn_thirkell-whitej,Zurichsee,kusnacht,61901.617
+{948C5A44-527D-4D7C-AC0E-8C05612ED567},2013/10/09,2013/10/09,2013,6,2013,6,verbessert,swisstopo,2013,6,Treibhaus,2015_Aufbau,,,,vierwaldstattersee_weggis_schoberls_1,Quatre Cantons,weggis,7610.192
+{8F89A180-0613-49B1-9320-6924B8121584},2013/11/08,2011/10/18,2011,3,2018,6,real,swisstopo,2011,6,Offenes Gebaeude,2018_Aufbau,,,,rhein-beach-tinguely,Rhein,basel,137219.454
+{66ABF431-46AD-4D91-93E3-4DCC2535EF7D},2014/08/20,2010/12/16,2010,4,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2016_Aufbau,,,,plage-de-cheyres,Neuenburgersee,cheyres,28502.998
+{D50CEFAF-D0B1-4284-B42C-E9A53C7BF5B3},2014/12/09,2011/06/09,2010,4,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,,bain-des-dames,Lac Léman,la-tour-de-peilz,78545.762
+{9625DC6D-EC55-4773-ACB3-863512ABFC75},2019/01/11,2009/02/19,2005,6,2018,6,verbessert,swisstopo,2018,6,Gebaeude,2018_Aufbau,,,,strandboden-biel,Bielersee,biel,48855.512
+{A166919B-5B14-4E0B-9E30-1F0E81F618C0},2013/11/08,2011/10/26,2011,3,2018,6,real,swisstopo,2011,6,Gebaeude,2018_Aufbau,,,,birs_basel_grunern,Birs,basel,156202.448
+{E3E2C0D1-2C10-46BE-AF6C-28DB945EDD97},2013/08/27,2013/08/27,2010,6,2013,6,verbessert,swisstopo,2010,6,Kapelle,1412_Aufbau,,,,zuerichsee_maennedorf_vanderkaadene,Zurichsee,mannedorf,79005.116
+{C9B8C879-411D-49B1-9EBE-799742885B30},2013/08/05,2013/08/05,2010,6,2014,6,verbessert,swisstopo,2010,6,Treibhaus,1412_Aufbau,,,,chriesbach_duebendorf_schneidera,Chriesbach,dubendorf,154259.642
+{8F827FCC-D45E-4E05-86E3-4C8D7BB0136D},2014/05/15,2010/05/06,2009,6,2015,6,verbessert,swisstopo,2012,6,Gebaeude,2016_Aufbau,,,,preverenges,Lac Léman,preverenges,44305.598
+{F7EA43F6-67F1-4045-811F-67A8A88A643B},2013/11/08,2011/10/20,2011,3,2018,6,real,swisstopo,2011,6,Gebaeude,2018_Aufbau,,,,rhein_basel_blarerp_2,Rhein,huningue,9673.394
+{9578FD66-EE95-4FC9-8300-9335FDD0F49A},2013/12/03,2011/04/07,2010,3,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2016_Aufbau,,,,aare_kehrsatz_stolten,Aare,belp,23801.519
+{D4B055C6-5D5A-4755-8EF1-6DAFBE00792A},2016/07/19,2009/02/19,2002,6,2015,6,verbessert,swisstopo,2015,6,Turm,2015_Aufbau,,,,bodensee_arbon_moslis,Bodensee,arbon,62149.438
+{225000D9-950D-48B3-8F04-559FB585B515},2016/07/19,2009/02/19,2004,6,2016,6,verbessert,swisstopo,2015,6,Sakrales Gebaeude,2016_Aufbau,,,,bern-tiergarten,Aare,bern,70579.587
+{FD43E14B-81BA-4162-B828-6D463134C901},2013/10/07,2012/12/18,2012,3,2012,3,verbessert,swisstopo,2012,3,Gebaeude,1312_Aufbau,,,,langete_langenthal_geiserm,Langeten,langenthal,126097.868
+{94966C93-362E-4854-BF49-7D29F6504CD3},2016/07/19,2009/02/19,2002,6,2015,6,verbessert,swisstopo,2015,6,Offenes Gebaeude,2015_Aufbau,,,,goldach_goldach_schlachterj,Goldach,goldach,44759.084
+{D8D6C9E6-9820-4EA4-B350-CF414859F3E0},2014/05/12,2014/05/12,2013,6,2013,6,verbessert,swisstopo,2013,6,Hochkamin,1412_Aufbau,,,,aare_brugg_buchie,Aare,brugg,36478.667
+{EE69A62F-A070-4400-99BD-296F74C122F3},2015/10/01,2009/08/18,2008,8,2014,6,verbessert,swisstopo,2014,6,Gebaeude,2015_Aufbau,,,,walensee_walenstadt_wysse,Walensee,walenstadt,19661.243
+{D4221497-2F6B-4E55-BC57-54A2F8C7FFC0},2014/10/20,2014/09/19,2014,9,2013,6,verbessert,swisstopo,2013,6,Gebaeude,1412_Aufbau,,,,reuss_ottenbach_schoenenbergerl,Reuss,merenschwand,7070.938
+{B4E0CCE1-F574-4E7B-9C79-F6FBCA6CCEC3},2016/10/31,2010/11/18,2010,4,2016,6,verbessert,swisstopo,2016,6,Gebaeude,2016_Aufbau,,,,nouvelle-plage,Neuenburgersee,estavayer,6469.070
+{0FE285CE-3838-4CAD-B21D-99D7FA1B141A},2013/11/08,2011/10/18,2011,3,2018,6,real,swisstopo,2011,6,Gebaeude,2018_Aufbau,,,,rhein_basel_hungerbuehlern,Rhein,basel,154255.267
+{7C5C4A60-4D74-49E4-A726-3F3560F73F25},2015/09/17,2009/09/01,2008,8,2014,6,verbessert,swisstopo,2014,6,Gebaeude,2015_Aufbau,,,,flibach-river-right-bank,Walensee,weesen,29190.168
+{79854B67-7B02-42B1-ABA5-A83F05D2005E},2017/03/24,2009/02/19,2004,6,2016,6,verbessert,swisstopo,2016,6,Gebaeude,2017_Aufbau,,,,arabie,Lac Léman,vevey,101110.048
+{8D23F632-3D71-40BD-873F-93FCA3A2EBCB},2013/11/14,2013/11/14,2013,6,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2018_Aufbau,,,,vorderrhein_disentis_schmidn,Vorderrhein,disentis-muster,2056.336
+{86803780-4C33-43E9-90BB-C91F3AD3AF63},2013/07/19,2013/07/19,2010,6,2014,6,verbessert,swisstopo,2010,6,Treibhaus,1412_Aufbau,,,,katzenbach_zuerich_sanesim,Katzensee,zurich,36257.407
+{2BEDF81A-6960-47D2-A324-0BDDD08ED75E},2019/10/04,2011/05/04,2010,4,2018,6,verbessert,swisstopo,2018,6,Gebaeude,2017_Aufbau,,,,thunersee_spiez_meierd_1,Thunersee,spiez,9602.495
+{7C002B9C-35F5-4117-BA21-EE21F180E2C6},2014/12/10,2011/05/02,2010,4,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,,camping-gwatt-strand,Thunersee,thun,30961.619
+{BB3E08B8-E4A9-4040-86E5-4D62DF0B043A},2014/12/09,2011/06/14,2010,4,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,,grand-clos,Lac Léman,saint-gingolph,15392.861
+{6C5F7CE8-4C3A-4272-AFEE-6C67607E28DF},2014/12/09,2011/06/09,2010,4,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,,le-port,Lac Léman,la-tour-de-peilz,74033.668
+{AE8AA056-1D49-4D46-947F-0A0B44A821E7},2016/07/19,2008/03/19,2002,6,2015,6,verbessert,swisstopo,2015,6,Gebaeude,2015_Aufbau,,,,unterdsee_ermatingen_brunkem,Untersee,ermatingen,84404.763
+{F998503F-3426-4AA1-AEA6-75D881B97360},2014/01/15,2009/01/30,2008,5,2014,6,verbessert,swisstopo,2011,6,Sakrales Gebaeude,2015_Aufbau,,,,toss_kollbrunn_burgid,Töss,zell,41218.419
+{B5F6B819-4770-43F9-BBC3-A970CEB6166E},2017/10/06,2013/10/22,2011,6,2018,6,verbessert,swisstopo,2014,6,Hochkamin,2018_Aufbau,,,,emme_biberist_jennim,Emme,biberist,78611.894
+{571997B8-2912-4735-90FE-D19A7B5C76EC},2013/11/08,2011/10/26,2011,3,2018,6,real,swisstopo,2011,6,Gebaeude,2018_Aufbau,,,,birs_basel_laderachs,Birs,basel,132077.477
+{5E00C145-2015-450E-9394-A47C90D4409F},2014/09/25,2011/02/14,2010,3,2016,6,verbessert,swisstopo,2013,6,Offenes Gebaeude,2016_Aufbau,,,,aare_koniz_hoppej,Aare,koniz,36869.221
+{6450FC97-CEB4-4F80-A47A-AE51D717C5EE},2013/09/02,2013/09/02,2010,6,2013,6,verbessert,swisstopo,2010,6,Hochkamin,1412_Aufbau,,,,zuerichsee_waedenswil_colomboc_1,Zurichsee,richterswil,21562.022
+{1E4E8459-495A-4086-8636-7736E071FEB7},2013/11/19,2009/02/27,2008,5,2014,6,verbessert,swisstopo,2011,6,Gebaeude,2015_Aufbau,,,,berlingen-swisslitterreport,Untersee,berlingen,11779.334
+{6F813094-2FB1-4FAE-B46D-D2D72F2514AF},2016/01/05,2016/01/05,2016,1,2016,1,verbessert,3D-GebCH_T2015,2015,6,Gebaeude,2016_Aufbau,,,,lacleman_gland_lecoanets,Lac Léman,gland,1883.183
+{81AA20A8-47C0-46EB-A2C2-DF47EA945A13},2016/09/14,2016/09/14,2016,9,2019,6,verbessert,3D-GebCH_T2016,2015,6,Gebaeude,2018_Aufbau,,,,bagno-pubblico-ascona,Lago Maggiore,ascona,36508.339
+{3C691FF8-A6AB-4F9C-93D1-6D2D95456EFB},2013/09/02,2013/09/02,2010,6,2013,6,verbessert,swisstopo,2010,6,Lagertank,1412_Aufbau,,,,zuerichsee_richterswil_benkoem_2,Zurichsee,richterswil,11977.442
+{5F3DE279-EC69-4894-BFB4-A9E36579EC6A},2014/05/19,2011/06/06,2009,6,2015,6,verbessert,swisstopo,2012,6,Treibhaus,2016_Aufbau,,,,tolochenaz,Lac Léman,tolochenaz,53951.599
+{D19C216A-0089-471E-8126-12C85A1C213B},2014/01/22,2009/09/01,2008,8,2014,6,verbessert,swisstopo,2011,6,Offenes Gebaeude,2015_Aufbau,,,,muhlehorn-dorf,Walensee,glarus-nord,18496.731
+{93CE087C-31AF-4870-9AF2-8C7F22CDD646},2014/12/09,2011/06/09,2010,4,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,,ognonnaz-1,Ognonnaz,vevey,103290.832
+{DE0CBD5E-EE65-4E55-AB8A-C68488FEEA1D},2012/11/15,2012/11/15,2012,3,2012,6,verbessert,swisstopo,2012,3,Gebaeude,1312_Aufbau,,,,aare_rupperswil_badert,Aare,rupperswil,5280.138
+{66153417-8F75-49D9-B5BB-361662C15787},2014/06/26,2014/04/02,2014,4,2013,6,verbessert,swisstopo,2013,6,Gebaeude,1412_Aufbau,,,,toss_bauma_kurthe,Töss,bauma,51701.633
+{AC0D642D-ABD5-4F27-A50F-7A4AF4BB34EF},2013/09/30,2013/09/30,2013,6,2013,6,verbessert,swisstopo,2013,6,Sakrales Gebaeude,2015_Aufbau,,,,lorze_baar_blarere,Lorze,baar,90504.962
+{A81769BE-B505-4842-BBBC-BB25DC484BAA},2016/07/19,2008/03/19,2002,6,2015,6,verbessert,swisstopo,2015,6,Gebaeude,2015_Aufbau,,,,rhein_hemishofen_stolll,Rhein,hemishofen,31036.586
+{B99A80D8-B579-44FB-8917-CA3516468A28},2016/07/19,2008/03/19,2002,6,2015,6,verbessert,swisstopo,2015,6,Gebaeude,2015_Aufbau,{60FEA4EC-CEE7-40FA-B1DF-9FDEE813CDBF},St. Gallen Ochsenweid 300m,Schiessstand,sitter_gaiserwald_buehlerf,Sitter,st-gallen,34002.982
+{DE9E6EA6-FFF6-4E8F-B1E1-E8D06CA4BE8D},2014/02/06,2014/02/06,2013,6,2014,6,verbessert,swisstopo,2013,6,Offenes Gebaeude,1412_Aufbau,,,,sihl_leimbach_kruegerm,Sihl,zurich,59626.609
+{BEA38A27-8F5A-48B0-816C-C907AB9602F6},2015/11/10,2009/04/20,2008,5,2014,6,verbessert,swisstopo,2011,6,Flugdach,2015_Aufbau,,,,bodensee_altenrhein_caluoria,Bodensee,thal,87293.236
+{D0A28AB9-783F-466E-AEFC-5B825A81D4AB},2016/08/29,2016/08/29,2016,8,2018,6,verbessert,3D-GebCH_T2016,2014,6,Gebaeude,2018_Aufbau,,,,emme_utzenstorf_gruttert,Emme,utzenstorf,17901.397
+{C82847F0-4AD6-424A-8B4C-2FEBEF083BE4},2016/02/25,2010/05/04,2009,6,2015,6,verbessert,swisstopo,2015,6,Gebaeude,2016_Aufbau,{022CD9F9-1FCB-4B6E-A103-499D0CF8D6B3},Restaurant la Pêcherie,Gasthof abgelegen,la-pecherie,Lac Léman,allaman,4277.769
+{3B9388D1-5A7B-4610-BB38-8B9DBEEB6394},2014/05/26,2011/06/06,2009,6,2015,6,verbessert,swisstopo,2012,6,Gebaeude,2016_Aufbau,,,,plage-de-dorigny,Lac Léman,saint-sulpice,22809.841
+{B6945B23-9ECC-401B-A663-8BA3C19BE88E},2016/01/15,2016/01/15,2016,1,2016,1,verbessert,3D-GebCH_T2015,2015,6,Gebaeude,2016_Aufbau,,,,villa-barton,Lac Léman,geneve,65075.045
+{B12412FC-65DF-4637-9A2B-6813CF955741},2014/12/12,2011/07/14,2010,4,2017,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,,tschilljus,Rhône,salgesch,4685.255
+{C28BFE1F-17A3-4291-9332-F972E08B285C},2017/07/04,2009/01/08,2004,6,2017,6,restrukturiert,swisstopo,2015,6,Kapelle,2017_Aufbau,,,,les-glariers,Rhône,riddes,34639.734
+{04D08B78-FEE7-4020-A7E8-095D51C3DAC5},2016/02/05,2011/06/06,2009,6,2015,6,verbessert,swisstopo,2015,6,Gebaeude,2016_Aufbau,,,,vidy-ruines,Lac Léman,lausanne,33907.382
+{527BC65D-A9AF-4654-834C-290DC50AE72D},2014/07/29,2014/06/27,2013,6,2014,6,verbessert,swisstopo,2013,6,Gebaeude,1412_Aufbau,,,,sihl_zuerich_eichenbergerd,Sihl,zurich,64533.326
+{5B9CCEA0-1982-4D83-988E-484CCB0C04F2},2014/12/09,2011/06/10,2010,4,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,,baye-de-montreux-g,Lac Léman,montreux,100060.326
+{45CA6554-8149-4594-AF57-B0207CC78C6B},2014/09/30,2011/04/07,2010,3,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2016_Aufbau,,,,aare_bern_gerberm,Aare,bern,63070.587
+{AA09AD3D-0951-4730-A4BF-E9570B5D0A70},2013/12/03,2011/02/22,2010,3,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2016_Aufbau,,,,aare_bern_caveltin,Aare,muri-bei-bern,15052.712
+{D9707329-2349-4E86-8BCD-82DE292797D1},2014/10/31,2014/09/19,2014,9,2013,6,verbessert,swisstopo,2013,6,Gebaeude,1412_Aufbau,,,,reuss_hunenberg_eberhardy,Reuss,hunenberg,1913.223
+{4F801D6E-FD3F-4F9C-B734-4C37DD9A079F},2014/12/05,2011/04/07,2010,4,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,,zulg_steffisburg_schmassmanne,Zulg,steffisburg,81626.587
+{D50CEFAF-D0B1-4284-B42C-E9A53C7BF5B3},2014/12/09,2011/06/09,2010,4,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,,anarchy-beach,Lac Léman,la-tour-de-peilz,25381.441
+{1CEF3FB6-453C-4653-8FC0-FBF52BE61B9C},2016/07/19,2009/02/19,2005,6,2018,6,verbessert,swisstopo,2015,6,Offenes Gebaeude,2018_Aufbau,,,,ligerz-strand,Bielersee,ligerz,13981.163
+{844E341A-752C-487C-9C06-657B12B752FB},2016/07/19,2008/03/19,2002,6,2015,6,verbessert,swisstopo,2015,6,Offenes Gebaeude,2015_Aufbau,,,,bodensee_steinach_dolder_a,Bodensee,steinach,94315.624
+{793E5315-AD5B-484A-BB7A-BA1EFFBC6CCD},2013/08/07,2013/08/07,2010,7,2013,6,verbessert,swisstopo,2010,7,Gebaeude,1412_Aufbau,,,,sihl_adliswil_oggi_fort,Sihl,adliswil,144594.232
+{62FB5323-E36C-4986-AEFF-2A9AB11215F3},2014/01/22,2009/09/02,2008,8,2014,6,verbessert,swisstopo,2011,6,Gebaeude,2015_Aufbau,,,,seeflechsen,Walensee,glarus-nord,1061.236
+{B07DF457-5FAE-455D-8B7C-B6DD188E5912},2015/01/13,2011/01/31,2010,3,2016,6,verbessert,swisstopo,2013,6,Offenes Gebaeude,2016_Aufbau,,,,aarezufluss_bern_scheurerk,Aare,bern,71500.244
+{5E00C145-2015-450E-9394-A47C90D4409F},2014/09/25,2011/02/14,2010,3,2016,6,verbessert,swisstopo,2013,6,Offenes Gebaeude,2016_Aufbau,,,,aare_elfenau_cataldiv,Aare,bern,48703.030
+{873E980A-97EB-438D-8411-EB9C9A1BE6F9},2014/02/25,2009/04/20,2008,5,2014,6,verbessert,swisstopo,2011,6,Offenes Gebaeude,2015_Aufbau,,,,bodensee_thal_schlachterj_1,Bodensee,thal,86472.901
+{847ADD29-57AF-46AB-A874-BE4006D098EB},2016/07/19,2009/02/19,2002,6,2015,6,verbessert,swisstopo,2015,6,Lagertank,2015_Aufbau,,,,bodensee_horn_huberm,Bodensee,horn,58022.104
+{F78C8E6D-F8C3-40C5-AD5F-325844E95F5D},2013/02/22,2012/10/30,2012,3,2012,6,verbessert,swisstopo,2012,3,Hochhaus,1312_Aufbau,,,,aare_suhrespitz_badert,Aare,aarau,24578.172
+{5F088DA5-23D2-41F5-BB35-60420B00AAAD},2014/03/21,2011/04/01,2010,3,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2016_Aufbau,,,,cudrefin-alternate,Neuenburgersee,cudrefin,15196.845
+{30C4B6CF-79DF-4389-8C56-3D4A05D18FC9},2013/09/03,2012/10/30,2012,3,2012,3,verbessert,swisstopo,2012,3,Gebaeude,1312_Aufbau,,,,pfaffner_rothrist_ischik,Pfaffnern,rothrist,39614.204
+{B9219EC5-DB12-4CF8-9871-76EE8A67E32B},2016/01/05,2016/01/05,2016,1,2016,1,verbessert,3D-GebCH_T2015,2015,6,Gebaeude,2016_Aufbau,,,,boiron,Lac Léman,tolochenaz,1955.158
+{A1EE79D4-1BA5-4A13-85E8-2D169AA00443},2013/11/18,2009/03/23,2008,5,2014,6,verbessert,swisstopo,2011,6,Gebaeude,2015_Aufbau,,,,rhein_laag_jungbluthn,Rhein,busingen-a-hochrhein,3309.221
+{3B9388D1-5A7B-4610-BB38-8B9DBEEB6394},2014/05/26,2011/06/06,2009,6,2015,6,verbessert,swisstopo,2012,6,Gebaeude,2016_Aufbau,,,,tiger-duck-beach,Lac Léman,saint-sulpice,25919.499
+{BB039243-716F-450E-BCF2-C4FDDB37E9D5},2014/06/17,2014/05/20,2014,5,2013,6,verbessert,swisstopo,2013,6,Gebaeude,1412_Aufbau,,,,greifensee_fallanden_simmenc,Greifensee,fallanden,1607.541
+{F7EA43F6-67F1-4045-811F-67A8A88A643B},2013/11/08,2011/10/20,2011,3,2018,6,real,swisstopo,2011,6,Gebaeude,2018_Aufbau,,,,rhein_basel_blarerp_1,Rhein,huningue,16690.031
+{64AD45A3-FFC9-43EE-9A37-4892AECAE92E},2016/06/21,2011/01/13,2010,3,2016,6,verbessert,swisstopo,2016,6,Gebaeude,2016_Aufbau,,,,evole-plage,Neuenburgersee,neuchatel,123228.601
+{5F088DA5-23D2-41F5-BB35-60420B00AAAD},2014/03/21,2011/04/01,2010,3,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2016_Aufbau,,,,impromptu_cudrefin,Neuenburgersee,cudrefin,12677.853
+{0FBD1EF9-E52D-416A-B5A8-DA7B63875E78},2014/07/23,2014/06/27,2013,6,2014,6,verbessert,swisstopo,2013,6,Gebaeude,1412_Aufbau,,,,katzensee_regensdorfzuerichaffoltern_stueberj,Katzensee,zurich,3581.569
+{53855000-580A-49BE-B04C-F5C5B29D40D3},2014/02/12,2009/06/26,2008,5,2014,6,verbessert,swisstopo,2011,6,Treibhaus,2015_Aufbau,,,,thur_schoenenberg_schaera,Thur,kradolf-schonenberg,105716.369
+{747EB330-39E0-4B9F-8E54-0EF3194F6948},2018/10/01,2013/08/12,2010,6,2016,6,verbessert,swisstopo,2016,6,Gebaeude,1412_Aufbau,{D12FD0BE-BB9C-459A-8527-C0D254A20C8D},Hermetschwil Staffel 300m,Schiessstand,reuss,Reuss,bremgarten,3414.791
+{EA6B823A-AEBA-4485-AD20-E395B93CE196},2016/08/29,2016/08/29,2016,8,2018,6,verbessert,3D-GebCH_T2016,2014,6,Gebaeude,2018_Aufbau,,,,aare_solothurn_nguyena,Aare,solothurn,25773.767
+{D6AE2C1B-3DAD-4CA7-8A3C-0ADD35D5D56F},2014/06/18,2014/05/20,2014,5,2013,6,verbessert,swisstopo,2013,6,Gebaeude,1412_Aufbau,,,,greifensee_fallanden_meistery,Greifensee,fallanden,353.013
+{195A4FE0-3230-4EC7-9D3C-E0401B3AAF17},2016/09/30,2016/09/30,2016,9,2019,6,verbessert,3D-GebCH_T2016,2015,6,Gebaeude,2018_Aufbau,,,,vira-spiaggia-left-of-river,Lago Maggiore,gambarogno,35101.650
+{A5373D6D-6EA4-4C7F-97EF-4A07355222ED},2014/08/07,2014/07/21,2014,7,2014,6,verbessert,swisstopo,2013,6,Gebaeude,1412_Aufbau,,,,aabach,Zurichsee,schmerikon,4163.872
+{656F04DE-DE2B-4565-905E-2CFBCB18D707},2014/01/09,2014/01/09,2011,6,2017,6,verbessert,swisstopo,2011,6,Lagertank,2018_Aufbau,,,,sorne_birse_wwfjura,Birs,delemont,54396.804
+{42A9B4C7-9AEA-4058-BDAF-823DDEAAD044},2014/10/27,2011/05/09,2010,4,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,,quai-maria-belgia,Lac Léman,vevey,89407.188
+{65A4FA02-2B09-437D-82D4-052D500D9A4B},2014/07/22,2014/07/01,2014,7,2013,6,verbessert,swisstopo,2013,6,Gebaeude,1412_Aufbau,,,,zuerichsee_staefa_hennm,Zurichsee,stafa,9791.007
+{158574D5-B2E0-4364-8E99-570F5F1F7CA4},2015/12/18,2011/06/21,2008,9,2014,6,verbessert,swisstopo,2014,6,Gebaeude,2016_Aufbau,,,,inn_pradella_kohlt,Inn,scuol,4285.499
+{488037D8-3B56-4CCD-A60E-81A0EFC78840},2018/06/12,2013/07/18,2010,6,2016,6,verbessert,swisstopo,2016,6,Flugdach,1412_Aufbau,,,,zurcher-strand,Zurichsee,zurich,161150.408
+{B07DF457-5FAE-455D-8B7C-B6DD188E5912},2015/01/13,2011/01/31,2010,3,2016,6,verbessert,swisstopo,2013,6,Offenes Gebaeude,2016_Aufbau,,,,aare_bern_scheurerk,Aare,bern,72315.525
+{80247E7F-950E-4638-A9E5-23C83E385A6B},2019/11/21,2010/05/06,2009,6,2017,6,verbessert,swisstopo,2017,6,Gebaeude,2016_Aufbau,,,,la-morges,Lac Léman,morges,32980.528
+{8028A610-0E0C-4477-A0FD-685DABDF8BD5},2016/07/19,2009/02/19,2005,6,2018,6,verbessert,swisstopo,2015,6,Gebaeude,2018_Aufbau,,,,brugg-be-buren-bsg-standort,Aare|Nidau-Büren-Kanal,brugg,89901.337
+{A4A1DBF4-7B8E-4028-94CD-9D2423F48E13},2014/12/09,2011/06/09,2010,4,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,,le-pierrier,Lac Léman,montreux,81563.888
+{158B5ED2-4DB1-4211-88F6-38788EFB3524},2014/07/23,2014/06/27,2013,6,2014,6,verbessert,swisstopo,2013,6,Gebaeude,1412_Aufbau,,,,limmat_zurich_mortensena_meiera,Limmat,zurich,102506.089
+{90B4C7B4-54AA-4388-9C23-3E6BDE45B98B},2016/07/19,2009/02/19,2004,6,2016,6,verbessert,swisstopo,2015,6,Treibhaus,2016_Aufbau,,,,lotschebach_bern_scheurerk,Lötschebach,ostermundigen,29829.009
+{4DD252E2-F358-4841-8F62-2B8535B2E7C3},2016/07/19,2009/02/19,2005,6,2018,6,verbessert,swisstopo,2015,6,Gebaeude,2018_Aufbau,,,,hauterive-petite-plage,Neuenburgersee,hauterive-ne,51705.936
+{2E22F8CC-4132-4A32-B2F6-AAD85B9FBA01},2019/09/19,2011/04/06,2010,4,2018,6,verbessert,swisstopo,2018,6,Gebaeude,2017_Aufbau,{779E9AEE-0705-4C72-BDB9-01F36D58BD24},Stadion Lachen,Stadion,thun-strandbad,Thunersee,thun,28977.336
+{FE6CE48A-0ABB-4F6F-8ABE-10C421EB40DD},2014/07/28,2014/07/22,2014,7,2013,6,verbessert,swisstopo,2013,6,Gebaeude,1412_Aufbau,,,,rastplatz-stampf,Zurichsee,jona-city,4381.695
+{3A0FD3DA-6CE1-483C-A91C-75E7B744CC43},2014/08/25,2010/11/24,2010,3,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2016_Aufbau,,,,schiffenensee_duedingen_hirschij,Schiffenensee,dudingen,5083.758
+{53CC0922-722E-47ED-9DD5-0A7B2688CF93},2016/05/26,2016/05/26,2016,5,2017,6,verbessert,3D-GebCH_T2016,2014,6,Gebaeude,2018_Aufbau,,,,la-thiele_le-mujon_confluence,La Thièle,yverdon-les-bains,94893.431
+{AC51F227-7A17-4D6A-BA9D-C1E2D9B6F79C},2016/02/03,2016/02/03,2016,2,2018,6,verbessert,3D-GebCH_T2016,2015,6,Gebaeude,2018_Aufbau,,,,nidau-strand,Bielersee,nidau,43682.936
+{42A9B4C7-9AEA-4058-BDAF-823DDEAAD044},2014/10/27,2011/05/09,2010,4,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,,veveyse,Lac Léman,vevey,78306.301
+{CE4F66ED-BB23-493F-9D61-8A73FC503437},2017/01/17,2013/10/21,2013,6,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,Reservoir,rhein_eglisau_gomringerp,Rhein,eglisau,26660.843
+{C1C2D8ED-DA13-44DB-B6E9-283FB12CDC4A},2013/08/05,2013/08/05,2010,6,2014,6,verbessert,swisstopo,2010,6,Treibhaus,1412_Aufbau,,,,limmat_unterengstringen_oggierbuhrer,Limmat,unterengstringen,69384.938
+{6F7550B3-403F-4660-8D9A-6887F2AEDBFE},2014/05/13,2013/09/30,2013,6,2013,6,verbessert,swisstopo,2013,6,Gebaeude,2015_Aufbau,{4973F39D-8443-453E-A775-03F01AC22940},Zug Chollermühle 50/25m,Schiessstand,zugerseecholler_cham_blarerm,Zugersee,zug,12719.254
+{3B9388D1-5A7B-4610-BB38-8B9DBEEB6394},2014/05/26,2011/06/06,2009,6,2015,6,verbessert,swisstopo,2012,6,Gebaeude,2016_Aufbau,,,,parc-des-pierrettes,Lac Léman,saint-sulpice,33535.925
+{C00F648B-69F9-4CAD-8885-303D6074DF32},2014/11/05,2014/09/19,2014,9,2013,6,verbessert,swisstopo,2013,6,Gebaeude,1412_Aufbau,,,,sihl_horgen_bucherf,Sihl,horgen,3655.444
+{9BF0FD75-D48E-4F9B-8EC4-3873F6C76343},2016/01/15,2016/01/15,2016,1,2016,1,verbessert,3D-GebCH_T2015,2015,6,Hochhaus,2016_Aufbau,,,,baby-plage-ii-geneve,Lac Léman,geneve,43344.426
+{C8F5D7A2-D0EA-4A2C-AB17-A337B39BCC74},2019/10/07,2011/05/03,2010,4,2018,6,verbessert,swisstopo,2018,6,Gebaeude,2017_Aufbau,,,,augustmutzenbergstrandweg,Thunersee,spiez,67619.079
+{5529B514-B2F6-42D0-8708-9AAC6CAE2251},2016/07/19,2009/02/19,2005,6,2018,6,verbessert,swisstopo,2015,6,Gebaeude,2018_Aufbau,,,,luscherz-plage,Bielersee,luscherz,41687.898
+{42A2B5FF-FA74-4ECE-A52A-D70DB47404A8},2016/07/19,2009/02/19,2004,6,2016,6,verbessert,swisstopo,2015,6,Gebaeude,2017_Aufbau,,,,maladaire,Lac Léman,la-tour-de-peilz,51222.035
+{E0FBB3AC-B9DB-4F69-8B18-90DC7AA20BD1},2016/07/19,2008/03/19,2002,6,2015,6,verbessert,swisstopo,2015,6,Gebaeude,2015_Aufbau,{F3467A14-B059-4C5C-8C93-918FF1E6CE81},Filzbach 50/25m,Schiessstand,linth_route9brucke,Escherkanal,glarus-nord,3327.946
+{7AED793C-8FE7-43E7-89AD-1B61018FD6AE},2018/10/09,2011/10/26,2011,3,2018,6,verbessert,swisstopo,2018,6,Gebaeude,2018_Aufbau,,,,rhein_basel,Rhein,basel,161212.408
+{97A70174-FC3C-4BE5-BC85-B4120432627A},2019/09/30,2017/01/30,2017,1,2018,6,real,swisstopo,2018,6,Gebaeude,2017_Aufbau,,,,delta-park,Thunersee,spiez,11504.899
+{8CA1090D-5493-4E39-81B6-B57D0ADB0218},2019/01/11,2009/02/19,2005,6,2018,6,verbessert,swisstopo,2018,6,Gebaeude,2018_Aufbau,,,,mullermatte,Bielersee,biel,11524.978
+{FE6CE48A-0ABB-4F6F-8ABE-10C421EB40DD},2014/07/28,2014/07/22,2014,7,2013,6,verbessert,swisstopo,2013,6,Gebaeude,1412_Aufbau,,,,strandbeiz,Zurichsee,jona-city,6301.646
+{94F6343B-E011-4D64-A607-5BA1D6EDA169},2013/07/18,2013/07/18,2010,6,2014,6,verbessert,swisstopo,2010,6,Lagertank,1412_Aufbau,,,,glatt_oerlikon_covosn,Glatt,opfikon,97052.886
+{98F619EC-F6C0-4532-AB3C-94E9FEE609AE},2015/10/15,2011/06/27,2008,9,2015,6,verbessert,swisstopo,2014,6,Gebaeude,2015_Aufbau,,,,rhein_domatems_foppa_f,Rhein,domat-ems,65597.354
+{195A4FE0-3230-4EC7-9D3C-E0401B3AAF17},2016/09/30,2016/09/30,2016,9,2019,6,verbessert,3D-GebCH_T2016,2015,6,Gebaeude,2018_Aufbau,,,,vira-gambarogno,Lago Maggiore,gambarogno,33466.982
+{60255A69-18F5-47A2-8ACC-859D73BE6A75},2013/10/18,2013/10/18,2012,3,2019,6,verbessert,swisstopo,2012,3,Treibhaus,2018_Aufbau,,,,route-13,Maggia,locarno,63737.472
+{20AD48C9-067A-4885-9308-A5A65CDC2337},2016/02/03,2016/02/03,2016,2,2017,6,verbessert,3D-GebCH_T2016,2015,6,Gebaeude,2018_Aufbau,,,,ruisseau-de-la-croix-plage,Neuenburgersee,cheyres,8036.207
+{36C4E03E-26AF-4102-BF15-63D0F725326D},2018/09/26,2013/09/19,2010,6,2016,6,verbessert,swisstopo,2016,6,Gebaeude,1412_Aufbau,,,,schmerikon-bahnhof-strand,Zurichsee,schmerikon,74296.860
+{5E54FD39-162A-4EEA-82DE-188DEB6390F1},2013/09/27,2013/09/27,2013,6,2013,6,verbessert,swisstopo,2013,6,Treibhaus,2015_Aufbau,,,,sempachersee_sempach_tampec,Sempachsee,sempach,68237.105
+{A85441B0-DB87-4FA1-A057-79E555270492},2017/10/04,2013/10/22,2011,6,2018,6,verbessert,swisstopo,2014,6,Hochkamin,2018_Aufbau,,,,emme_luterbach_huggenbergerk,Emme,zuchwil,38848.630
+{30E22804-217C-4FCF-BC7F-76AFB771A8F3},2018/03/08,2014/06/27,2013,6,2016,6,verbessert,swisstopo,2016,6,Gebaeude,1412_Aufbau,,,,sihl_zurich_himmelhebern,Sihl,zurich,48060.097
+{BC56EF33-B0DA-48BA-95BA-6B89D66DFB33},2018/02/13,2014/06/27,2013,6,2016,6,verbessert,swisstopo,2016,6,Gebaeude,1412_Aufbau,,,,limmat_zuerich_jansena,Limmat,zurich,92498.036
+{2A52C20F-E59F-4650-9213-00131F5E5CF5},2018/03/21,2013/07/18,2010,6,2016,6,verbessert,swisstopo,2016,6,Kapelle,1412_Aufbau,,,,sihl_zuerich_eggerskoehlingera,Sihl,zurich,224476.696
+{35210ABB-DAA9-4029-9963-9D4D789E355F},2015/12/09,2015/12/09,2015,12,2018,6,verbessert,3D-GebCH_T2015,2015,6,Gebaeude,2018_Aufbau,,,,camp-des-peches,Bielersee,le-landeron,28216.363
+{9B8F2971-2997-4D20-B305-C3D3BCA20600},2016/04/19,2014/05/06,2012,6,2015,6,restrukturiert,swisstopo,2012,6,Treibhaus,2016_Aufbau,,,,jardin-botanique,Lac Léman,geneve,46033.003
+{1292F06F-2473-4FEF-A6AA-680BA716F75B},2016/03/21,2010/04/14,2009,5,2015,6,verbessert,swisstopo,2015,6,Offenes Gebaeude,2016_Aufbau,,,,arve_carouge_battistellak,Arve,veyrier,36546.870
+{32B38B6E-581A-43EF-BB36-F216AE21D797},2016/04/14,2016/02/03,2016,2,2017,6,verbessert,swisstopo,2014,6,Gebaeude,2018_Aufbau,,,,pecos-plage,Neuenburgersee,grandson,10718.902
+{3E14CD2D-2D9A-4DAE-83FA-9D339E999766},2014/03/12,2014/02/14,2013,6,2014,6,verbessert,swisstopo,2013,6,Gebaeude,1412_Aufbau,,,,limmat_zuerich_wagnerc,Limmat,zurich,79868.012
+{957034D3-3202-4A3D-A450-3F559D9B769F},2015/12/09,2015/12/09,2015,12,2016,6,verbessert,3D-GebCH_T2015,2015,6,Gebaeude,2016_Aufbau,,,,pointe-dareuse,Neuenburgersee,boudry,2977.322
+{3658DB05-032E-4065-BCFE-42D4079D681C},2016/07/19,2009/02/19,2006,6,2015,6,verbessert,swisstopo,2015,6,Gebaeude,1312_Aufbau,,,,sundbach-strand,Thunersee,beatenberg,5773.863
+{C5E4A542-45E0-462B-8DD3-F74FBA54F96F},2018/11/27,2008/03/19,2002,6,2014,6,verbessert,swisstopo,2014,6,Gebaeude,2015_Aufbau,,,,linthdammweg,Linthkanal,weesen,57309.631
+{B8D3EAB1-032F-4499-AD63-AF4819631AE9},2013/10/07,2011/11/07,2011,3,2018,6,verbessert,swisstopo,2011,6,Gebaeude,2018_Aufbau,,,,birs_reinach_dinuccin,Birs,reinach,65870.499
+{D2FF5C52-85A7-46EC-9E64-ED1CBA511C88},2015/11/10,2013/05/30,2010,6,2013,6,verbessert,swisstopo,2010,6,Flugdach,1412_Aufbau,,,,grendelbach_effretikon_dambonec,Grändelbach,illnau-effretikon,115844.946
+{4E30A14B-260F-49F2-A828-3C036EC92956},2018/09/25,2013/09/17,2010,6,2016,6,verbessert,swisstopo,2016,6,Hochkamin,1412_Aufbau,,,,jona_tann_nusslin,Jona,durnten,30000.382
+{948C5A44-527D-4D7C-AC0E-8C05612ED567},2013/10/09,2013/10/09,2013,6,2013,6,verbessert,swisstopo,2013,6,Treibhaus,2015_Aufbau,,,,vierwaldstattersee_weggis_schoberls_2,Quatre Cantons,weggis,6949.984
+{92898A2E-9BF0-41AB-93FC-7AB9679E8CD6},2013/10/03,2013/10/03,2013,6,2013,6,verbessert,swisstopo,2013,6,Sakrales Gebaeude,2015_Aufbau,,,,reuss_stkarli_linigersimhofy,Reuss,luzern,95540.820
+{A4A1DBF4-7B8E-4028-94CD-9D2423F48E13},2014/12/09,2011/06/09,2010,4,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2017_Aufbau,,,,baye-de-clarens,Lac Léman,montreux,81628.801
+{E8F5162F-D8A7-4BBE-BAE6-66BFF60E8464},2019/04/17,2013/09/17,2012,6,2018,6,verbessert,swisstopo,2018,6,Gebaeude,1312_Aufbau,,,,hafeli,Brienzersee,bonigen,47233.629
+{A80FDBB1-AA62-47ED-B887-13D03C30BCDA},2015/08/19,2015/08/19,2015,8,2015,8,verbessert,3D-GebCH_T2015,2014,6,Gebaeude,2015_Aufbau,,,,seemuhlestrasse-strand,Walensee,walenstadt,122.240
+{FE6CE48A-0ABB-4F6F-8ABE-10C421EB40DD},2014/07/28,2014/07/22,2014,7,2013,6,verbessert,swisstopo,2013,6,Gebaeude,1412_Aufbau,,,,jona-river-rastplatz,Jona,jona-city,5978.839
+{A21C13B3-9E6D-4550-8719-59C750EE9864},2013/05/29,2013/05/29,2010,6,2013,6,verbessert,swisstopo,2010,6,Hochkamin,1412_Aufbau,,,,greifensee_uster_fischerb_-2,Greifensee,uster,16603.037
+{DAFD72A8-5288-4615-A975-E5358C39DBE0},2014/05/14,2013/10/10,2013,6,2013,6,verbessert,swisstopo,2013,6,Gebaeude,2015_Aufbau,{053BCD3D-3D8E-4018-85B6-0E15EF864EEB},Restaurant Baumgarten,Schiessstand,zugersee_immensee_guedesd,Zugersee,meierskappel,1808.450
+{AAFC8F35-499B-4119-A2CE-0BB87FE5F0B9},2016/01/15,2016/01/15,2016,1,2016,1,verbessert,3D-GebCH_T2015,2015,6,Gebaeude,2016_Aufbau,,,,rocky-plage,Lac Léman,geneve,23154.783
+{B04C4037-15B9-4F3C-8D31-242B96998B12},2016/07/19,2008/03/19,2002,6,2015,6,verbessert,swisstopo,2015,6,Gebaeude,2015_Aufbau,,,,murg-bad,Walensee,quarten,33449.798
+{6DA57F97-8E9F-4905-8611-610045806560},2013/12/10,2011/11/24,2008,7,2014,6,verbessert,swisstopo,2011,6,Gebaeude,2015_Aufbau,,,,sitter_stgallen_jennya,Sitter,st-gallen,34685.373
+{C5828BE1-C17A-4DEF-9EF7-A69DB0550912},2014/02/14,2009/07/10,2008,5,2014,6,verbessert,swisstopo,2011,6,Offenes Gebaeude,2015_Aufbau,,,,sitter_stgallen_steinbrunnerf,Sitter,st-gallen,6401.859
+{0D638536-5B1C-4183-B99E-21D311C9C481},2018/03/19,2014/06/27,2013,6,2016,6,verbessert,swisstopo,2016,6,Gebaeude,1412_Aufbau,,,,zurichsee-feldeggstr-banningersand,Zurichsee,zurich,110718.696
+{AB975588-A889-47C0-B4D2-E9B1BD1A3FFA},2014/03/24,2011/01/19,2010,3,2016,6,verbessert,swisstopo,2013,6,Gebaeude,2016_Aufbau,,,,neuenburgersee_cudrefin_mattera,Neuenburgersee,cudrefin,23078.863
+{5EEC1D8A-1878-4EFB-9639-546302E1D9CA},2018/03/12,2014/06/27,2013,6,2016,6,verbessert,swisstopo,2016,6,Gebaeude,1412_Aufbau,,,,sihl_zuerich_scherfs,Sihl,zurich,286529.498
+{1F397F2C-789E-4855-BDB8-9CA0A8B87696},2016/09/14,2016/09/14,2016,9,2019,6,verbessert,3D-GebCH_T2016,2015,6,Gebaeude,2018_Aufbau,,,,sentiero-giro-del-golf-spiaggia,Lago Maggiore,ascona,7746.465
+{128A6B55-F732-4A5E-AA46-217F2BECD829},2013/05/29,2013/05/29,2010,6,2013,6,verbessert,swisstopo,2010,6,Sakrales Gebaeude,1412_Aufbau,,,,greifensee_greifensee_simmenc,Greifensee,greifensee,30562.537
+{50A755B6-9ADD-4076-9EBC-3035556D3EEA},2013/07/30,2013/07/30,2012,3,2019,6,verbessert,swisstopo,2012,3,Sakrales Gebaeude,2018_Aufbau,{63DB7547-8633-402E-A88F-DC739F2D8932},San Quirico,,rivapiana,Lago Maggiore,minusio,82195.174

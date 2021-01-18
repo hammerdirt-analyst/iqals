@@ -2,6 +2,10 @@
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
+# generated data
+/resources/surveydata/*
+/resources/sourcestobigforgithub/*
+/resources/statentpop/ag-b-00.03-22-STATENT2017/STATENT2017_N08_V190822.csv
 # IPython
 profile_default/
 ipython_config.py
