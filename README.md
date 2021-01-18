@@ -23,4 +23,8 @@ This repo is for public use: GNU General Public License v2.0. The current projec
 
 ### Contributing
 
+If you want to author an article for peer review on the subject of municipal waste, the environment, urbanization or probability and statistics we would love to hear from you.
+
+Have an analysis method to propose ? Clone the repo and send us a pull request.
+
 Contact analyst@hammerdirt.ch
