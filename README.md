@@ -14,7 +14,7 @@ Clone the repo, Jupyter lab or JupyterNotebooks are required. The workbook 'getd
 
 ### Copyright
 
-This repo is for public use. The current project was sponsored by the Swiss federal office for the environment.
+This repo is for public use: GNU General Public License v2.0. The current project was sponsored by the Swiss federal office for the environment.
 
 ### Contributing
 
