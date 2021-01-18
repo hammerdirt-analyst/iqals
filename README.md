@@ -1,5 +1,5 @@
 ## Identification, quantififcation and analysis of observable anthropogenic debris along swiss freshwater systems.
-![alt text](http://url/to/img.png)
+![map of bielersee and neuch](https://github.com/hammerdirt-analyst/iqals/blob/main/diffusionxweb.png)
 
 ### <span style="color:#008891">Purpose</span>
 
