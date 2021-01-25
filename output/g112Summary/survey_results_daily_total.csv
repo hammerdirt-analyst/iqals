@@ -9,6 +9,7 @@ loc_date,location,water_name,pcs_m
 "('baby-plage-geneva', '2020-10-20')",baby-plage-geneva,Lac Léman,2.399999999999999
 "('baby-plage-geneva', '2020-11-18')",baby-plage-geneva,Lac Léman,0.8800000000000001
 "('baby-plage-geneva', '2020-12-16')",baby-plage-geneva,Lac Léman,1.5000000000000004
+"('baby-plage-geneva', '2021-01-16')",baby-plage-geneva,Lac Léman,1.8900000000000006
 "('baby-plage-ii-geneve', '2020-11-01')",baby-plage-ii-geneve,Lac Léman,1.2900000000000003
 "('bain-des-dames', '2020-06-11')",bain-des-dames,Lac Léman,9.690000000000001
 "('baye-de-montreux-g', '2020-05-07')",baye-de-montreux-g,Lac Léman,3.26
@@ -36,7 +37,7 @@ loc_date,location,water_name,pcs_m
 "('evole-plage', '2020-07-01')",evole-plage,Neuenburgersee,2.1800000000000006
 "('evole-plage', '2020-07-31')",evole-plage,Neuenburgersee,3.36
 "('evole-plage', '2020-09-02')",evole-plage,Neuenburgersee,6.599999999999997
-"('evole-plage', '2020-10-04')",evole-plage,Neuenburgersee,3.869999999999999
+"('evole-plage', '2020-10-04')",evole-plage,Neuenburgersee,3.8699999999999997
 "('evole-plage', '2020-11-03')",evole-plage,Neuenburgersee,1.5400000000000005
 "('evole-plage', '2020-12-02')",evole-plage,Neuenburgersee,1.3100000000000005
 "('evole-plage', '2021-01-04')",evole-plage,Neuenburgersee,1.6000000000000005
@@ -52,6 +53,7 @@ loc_date,location,water_name,pcs_m
 "('gasi-strand', '2020-10-23')",gasi-strand,Walensee,1.1500000000000004
 "('gasi-strand', '2020-11-22')",gasi-strand,Walensee,0.7200000000000001
 "('gasi-strand', '2020-12-22')",gasi-strand,Walensee,0.36000000000000004
+"('gasi-strand', '2021-01-21')",gasi-strand,Walensee,0.21
 "('gerra-gambarogno', '2020-08-09')",gerra-gambarogno,Lago Maggiore,0.5000000000000001
 "('grand-clos', '2020-05-07')",grand-clos,Lac Léman,15.920000000000002
 "('grand-clos', '2020-06-09')",grand-clos,Lac Léman,15.88
@@ -75,6 +77,7 @@ loc_date,location,water_name,pcs_m
 "('la-petite-plage', '2020-10-19')",la-petite-plage,Neuenburgersee,0.4700000000000001
 "('la-petite-plage', '2020-11-15')",la-petite-plage,Neuenburgersee,0.44000000000000006
 "('la-petite-plage', '2020-12-14')",la-petite-plage,Neuenburgersee,0.18
+"('la-petite-plage', '2021-01-16')",la-petite-plage,Neuenburgersee,0.3600000000000001
 "('lacleman_gland_lecoanets', '2020-06-15')",lacleman_gland_lecoanets,Lac Léman,1.4300000000000002
 "('lacleman_gland_lecoanets', '2020-10-27')",lacleman_gland_lecoanets,Lac Léman,1.4300000000000006
 "('le-pierrier', '2020-11-17')",le-pierrier,Lac Léman,2.6800000000000006
@@ -119,7 +122,7 @@ loc_date,location,water_name,pcs_m
 "('plage-de-cheyres', '2020-10-17')",plage-de-cheyres,Neuenburgersee,0.7200000000000002
 "('plage-de-cheyres', '2020-11-16')",plage-de-cheyres,Neuenburgersee,0.6400000000000001
 "('plage-de-cheyres', '2020-12-14')",plage-de-cheyres,Neuenburgersee,0.33000000000000007
-"('plage-de-st-sulpice', '2020-10-01')",plage-de-st-sulpice,Lac Léman,7.849999999999996
+"('plage-de-st-sulpice', '2020-10-01')",plage-de-st-sulpice,Lac Léman,7.849999999999997
 "('pointe-dareuse', '2020-12-03')",pointe-dareuse,Neuenburgersee,0.33
 "('preverenges', '2020-06-07')",preverenges,Lac Léman,24.250000000000007
 "('preverenges', '2020-07-09')",preverenges,Lac Léman,23.739999999999995
@@ -218,6 +221,7 @@ loc_date,location,water_name,pcs_m
 "('zuerichsee_richterswil_benkoem_2', '2020-10-26')",zuerichsee_richterswil_benkoem_2,Zurichsee,0.36
 "('zuerichsee_richterswil_benkoem_2', '2020-11-21')",zuerichsee_richterswil_benkoem_2,Zurichsee,1.9400000000000002
 "('zuerichsee_richterswil_benkoem_2', '2020-12-17')",zuerichsee_richterswil_benkoem_2,Zurichsee,0.3600000000000001
+"('zuerichsee_richterswil_benkoem_2', '2021-01-21')",zuerichsee_richterswil_benkoem_2,Zurichsee,0.16000000000000003
 "('zuerichsee_staefa_hennm', '2020-12-17')",zuerichsee_staefa_hennm,Zurichsee,6.08
 "('zuerichsee_waedenswil_colomboc_1', '2020-11-21')",zuerichsee_waedenswil_colomboc_1,Zurichsee,1.1000000000000003
 "('zurcher-strand', '2020-09-11')",zurcher-strand,Zurichsee,37.0
