@@ -58,7 +58,7 @@ def make_project_folder(here, project_name):
     """
     project_folder = '{}/{}'.format(here, project_name)
     if os.path.isdir(project_folder):
-        print("That project exists")
+#         print("That project exists")
         project_folder = project_folder
     else:
         os.mkdir(project_folder)

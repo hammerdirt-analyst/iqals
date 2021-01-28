@@ -18,7 +18,7 @@ anarchy-beach,Anarchy Beach,46.447216,6.859612,1814,CH,l,Lac Léman,la-tour-de-p
 arabie,Arabie,46.462099,6.834972,1800,CH,l,Lac Léman,vevey,lac-leman,False,Vevey,5890,19891,101150.896,33310.806045116966,5,3,6,1,1
 arve_carouge_battistellak,arve_carouge_battistellak,46.1784912,6.1543187,1234,CH,r,Arve,veyrier,arve,False,Veyrier,6645,11612,8932.358,10608.412857916264,0,2,6,0,1
 ascona-traghetto-spiaggia,Ascona traghetto spiaggia,46.153882,8.76848,6612,CH,l,Lago Maggiore,ascona,lago-maggiore,True,Ascona,5091,5481,127214.556,37821.04907941594,2,2,5,0,0
-augustmutzenbergstrandweg,AugustMützenbergStrandweg,46.68664,7.68976,3700,CH,l,Thunersee,spiez,thunersee,True,Spiez,768,12812,67577.292,40733.081735495965,0,2,6,0,1
+augustmutzenbergstrandweg,AugustMützenbergStrandweg,46.68664,7.68976,3700,CH,l,Thunersee,spiez,thunersee,True,Spiez,768,12812,67577.292,40733.081735495965,0,3,6,0,1
 baby-plage-geneva,Baby Plage Geneva,46.208558,6.162923,1208,CH,l,Lac Léman,geneve,lac-leman,True,Genève,6621,201818,61393.305,50458.36851644228,4,3,6,3,3
 baby-plage-ii-geneve,Baby-Plage II Genève,46.20894,6.16433,1208,CH,l,Lac Léman,geneve,lac-leman,True,Genève,6621,201818,43367.015,48095.43366589271,4,3,6,3,3
 bagno-pubblico-ascona,Bagno Pubblico Ascona,46.147565,8.779144,6612,CH,l,Lago Maggiore,ascona,lago-maggiore,True,Ascona,5091,5481,36519.417,18567.41425836776,1,2,5,0,0
@@ -46,7 +46,7 @@ camping-gwatt-strand,Camping Gwatt Strand,46.72714,7.62962,3645,CH,l,Thunersee,t
 chriesbach_duebendorf_schneidera,chriesbach_duebendorf_schneidera,47.4029195,8.6051458,8600,CH,r,Chriesbach,dubendorf,chriesbach,False,Dübendorf,191,28678,0.0,5324.162926666846,0,3,6,2,2
 cudrefin-alternate,Cudrefin alternate,46.96397,7.027448,1588,CH,l,Neuenburgersee,cudrefin,neuenburgersee,True,Cudrefin,5456,1633,15206.954,17981.100966694088,6,0,2,0,0
 cully-plage,Cully plage,46.4888866,6.7413961,1096,CH,l,Lac Léman,bourg-en-lavaux,lac-leman,True,Bourg-en-Lavaux,5613,5369,11343.652,31780.298939061602,8,1,5,0,0
-delta-park,Delta park,46.720078,7.635304,3645,CH,l,Thunersee,spiez,thunersee,True,Spiez,768,12812,11503.861,22077.139772862203,6,2,6,0,1
+delta-park,Delta park,46.720078,7.635304,3645,CH,l,Thunersee,spiez,thunersee,True,Spiez,768,12812,11503.861,22077.139772862203,6,3,6,0,1
 emme_biberist_jennim,emme_biberist_jennim,47.1692208,7.5589948,4562,CH,r,Emme,biberist,emme,False,Biberist,2513,8568,9888.123,19159.690931160305,0,2,6,0,1
 emme_luterbach_huggenbergerk,emme_luterbach_huggenbergerk,47.2119442,7.5740144,4528,CH,r,Emme,zuchwil,emme,False,Zuchwil,2534,8962,38863.918,47813.2842366071,0,2,6,0,1
 emme_utzenstorf_gruttert,Emme_Utzenstorf_Grüttert,47.123696,7.539627,3427,CH,r,Emme,utzenstorf,emme,False,Utzenstorf,552,4333,0.0,0.0,0,1,5,0,0
@@ -128,14 +128,14 @@ pointe-dareuse,Pointe d'Areuse,46.94619,6.87097,2017,CH,l,Neuenburgersee,boudry,
 preverenges,Préverenges,46.51269,6.527657,1028,CH,l,Lac Léman,preverenges,lac-leman,True,Préverenges,5643,5287,44317.143,29205.264589356742,2,1,5,0,0
 quai-maria-belgia,Quai Maria Belgia,46.460156,6.836718,1800,CH,l,Lac Léman,vevey,lac-leman,True,Vevey,5890,19891,89443.06199999999,31211.105162509437,4,3,6,1,1
 rastplatz-stampf,Rastplatz Stampf,47.215177,8.844286,8645,CH,l,Zurichsee,jona-city,zurichsee,True,Rapperswil-Jona,3340,26999,4262.696,16658.531384316964,5,3,6,2,2
-reuss,Reuss,47.3298691,8.3568493,5626,CH,r,Reuss,bremgarten,reuss,False,Bremgarten (AG),4063,7946,0.0,0.0,0,2,6,0,0
+reuss,Reuss,47.3298691,8.3568493,5626,CH,r,Reuss,bremgarten,reuss,False,Bremgarten (AG),4063,7946,0.0,0.0,0,2,6,0,1
 reuss_hunenberg_eberhardy,reuss_hünenberg_eberhardy,47.2329755,8.4010121,6331,CH,r,Reuss,hunenberg,reuss,True,Hünenberg,1703,8808,0.0,0.0,0,2,6,0,1
 reuss_ottenbach_schoenenbergerl,reuss_ottenbach_schoenenbergerl,47.2783545,8.3942242,5634,CH,r,Reuss,merenschwand,reuss,True,Merenschwand,4234,3549,0.0,0.0,0,1,4,0,0
 reuss_stkarli_linigersimhofy,Reuss_St.Karli_LinigerS/ImhofY,47.0571118,8.2879145,6004,CH,r,Reuss,luzern,reuss,False,Luzern,1061,81691,0.0,0.0,0,3,6,3,3
 rhein-beach-tinguely,Rhein Beach Tinguely,47.5586439,7.6121536,4058,CH,r,Rhein,basel,rhein,False,Basel,2701,172258,0.0,0.0,0,3,6,3,3
 rhein_basel,Rhein_Basel,47.5568018,7.6010856,4058,CH,r,Rhein,basel,rhein,False,Basel,2701,172258,0.0,0.0,0,3,6,3,3
 rhein_basel_hungerbuehlern,Rhein_Basel_HungerbuehlerN,47.5582176,7.6103488,4058,CH,r,Rhein,basel,rhein,False,Basel,2701,172258,0.0,0.0,0,3,6,3,3
-rhein_domatems_foppa_f,rhein_domatems_foppa_f,46.8380375,9.4476387,7013,CH,r,Rhein,domat-ems,rhein,False,Domat/Ems,3722,8038,0.0,0.0,0,2,6,0,0
+rhein_domatems_foppa_f,rhein_domatems_foppa_f,46.8380375,9.4476387,7013,CH,r,Rhein,domat-ems,rhein,False,Domat/Ems,3722,8038,0.0,0.0,0,2,6,0,1
 rhein_eglisau_gomringerp,rhein_eglisau_gomringerp,47.5733159,8.5345847,8193,CH,r,Rhein,eglisau,rhein,False,Eglisau,55,5217,0.0,0.0,0,1,5,0,0
 rhein_hemishofen_stolll,Rhein_Hemishofen_StollL,47.6755236,8.8280292,8261,CH,r,Rhein,hemishofen,rhein,False,Hemishofen,2962,468,0.0,0.0,0,0,0,0,0
 rivapiana,Rivapiana,46.172079,8.813255,6648,CH,l,Lago Maggiore,minusio,lago-maggiore,True,Minusio,5118,7302,82224.479,35865.22959444152,7,2,6,0,0
@@ -145,7 +145,7 @@ route-13,Route 13,46.162521,8.7825791,6600,CH,r,Maggia,locarno,maggia,True,Locar
 ruisseau-de-la-croix-plage,Ruisseau de la croix plage,46.81392,6.7747,1468,CH,l,Neuenburgersee,cheyres,neuenburgersee,True,Cheyres-Châbles,2055,2320,8036.951,14493.472986750772,7,0,3,0,0
 saint-sulpice,Saint Sulpice,46.507808,6.545344,1025,CH,l,Lac Léman,saint-sulpice,lac-leman,False,Saint-Sulpice (VD),5648,4668,12115.393999999998,21220.353303324577,1,1,5,0,0
 san-nazzaro-gambarogno,san nazzaro-gambarogno,46.130443,8.798657,6575,CH,l,Lago Maggiore,gambarogno,lago-maggiore,True,Gambarogno,5398,5192,26208.615,22499.26079803005,13,1,5,0,0
-schiffenensee_duedingen_hirschij,schiffenensee_duedingen_hirschij,46.8591514,7.1764374,3186,CH,l,Schiffenensee,dudingen,schiffenensee,False,Düdingen,2293,7964,0.0,0.0,0,2,6,0,0
+schiffenensee_duedingen_hirschij,schiffenensee_duedingen_hirschij,46.8591514,7.1764374,3186,CH,l,Schiffenensee,dudingen,schiffenensee,False,Düdingen,2293,7964,0.0,0.0,0,2,6,0,1
 schmerikon-bahnhof-strand,Schmerikon Bahnhof Strand,47.22478,8.94418,Postal-code,CH,l,Zurichsee,schmerikon,zurichsee,True,Schmerikon,3338,3710,74313.15299999999,32565.65243284674,10,1,4,0,0
 schusspark-strand,Schüsspark strand,47.1465,7.26862,2504,CH,r,Schüss,biel,schuss,True,Biel/Bienne,371,55159,155844.697,63572.30279008202,0,3,6,3,3
 seeflechsen,seeflechsen,47.1302229,9.1033996,8872,CH,l,Walensee,glarus-nord,walensee,True,Glarus Nord,1630,18483,905.461,35548.71425960123,8,3,6,0,1
@@ -173,7 +173,7 @@ strandbeiz,Strandbeiz,47.2158617,8.8430984,8645,CH,l,Zurichsee,jona-city,zurichs
 strandboden-biel,Strandboden-Biel,47.13251,7.233142,2503,CH,l,Bielersee,biel,bielersee,True,Biel/Bienne,371,55159,48346.312999999995,52971.50432872587,4,3,6,3,3
 sundbach-strand,Sundbach strand,46.684386,7.794768,3803,CH,l,Thunersee,beatenberg,thunersee,True,Beatenberg,571,1195,5470.765,16884.402535146095,6,0,2,0,0
 thun-strandbad,Thun Strandbad,46.739939,7.63352,3504,CH,l,Thunersee,thun,thunersee,True,Thun,942,43734,25512.136000000002,35868.0361793602,5,3,6,3,3
-thunersee_spiez_meierd_1,thunersee_spiez_meierd_1,46.7044368,7.6578824,3646,CH,l,Thunersee,spiez,thunersee,True,Spiez,768,12812,9467.971,16198.181364532964,3,2,6,0,1
+thunersee_spiez_meierd_1,thunersee_spiez_meierd_1,46.7044368,7.6578824,3646,CH,l,Thunersee,spiez,thunersee,True,Spiez,768,12812,9467.971,16198.181364532964,3,3,6,0,1
 thur_schoenenberg_schaera,Thur_Schoenenberg_SchaerA,47.5240726,9.1983347,9214,CH,r,Thur,kradolf-schonenberg,thur,False,Kradolf-Schönenberg,4501,3592,0.0,0.0,0,1,4,0,0
 thur_schwarzenbach_meiliw,thur_schwarzenbach_meiliw,47.4467866,9.0638156,9500,CH,r,Thur,wil,thur,False,Wil (SG),3427,23966,0.0,0.0,0,3,6,2,2
 tiger-duck-beach,Tiger duck beach,46.518256,6.582546,1025,CH,l,Lac Léman,saint-sulpice,lac-leman,True,Saint-Sulpice (VD),5648,4668,8092.77,20254.928519159566,1,1,5,0,0
@@ -183,6 +183,7 @@ toss_bauma_kurthe,Töss_Bauma_KurthE,47.3701757,8.8678249,8494,CH,r,Töss,bauma,
 toss_kollbrunn_burgid,töss_kollbrunn_bürgid,47.4545698,8.77968,8483,CH,r,Töss,zell,ti12ss,False,Zell (ZH),231,6032,0.0,0.0,0,2,5,0,0
 toss_winterthur-2,Töss_Winterthur 2,47.4787073,8.7084264,8406,CH,r,Töss,winterthur,ti12ss,False,Winterthur,230,111851,0.0,0.0,0,3,6,3,3
 unterdsee_ermatingen_brunkem,unterdsee_ermatingen_brunkem,47.6726333,9.0812462,8272,CH,l,Untersee,ermatingen,untersee,False,Ermatingen,4646,3455,0.0,0.0,0,1,4,0,0
+untertenzen,Untertenzen,47.11526,9.25478,8882,CH,l,Walensee,quarten,walensee,True,Quarten,3295,2937,0.0,0.0,0,1,4,0,0
 urnaesch_urnaesch_meierr,urnaesch_urnaesch_meierr,47.3250986,9.2954188,9107,CH,r,Urnäsch,hundwil,urnasch,False,Hundwil,3002,941,0.0,0.0,0,0,1,0,0
 versoix,Versoix,46.289194,6.1705693,1290,CH,l,Lac Léman,versoix,lac-leman,True,Versoix,6644,13432,33444.477999999996,30616.444310100153,5,3,6,0,1
 veveyse,Veveyse,46.461022,6.834983,1800,CH,l,Lac Léman,vevey,lac-leman,False,Vevey,5890,19891,78361.59599999999,29647.132486493112,5,3,6,1,1
