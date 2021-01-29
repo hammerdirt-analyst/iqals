@@ -21,6 +21,19 @@ Make sure to use the requirements.txt or .yml file to set your environment.
 
 !! Make sure to read the use case for each template or notebook !!
 
+#### The \_summary notebook:
+
+Reports the incidence of any object nationally and regionally. Allows the selection of one lake and date range for a drill down analysis. Provides the following charts and data:
+
+1. Survey results and explanatory variables
+2. Geographic scope of all surveys
+3. Cumualtive distribution of surveys and % of total
+4. Summary table of object identification rates per lake
+5. Definition and identification of significant values
+6. Geo location of significant events
+
+Based off the template. You need to supply your own .shp files if you change geographic center of analysis. The narrative is not automated. This may take a few hours to complete.
+
 **Syncing of geo data and economic data** as new survey locations get added, there is a delay between when the explanatory vairiables are extracted. For now this gets updated weekly.
 
 #### Comment utiliser ce reposioire :
@@ -30,6 +43,20 @@ Il faut cloner le repo, le JupyterLab ou les JupyterNotebooks est requis. Le not
 Veillez à utiliser le fichier requirements.txt ou .yml pour définir votre environnement de travail.
 
 ! ! Assurez-vous de lire le cas d'utilisation pour chaque modèle ou cahier ! !
+
+#### The \_summary notebook:
+
+Rapporte l'incidence de tout objet au niveau national et régional. Permet de sélectionner un lac et une plage de dates pour une analyse en profondeur. Fournit les graphiques et données suivants :
+
+1. Résultats de l'enquête et variables explicatives
+2. Portée géographique de toutes les enquêtes
+3. Répartition cumulative des enquêtes et % du total
+4. Tableau récapitulatif des taux d'identification des objets par lac
+5. Définition et identification des valeurs significatives
+6. Localisation géographique des événements importants
+
+Basé sur le modèle. Vous devez fournir vos propres fichiers .shp si vous changez de centre géographique d'analyse. Le récit n'est pas automatisé. Cela peut prendre quelques heures.
+
 
 **Synchronisation des données géographiques et des données économiques** à mesure que de nouveaux lieux d'enquête sont ajoutés, il y a un délai entre le moment où les vairiables explicatifs sont extraits. Pour l'instant, cette information est mise à jour chaque semaine.
 
