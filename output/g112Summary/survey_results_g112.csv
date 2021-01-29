@@ -122,6 +122,7 @@ loc_date,code,date,pcs_m,quantity,location,water_name,population,streets,buildin
 "('plage-de-cheyres', '2020-10-17')",G112,2020-10-17,0.01,1,plage-de-cheyres,Neuenburgersee,2320,22960.451,28502.998,11,"('Neuenburgersee', 'plage-de-cheyres')"
 "('plage-de-cheyres', '2020-11-16')",G112,2020-11-16,0.0,0,plage-de-cheyres,Neuenburgersee,2320,22960.451,28502.998,11,"('Neuenburgersee', 'plage-de-cheyres')"
 "('plage-de-cheyres', '2020-12-14')",G112,2020-12-14,0.0,0,plage-de-cheyres,Neuenburgersee,2320,22960.451,28502.998,11,"('Neuenburgersee', 'plage-de-cheyres')"
+"('plage-de-cheyres', '2021-01-16')",G112,2021-01-16,0.0,0,plage-de-cheyres,Neuenburgersee,2320,22960.451,28502.998,11,"('Neuenburgersee', 'plage-de-cheyres')"
 "('plage-de-st-sulpice', '2020-10-01')",G112,2020-10-01,0.02,1,plage-de-st-sulpice,Lac Léman,4668,33992.542,33692.049,2,"('Lac Léman', 'plage-de-st-sulpice')"
 "('pointe-dareuse', '2020-12-03')",G112,2020-12-03,0.0,0,pointe-dareuse,Neuenburgersee,6154,12831.053999999998,2977.322,14,"('Neuenburgersee', 'pointe-dareuse')"
 "('preverenges', '2020-06-07')",G112,2020-06-07,3.9,156,preverenges,Lac Léman,5287,33713.885,44305.598,4,"('Lac Léman', 'preverenges')"
