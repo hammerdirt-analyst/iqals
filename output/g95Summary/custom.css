@@ -39,6 +39,9 @@
         margin-left:auto;
         margin-right:auto;
     }
+    .div.cell {
+        margin-left:1% !important;
+    }
     .CodeMirror{
             font-family: "Source Code Pro", source-code-pro,Consolas, monospace;
     }
@@ -55,14 +58,21 @@
         display: block;
     }
     .output {
-    align-items: center;
+        align-items: center;
+    }
+    div.output_area img, div.output_area svg{
+        min-width:400px;
+        width:90%;
+        height:auto;
+        margin-left:4%
     }
     
     .warning{
         color: rgb( 240, 20, 20 )
         }
     .container {
-        width: 100%
+        width: 98%;
+        margin-left:auto;
         }
     .output_area {
         width:100%
