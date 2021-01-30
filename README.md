@@ -32,7 +32,9 @@ Reports the incidence of any object nationally and regionally. Allows the select
 5. Definition and identification of significant values
 6. Geo location of significant events
 
-Based off the template. You need to supply your own .shp files if you change geographic center of analysis. The narrative is not automated. This may take a few hours to complete.
+Based off the template. **You need to supply your own .shp files** if you change geographic center of analysis.
+
+The narrative is not automated. This may take a few hours to complete.
 
 **Syncing of geo data and economic data** as new survey locations get added, there is a delay between when the explanatory vairiables are extracted. For now this gets updated weekly.
 
@@ -55,7 +57,9 @@ Rapporte l'incidence de tout objet au niveau national et régional. Permet de s�
 5. Définition et identification des valeurs significatives
 6. Localisation géographique des événements importants
 
-Basé sur le modèle. Vous devez fournir vos propres fichiers .shp si vous changez de centre géographique d'analyse. Le récit n'est pas automatisé. Cela peut prendre quelques heures.
+Basé sur le modèle. **Vous devez fournir vos propres fichiers .shp** si vous changez de centre géographique d'analyse. 
+
+Le récit n'est pas automatisé. Cela peut prendre quelques heures.
 
 
 **Synchronisation des données géographiques et des données économiques** à mesure que de nouveaux lieux d'enquête sont ajoutés, il y a un délai entre le moment où les vairiables explicatifs sont extraits. Pour l'instant, cette information est mise à jour chaque semaine.
