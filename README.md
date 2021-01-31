@@ -21,9 +21,11 @@ Make sure to use the requirements.txt or .yml file to set your environment.
 
 !! Make sure to read the use case for each template or notebook !!
 
-#### The \_summary notebook:
+#### The a_summary notebook:
 
 Reports the incidence of any object nationally and regionally. Allows the selection of one lake and date range for a drill down analysis. Provides the following charts and data:
+
+For now the only shape files available are for Switzerland and the geographic features relevant to this project.
 
 1. Survey results and explanatory variables
 2. Geographic scope of all surveys
