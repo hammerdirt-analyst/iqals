@@ -1,0 +1,159 @@
+UUID,OBJEKTART,WANDERWEGE,RICHTUNGSG,KREISEL,slug,water_name,city,bfsnum,length
+{23490782-9837-499D-B57B-75043C35BDCE},10m Strasse,,Falsch,Falsch,thun-strandbad,Thunersee,Thun,942,35857.128
+{61F78CF3-29B2-407C-ADA8-3B627AF842F6},Zufahrt,,Falsch,k_W,zulg_steffisburg_schmassmanne,Zulg,Steffisburg,939,58358.188
+{5B134D41-173F-45E4-853A-966F404BB079},6m Strasse,,Falsch,Falsch,lotschebach_bern_scheurerk,Lötschebach,Ostermundigen,363,8292.832
+{F964F873-C727-477A-B4A8-8B923AF5E96E},10m Strasse,,Falsch,Falsch,rocky-plage,Lac Léman,Genève,6621,44494.892
+{70A2EFC6-0546-4BF3-899C-1635EDCD5071},10m Strasse,,Falsch,Falsch,spackmatt,Aare,Luterbach,2527,39824.889
+{7F06A3FD-14EA-4C49-AFD9-09A3CBD5ADB6},10m Strasse,,Falsch,Falsch,villa-barton,Lac Léman,Genève,6621,39385.665
+{F24D1F9C-E95D-4CB7-A526-41CA37AE50F5},8m Strasse,,Falsch,Falsch,arabie,Lac Léman,Vevey,5890,33300.505
+{0ED8BBBE-C56B-4B96-93B6-BB3F7B55E0AC},Autobahn,,Wahr,Falsch,seeflechsen,Walensee,Glarus Nord,1630,35538.328
+{32A74DC1-F9C6-42CD-8E6A-8AA189B6482F},6m Strasse,,Falsch,Falsch,preverenges,Lac Léman,Préverenges,5643,29200.433
+{39A9E25B-FC80-43CA-A8CB-F3F9AB8A0EBC},6m Strasse,,Falsch,Falsch,boiron,Lac Léman,Tolochenaz,5649,15106.493
+{DA6C07B3-65E4-4930-B8D3-6FA87AB7F722},Autobahn,,Wahr,Falsch,bern-fahrstrasse,Aare,Bern,351,66806.303
+{09B8907D-A72E-49B0-A620-D307EE1BE98C},Autobahn,,Wahr,Falsch,sihl_zurich_himmelhebern,Sihl,Zürich,261,63223.660
+{AD55171B-55E5-48E0-A3DE-B8254261F20F},10m Strasse,,Falsch,Falsch,anarchy-beach,Lac Léman,La Tour-de-Peilz,5889,19790.462
+{4E9815F8-A989-4C41-9707-C278113BF92D},6m Strasse,,Falsch,Falsch,impromptu_cudrefin,Neuenburgersee,Cudrefin,5456,17388.081
+{2C5C3226-0E18-4449-9DC8-F66790496559},Autobahn,,Wahr,Falsch,murg-bad,Walensee,Quarten,3295,25546.342
+{97AD1435-218D-491D-9864-2C065E19D7D1},Autobahn,,Wahr,Falsch,tolochenaz,Lac Léman,Tolochenaz,5649,32115.267
+{1C208223-A2A8-4CBF-B870-EECE7ECF77EF},Autobahn,,Wahr,Falsch,vidy,Lac Léman,Lausanne,5586,44928.346
+{E4C341E7-1FEF-4B83-A065-1D07733946CC},6m Strasse,,Falsch,Falsch,schmerikon-bahnhof-strand,Zurichsee,Schmerikon,3338,32560.630
+{087D9AC4-E653-4143-A2F5-41022FC40622},Autobahn,,Wahr,Falsch,limmat_zuerich_jansena,Limmat,Zürich,261,73847.096
+{71F3D0A0-3CCD-4F42-AEE3-9C733C5DCFD6},6m Strasse,,Falsch,Falsch,aare-limmatspitz,Aare,Gebenstorf,4029,45591.351
+{2013C089-EE7F-4117-B10B-8D64A78D93E1},4m Strasse,,Falsch,Falsch,bagno-pubblico-ascona,Lago Maggiore,Ascona,5091,18563.599
+{6378955A-4CD6-4810-916C-4D870A0224A3},2m Weg,,Falsch,k_W,beich,Aare,Walperswil,754,28009.550
+{EF0B1C39-AF7D-4D48-B89E-B6B57F06267B},10m Strasse,,Falsch,Falsch,pierrier-sud,Lac Léman,Montreux,5886,31788.974
+{7CC30ADF-504F-4DA6-9C5A-A510D3694525},Autobahn,,Wahr,Falsch,baye-de-montreux-d,Lac Léman,Montreux,5886,28741.887
+{EB67D1A2-A1D9-4AEB-826A-E625564F732E},Autobahn,,Wahr,Falsch,sihl_adliswil_oggi_fort,Sihl,Adliswil,131,657.738
+{B385854D-B467-43DD-ADCA-C54E951308AA},Autobahn,,Wahr,Falsch,lacleman_vidy_santie,Lac Léman,Lausanne,5586,39502.859
+{4E02CF0A-9306-41D5-9646-E444A2BB95B3},Autostrasse,,Falsch,Falsch,route-13,Maggia,Locarno,5113,60672.241
+{4E9815F8-A989-4C41-9707-C278113BF92D},6m Strasse,,Falsch,Falsch,cudrefin-alternate,Neuenburgersee,Cudrefin,5456,17977.797
+{5FC4D38B-E699-495B-B7AC-B9F18A5F9846},Autobahn,,Wahr,Falsch,sihl_leimbach_kruegerm,Sihl,Zürich,261,31128.749
+{FE2C4619-ACC8-4973-AB64-FDEF5576BA78},6m Strasse,Wanderweg,Falsch,Falsch,thunersee_spiez_meierd_1,Thunersee,Spiez,768,16193.561
+{B13A7F9A-94D0-43E9-AC64-0CF2B6425AE9},4m Strasse,Wanderweg,Falsch,Falsch,luscherz-plage,Bielersee,Lüscherz,497,17571.414
+{F964F873-C727-477A-B4A8-8B923AF5E96E},10m Strasse,,Falsch,Falsch,baby-plage-geneva,Lac Léman,Genève,6621,50436.099
+{6CD9F0CE-116C-45E9-9088-DDFC0E7F5DE0},Autobahn,,Wahr,Falsch,la-thiele_le-mujon_confluence,La Thièle,Yverdon-les-Bains,5938,56227.760
+{2BCAE3BE-58A3-4F4B-9657-40C141E8D45F},4m Strasse,,Falsch,Falsch,jona-river-rastplatz,Jona,Rapperswil-Jona,3340,20053.918
+{7CD38FCF-C78B-46D4-B4CE-D5B81A3D78F0},Autobahn,,Wahr,Falsch,lavey-la-source,Rhône,Lavey-Morcles,5406,42554.932
+{DF58F7C4-AFD5-4651-A3AD-5B8CFC5E3CEC},10m Strasse,Wanderweg,Falsch,Falsch,maladaire,Lac Léman,La Tour-de-Peilz,5889,32934.926
+{F24D1F9C-E95D-4CB7-A526-41CA37AE50F5},8m Strasse,,Falsch,Falsch,veveyse,Lac Léman,Vevey,5890,29638.964
+{F8EA310C-6997-46E7-90DD-95C721255A75},10m Strasse,,Falsch,Falsch,schusspark-strand,Schüss,Biel/Bienne,371,63551.438
+{CDBCF7C9-6DB7-4238-9B7D-B13EAE8925A7},Autobahn,,Wahr,Falsch,gasi-strand,Walensee,Weesen,3316,22192.463
+{05EE4173-21B3-4496-A990-0FE22FF884A5},Autobahn,,Wahr,Falsch,limmat_dietikon_keiserp,Limmat,Dietikon,243,45478.952
+{079DE91F-413B-42DA-B54D-C301D8C1CE57},10m Strasse,,Falsch,Falsch,aare_bern_gerberm,Aare,Bern,351,47583.372
+{C7F2BFB9-3765-496D-96E5-972E9DD900F4},6m Strasse,,Falsch,Falsch,neuenburgersee_cudrefin_mattera,Neuenburgersee,Cudrefin,5456,20540.212
+{4896C68A-8036-48BC-B830-623825FDB968},1m Weg,,k_W,k_W,lacleman_gland_lecoanets,Lac Léman,Gland,5721,20843.639
+{55A04690-7499-495C-941C-E976C2E432E7},Autobahn,,Wahr,Falsch,aarezufluss_bern_scheurerk,Aare,Bern,351,71762.312
+{D90835DE-B638-4314-8AB2-47A7FB18B955},Autobahn,,Wahr,Falsch,limmat_unterengstringen_oggierbuhrer,Limmat,Unterengstringen,249,50280.212
+{F021BEC3-B327-472F-8465-07ACA532E643},Autostrasse,,Falsch,Falsch,brugg-be-buren-bsg-standort,Aare|Nidau-Büren-Kanal,Brügg,733,51660.091
+{A20D653E-2DB6-4E00-9026-5C8EFDC15BBB},Autobahn,,Wahr,Falsch,camp-des-peches,Bielersee,Le Landeron,6455,36817.451
+{92ED59C2-0523-43EB-9A8A-582F45E876F7},6m Strasse,,Falsch,Falsch,vira-spiaggia-left-of-river,Lago Maggiore,Gambarogno,5398,21873.950
+{46D419A0-0DDD-4737-A1C6-60BABA49EA22},6m Strasse,,Falsch,Falsch,zuerichsee_waedenswil_colomboc_1,Zurichsee,Richterswil,138,29910.688
+{CAB3A3A6-C277-4DBF-921D-07ADC6B6BBE4},10m Strasse,Wanderweg,Falsch,Falsch,grand-clos,Lac Léman,Saint-Gingolph,6155,19319.960
+{F566A07E-5912-4B54-90FD-3F31E30429ED},2m Weg,,Falsch,k_W,nouvelle-plage,Neuenburgersee,Estavayer,2054,23279.166
+{AB233186-BFBB-40B8-84E1-3A7285D66D08},Autobahn,,Wahr,Falsch,rolle-plage,Lac Léman,Rolle,5861,22673.305
+{EF0B1C39-AF7D-4D48-B89E-B6B57F06267B},10m Strasse,,Falsch,Falsch,baye-de-clarens,Lac Léman,Montreux,5886,30947.446
+{B5AD2EB9-7DBA-46BA-9282-0A4D854DC38A},Autobahn,,Wahr,Falsch,pecos-plage,Neuenburgersee,Grandson,5561,29529.945
+{34E59F4B-1263-4C75-9E59-5F61D6B28C23},Autobahn,,Wahr,Falsch,vidy-ruines,Lac Léman,Lausanne,5586,50375.943
+{14479D5A-AC27-497B-BE0F-23035C906D15},Autobahn,,Wahr,Falsch,muhlehorn-dorf,Walensee,Glarus Nord,1630,26338.873
+{B8300135-1B63-47EA-90F7-CA65757A9954},4m Strasse,,Wahr,Falsch,camping-gwatt-strand,Thunersee,Thun,942,24350.797
+{428753FD-CD06-4E88-BFB9-345170D02A71},6m Strasse,,Falsch,Falsch,saint-sulpice,Lac Léman,Saint-Sulpice (VD),5648,21215.615
+{856160AC-7EC6-46DA-9BF8-1AB0D970CB79},10m Strasse,,Falsch,Falsch,bern-tiergarten,Aare,Bern,351,66934.621
+{E77C1CB2-280C-4A1F-AE37-415EB67B69C1},Autostrasse,,Falsch,Falsch,wycheley,Brienzersee,Brienz (BE),573,23871.874
+{09B8907D-A72E-49B0-A620-D307EE1BE98C},Autobahn,,Wahr,Falsch,sihl_zuerich_eichenbergerd,Sihl,Zürich,261,63782.065
+{4D814F29-5790-4E5B-BA5D-4A5EA21687D2},10m Strasse,,Falsch,Falsch,lac-leman-hammerdirt,Lac Léman,La Tour-de-Peilz,5889,30348.994
+{390C354A-63E2-4082-9FC9-5C4B90A1D511},Autobahn,,Wahr,Falsch,katzensee_regensdorfzuerichaffoltern_stueberj,Katzensee,Zürich,261,20595.950
+{A54AEC75-2B17-4179-89D9-ABA3507388AE},10m Strasse,,Falsch,Falsch,zurichsee-feldeggstr-banningersand,Zurichsee,Zürich,261,44788.940
+{B385854D-B467-43DD-ADCA-C54E951308AA},Autobahn,,Wahr,Falsch,tiger-duck-beach,Lac Léman,Saint-Sulpice (VD),5648,20249.172
+{7BEA5556-222A-4D1D-BBF8-2750FA49B1C7},Autobahn,,Wahr,Falsch,zurichsee_wollishofen_langendorfm,Zurichsee,Zürich,261,37173.102
+{6F5903E2-54CB-4FD4-B178-711B7769B82F},Autobahn,,Wahr,Falsch,aare_solothurn_nguyena,Aare,Solothurn,2601,38969.415
+{F46959B9-4E72-4EDF-A99C-6F307F4E8588},Autobahn,,Wahr,Falsch,aare-solothurn-lido-strand,Aare,Solothurn,2601,36560.999
+{5392D933-C88D-40DE-86D2-1029209D4325},Autobahn,,Wahr,Falsch,emme_luterbach_huggenbergerk,Emme,Zuchwil,2534,47799.450
+{46C3BAB2-C4C2-486F-B810-A3ED6EFA0F13},10m Strasse,,Falsch,Falsch,kusnachter-dorfbach-tobelweg-1-4,Dorfbach,Küsnacht (ZH),154,52171.426
+{57D1496F-ACAD-4901-97CE-19ECB030A99B},Autostrasse,,Wahr,Falsch,augustmutzenbergstrandweg,Thunersee,Spiez,768,40722.873
+{B385854D-B467-43DD-ADCA-C54E951308AA},Autobahn,,Wahr,Falsch,plage-de-dorigny,Lac Léman,Saint-Sulpice (VD),5648,21263.976
+{92215A4F-C279-40F2-BC0B-B39EC6DDDFC6},Einfahrt,,Wahr,k_W,sihl_zuerich_scherfs,Sihl,Zürich,261,87018.398
+{4AD04605-0900-4475-8586-2E0393817DD1},6m Strasse,Wanderweg,Falsch,Falsch,la-pecherie,Lac Léman,Allaman,5851,16850.001
+{27EEFB01-188B-4FB3-973E-BC8BCDB434FD},6m Strasse,,Falsch,Falsch,tschilljus,Rhône,Salgesch,6113,33332.574
+{2BCAE3BE-58A3-4F4B-9657-40C141E8D45F},4m Strasse,,Falsch,Falsch,strandbeiz,Zurichsee,Rapperswil-Jona,3340,20026.570
+{8F672B27-F482-43B0-83B2-B346E481583D},Autobahn,,Wahr,Falsch,cully-plage,Lac Léman,Bourg-en-Lavaux,5613,31772.629
+{3911CB2E-A4CB-4FA2-B623-91F3CFCEEB2F},10m Strasse,,Falsch,Falsch,zuerichsee_zurich_kullg,Zurichsee,Zürich,261,29679.587
+{0E9CE734-4A7D-4C35-8167-D04C7F5858A4},6m Strasse,,Falsch,Falsch,pfaffner_rothrist_ischik,Pfaffnern,Rothrist,4282,39747.751
+{35E7ED14-B934-4C63-9A6C-CABE1248F6A1},10m Strasse,,Falsch,Falsch,chriesbach_duebendorf_schneidera,Chriesbach,Dübendorf,191,5320.643
+{EDC41A3C-6D96-4EAE-8DAA-45E470DB0677},4m Strasse,,Falsch,Falsch,gals-reserve,Bielersee,Gals,494,23696.833
+{0760D4FC-B5AC-45E4-81B1-750DA42C2FCC},10m Strasse,,Falsch,Falsch,rivapiana,Lago Maggiore,Minusio,5118,35853.962
+{DBE79787-D1D5-4612-AB7B-C5319E2EAF6C},Autostrasse,,Falsch,Falsch,nidau-strand,Bielersee,Nidau,743,45970.070
+{C7512428-3F47-48F9-8EE1-F1381D79E8A0},10m Strasse,,Falsch,Falsch,zuerichsee_richterswil_benkoem_2,Zurichsee,Richterswil,138,24838.377
+{A7D02D46-A248-4C06-9EE4-1132F867028D},1m Weg,,k_W,k_W,sihl_menzingen_kucharska_magdalena,Sihl,Menzingen,1704,8775.630
+{396912F5-3FEB-4858-85FE-A7277EC5EBD9},Autostrasse,,Falsch,Falsch,sihl_zuerich_eggerskoehlingera,Sihl,Zürich,261,82847.267
+{E4C341E7-1FEF-4B83-A065-1D07733946CC},6m Strasse,,Falsch,Falsch,aabach,Zurichsee,Schmerikon,3338,25022.673
+{9F076AA4-2A54-4FAB-AD27-9B7068DE81DA},10m Strasse,Wanderweg,Falsch,Falsch,aare_elfenau_cataldiv,Aare,Bern,351,59486.666
+{31D64EF8-516C-486D-9F2A-FC8A37D709EA},8m Strasse,,Wahr,Wahr,aare_koniz_hoppej,Aare,Köniz,355,66763.704
+{0ED8BBBE-C56B-4B96-93B6-BB3F7B55E0AC},Autobahn,,Wahr,Falsch,flibach-river-right-bank,Walensee,Weesen,3316,30287.466
+{B26D3E16-F121-47C5-94BD-1087C2E9D993},Autobahn,,Wahr,Falsch,hauterive-petite-plage,Neuenburgersee,Hauterive (NE),6454,42946.531
+{64CADFCE-816E-4CA6-8362-595177856683},Autobahn,,Wahr,Falsch,aare_bern_scheurerk,Aare,Bern,351,71680.193
+{E6FB693B-2D60-41DC-8045-A8E3FF603E27},6m Strasse,Bergwanderweg,Falsch,Falsch,gerra-gambarogno,Lago Maggiore,Gambarogno,5398,15690.375
+{14E5F0B5-6F81-41BF-BAC0-C352D2D28057},Autobahn,,Wahr,Falsch,seez_spennwiesenbrucke,Seez,Walenstadt,3298,43200.482
+{EF0B1C39-AF7D-4D48-B89E-B6B57F06267B},10m Strasse,,Falsch,Falsch,le-pierrier,Lac Léman,Montreux,5886,30749.208
+{9F56A8A2-AC78-4F22-89F4-0A72EAAA3E18},Autostrasse,,Falsch,Falsch,hafeli,Brienzersee,Bönigen,572,29079.354
+{1833CE06-0CC4-45DE-BA55-4504B92FEED8},4m Strasse,,Falsch,Falsch,bielersee_vinelz_fankhausers,Bielersee,Vinelz,502,27275.035
+{931B8FD4-0DC0-4CA3-919C-DD7787BB475D},Autobahn,,Wahr,Falsch,les-glariers,Rhône,Riddes,6139,55315.164
+{F964F873-C727-477A-B4A8-8B923AF5E96E},10m Strasse,,Falsch,Falsch,baby-plage-ii-geneve,Lac Léman,Genève,6621,48077.411
+{32611D43-B0B6-42FA-AF18-3308C025EA15},10m Strasse,,Falsch,Falsch,jardin-botanique,Lac Léman,Genève,6621,47696.148
+{5D0B2777-42BC-4CF6-964C-2872D2D8D45F},Autobahn,,Wahr,Falsch,aare_suhrespitz_badert,Aare,Aarau,4001,62092.619
+{F021BEC3-B327-472F-8465-07ACA532E643},Autostrasse,,Falsch,Falsch,aare_post,Aare|Nidau-Büren-Kanal,Port,745,43951.122
+{6ADF3BA3-3E8C-4194-A6E4-C610BF8F9ADB},8m Strasse,,Falsch,Falsch,emme_biberist_jennim,Emme,Biberist,2513,19154.834
+{AE3651A2-388B-40F7-B423-25F1AFA2EF77},6m Strasse,Wanderweg,Falsch,Falsch,aare_kehrsatz_stolten,Aare,Belp,861,43640.590
+{CDBCF7C9-6DB7-4238-9B7D-B13EAE8925A7},Autobahn,,Wahr,Falsch,linth_route9brucke,Escherkanal,Glarus Nord,1630,23412.108
+{BA62BCAE-E2B3-41F7-AC9A-8DC267DE5766},8m Strasse,,Falsch,Falsch,zuerichsee_staefa_hennm,Zurichsee,Stäfa,158,22348.743
+{B8CC6C67-B04A-44E5-9992-E33612B52F08},10m Strasse,,Falsch,Falsch,le-port,Lac Léman,La Tour-de-Peilz,5889,33438.714
+{BE0EE649-E526-4C7D-A97B-E423A89E6B3E},10m Strasse,,Falsch,Falsch,versoix,Lac Léman,Versoix,6644,30611.630
+{13B22A41-66B0-4BD6-81CF-07F8D0F94A8B},6m Strasse,,Falsch,Falsch,la-petite-plage,Neuenburgersee,Yverdon-les-Bains,5938,31213.994
+{E6FB693B-2D60-41DC-8045-A8E3FF603E27},6m Strasse,Bergwanderweg,Falsch,Falsch,pacha-mama-gerra,Lago Maggiore,Gambarogno,5398,13885.698
+{5AF5D60C-5E11-429F-964D-EF349B84AB62},6m Strasse,Wanderweg,Falsch,Falsch,sundbach-strand,Thunersee,Beatenberg,571,16872.232
+{0B167F38-CBBA-4B00-9701-C114DB61425C},Autobahn,,Wahr,Falsch,mols-rocks,Walensee,Quarten,3295,22837.411
+{7D7B672F-9292-4C61-9E1C-9C7DBDD91435},6m Strasse,,Falsch,Falsch,signalpain,Neuenburgersee,Yverdon-les-Bains,5938,33289.730
+{B13A7F9A-94D0-43E9-AC64-0CF2B6425AE9},4m Strasse,Wanderweg,Falsch,Falsch,luscherz-two,Bielersee,Lüscherz,497,19696.806
+{AA6E765A-CAEB-41DB-A535-4E6A7EDE9CC7},6m Strasse,,Falsch,Falsch,seemuhlestrasse-strand,Walensee,Walenstadt,3298,19169.004
+{541B2518-4A36-4A2A-8148-ED8BDC2CB0E7},1m Weg,Wanderweg,k_W,k_W,pointe-dareuse,Neuenburgersee,Boudry,6404,12833.336
+{367734BB-54F0-4EBA-A37B-82577D609CA4},4m Strasse,Wanderweg,Falsch,Falsch,sense_torishaus_g-cubes,Sense,Köniz,355,16151.882
+{097586F7-EDDB-4ABF-9E72-98CDC037B2FA},Autobahn,,Wahr,Falsch,les-vieux-ronquoz,Rhône,Sion,6266,56200.840
+{4896C68A-8036-48BC-B830-623825FDB968},1m Weg,,k_W,k_W,lacleman_gland_kubela,Lac Léman,Gland,5721,21008.579
+{24E3C0FE-4B4E-4620-97AA-676A08D896C4},6m Strasse,,Falsch,Falsch,aare_rupperswil_badert,Aare,Rupperswil,4206,37262.245
+{8B3E3EFD-2A72-4FBB-9BA4-6D12AEC3E6FE},4m Strasse,,Falsch,Falsch,plage-de-cheyres,Neuenburgersee,Cheyres-Châbles,2055,22470.667
+{0BDEBE97-D5E1-40E0-82A6-6092B404FEA4},6m Strasse,,Falsch,Falsch,weissenau-neuhaus,Thunersee,Unterseen,593,23523.407
+{D90835DE-B638-4314-8AB2-47A7FB18B955},Autobahn,,Wahr,Falsch,limmat_zuerich_wagnerc,Limmat,Zürich,261,63292.748
+{061DA8CA-FDFA-446F-965C-9B61A5D5045B},2m Weg,Wanderweg,Falsch,k_W,rastplatz-stampf,Zurichsee,Rapperswil-Jona,3340,16652.809
+{EB1E6B65-6E3F-496E-91EC-584DFC109783},6m Strasse,,Falsch,Falsch,san-nazzaro-gambarogno,Lago Maggiore,Gambarogno,5398,22491.810
+{8AB4D519-F950-480A-ABC1-81E7CAA3EE75},Autobahn,,Wahr,Falsch,walensee_walenstadt_wysse,Walensee,Walenstadt,3298,29243.391
+{6839A3A5-2634-45CA-B2EF-7DAC7829AED8},Autostrasse,,Falsch,Falsch,ligerz-strand,Bielersee,Ligerz,740,24190.528
+{FC4335D4-DA1D-4095-B7FE-B5269AD05040},Autobahn,,Wahr,Falsch,untertenzen,Walensee,Quarten,3295,25575.399
+{2C69DA94-C8ED-4D8B-BC15-B6B7081527C3},3m Strasse,,Falsch,Falsch,sentiero-giro-del-golf-spiaggia,Lago Maggiore,Ascona,5091,10442.534
+{F619BBF3-2E3E-49EE-8246-7C5E160EF3F3},10m Strasse,,Falsch,Falsch,strandboden-biel,Bielersee,Biel/Bienne,371,52952.826
+{586ECDB8-13BF-4A30-AA1C-46606B0374A7},6m Strasse,,Falsch,Falsch,delta-park,Thunersee,Spiez,768,22070.504
+{0BE0B519-6DDF-41D8-9F80-DE0EC9CCB667},Autobahn,,Wahr,Falsch,katzenbach_zuerich_sanesim,Katzensee,Zürich,261,36734.468
+{7CC30ADF-504F-4DA6-9C5A-A510D3694525},Autobahn,,Wahr,Falsch,baye-de-montreux-g,Lac Léman,Montreux,5886,28456.237
+{D9D62A7C-BDDC-44F9-9C9B-DBE9F30084F4},4m Strasse,Wanderweg,Falsch,Falsch,ruisseau-de-la-croix-plage,Neuenburgersee,Cheyres-Châbles,2055,14477.888
+{6DC45634-A342-4FB1-9467-1F5DA33FCAE0},Autobahn,,Wahr,Falsch,linthdammweg,Linthkanal,Weesen,3316,37944.635
+{28E12DAB-042C-459C-B640-DDC32D204D62},10m Strasse,,Falsch,Falsch,aare_bern_caveltin,Aare,Muri bei Bern,356,46845.142
+{4D814F29-5790-4E5B-BA5D-4A5EA21687D2},10m Strasse,,Falsch,Falsch,bain-des-dames,Lac Léman,La Tour-de-Peilz,5889,30573.602
+{46C3BAB2-C4C2-486F-B810-A3ED6EFA0F13},10m Strasse,,Falsch,Falsch,zurichsee_kusnachterhorn_thirkell-whitej,Zurichsee,Küsnacht (ZH),154,26871.189
+{DAF4053A-D6E4-428C-B7B5-E4819FB63696},6m Strasse,,Falsch,Falsch,ascona-traghetto-spiaggia,Lago Maggiore,Ascona,5091,37814.603
+{71F3D0A0-3CCD-4F42-AEE3-9C733C5DCFD6},6m Strasse,,Falsch,Falsch,aare_brugg_buchie,Aare,Brugg,4095,50458.479
+{F24D1F9C-E95D-4CB7-A526-41CA37AE50F5},8m Strasse,,Falsch,Falsch,quai-maria-belgia,Lac Léman,Vevey,5890,31203.232
+{34703298-BABA-4026-AC92-AC3E397CA84C},6m Strasse,,Falsch,Falsch,zuerichsee_maennedorf_vanderkaadene,Zurichsee,Männedorf,155,39315.995
+{A54AEC75-2B17-4179-89D9-ABA3507388AE},10m Strasse,,Falsch,Falsch,zurcher-strand,Zurichsee,Zürich,261,66682.805
+{1430BB37-34D5-44C6-89E7-85D01410244C},6m Strasse,,Falsch,Falsch,ognonnaz-1,Ognonnaz,Vevey,5890,52951.241
+{57AFADA8-A081-45A2-BA4D-8B659483057E},10m Strasse,,Falsch,Falsch,plage-de-st-sulpice,Lac Léman,Saint-Sulpice (VD),5648,15426.785
+{A123D46B-50F3-4C11-BCCF-B8A2C7331C0E},Autobahn,,Wahr,Falsch,la-morges,Lac Léman,Morges,5642,38276.970
+{1AD031E9-9AE1-4661-9A49-54E34F531EA8},6m Strasse,,Wahr,Falsch,parc-des-pierrettes,Lac Léman,Saint-Sulpice (VD),5648,11577.921
+{1FB2A0CA-35F3-4665-82AC-52DB5E779104},Ausfahrt,,Wahr,k_W,limmat_zuerich_suterdglauserp,Limmat,Zürich,261,70533.134
+{8B974617-FC17-46A6-B98A-3F1129C3674B},6m Strasse,,Wahr,Falsch,arve_carouge_battistellak,Arve,Veyrier,6645,10603.314
+{14E5F0B5-6F81-41BF-BAC0-C352D2D28057},Autobahn,,Wahr,Falsch,seez,Seez,Walenstadt,3298,31362.446
+{0C1F4D01-203B-4A85-8D2B-687879AE0DF6},Autobahn,,Wahr,Falsch,glatt_oerlikon_covosn,Glatt,Opfikon,66,31387.319
+{92ED59C2-0523-43EB-9A8A-582F45E876F7},6m Strasse,,Falsch,Falsch,vira-gambarogno,Lago Maggiore,Gambarogno,5398,21133.168
+{6DC45634-A342-4FB1-9467-1F5DA33FCAE0},Autobahn,,Wahr,Falsch,linth_mollis,Linthkanal,Glarus Nord,1630,39165.101
+{A6CEA352-B8C7-433B-AF9F-FBF2DDC601BE},10m Strasse,Wanderweg,Falsch,Falsch,mullermatte,Bielersee,Biel/Bienne,371,44891.158
+{3658045E-BC47-43E0-8209-B1AD9B3F2BF5},Autobahn,,Wahr,Falsch,evole-plage,Neuenburgersee,Neuchâtel,6458,55309.679
+{B4DD9FB4-1940-4694-8C9B-D893C52D63BF},Autobahn,,Wahr,Falsch,lavey-les-bains,Rhône,Lavey-Morcles,5406,48412.450
+{087D9AC4-E653-4143-A2F5-41022FC40622},Autobahn,,Wahr,Falsch,limmat_zurich_mortensena_meiera,Limmat,Zürich,261,74734.557
+{1430BB37-34D5-44C6-89E7-85D01410244C},6m Strasse,,Falsch,Falsch,oyonne,Lac Léman,La Tour-de-Peilz,5889,49104.993
