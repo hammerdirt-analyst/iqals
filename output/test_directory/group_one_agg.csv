@@ -9,6 +9,7 @@ loc_date,pcs_m
 "('baby-plage-geneva', '2020-10-20')",0.8399999999999999
 "('baby-plage-geneva', '2020-11-18')",0.28
 "('baby-plage-geneva', '2020-12-16')",0.4
+"('baby-plage-geneva', '2021-01-16')",0.39999999999999997
 "('baby-plage-ii-geneve', '2020-11-01')",0.56
 "('bain-des-dames', '2020-06-11')",2.2300000000000004
 "('baye-de-montreux-g', '2020-05-07')",1.37
@@ -52,6 +53,7 @@ loc_date,pcs_m
 "('gasi-strand', '2020-10-23')",0.32
 "('gasi-strand', '2020-11-22')",0.18
 "('gasi-strand', '2020-12-22')",0.11
+"('gasi-strand', '2021-01-21')",0.03
 "('gerra-gambarogno', '2020-08-09')",0.04
 "('grand-clos', '2020-05-07')",1.6900000000000002
 "('grand-clos', '2020-06-09')",1.8
@@ -75,6 +77,7 @@ loc_date,pcs_m
 "('la-petite-plage', '2020-10-19')",0.14
 "('la-petite-plage', '2020-11-15')",0.11
 "('la-petite-plage', '2020-12-14')",0.060000000000000005
+"('la-petite-plage', '2021-01-16')",0.05
 "('lacleman_gland_lecoanets', '2020-06-15')",0.37
 "('lacleman_gland_lecoanets', '2020-10-27')",0.26
 "('le-pierrier', '2020-11-17')",0.13
@@ -119,6 +122,7 @@ loc_date,pcs_m
 "('plage-de-cheyres', '2020-10-17')",0.25
 "('plage-de-cheyres', '2020-11-16')",0.12000000000000001
 "('plage-de-cheyres', '2020-12-14')",0.15
+"('plage-de-cheyres', '2021-01-16')",0.2
 "('plage-de-st-sulpice', '2020-10-01')",1.4600000000000002
 "('pointe-dareuse', '2020-12-03')",0.13999999999999999
 "('preverenges', '2020-06-07')",4.280000000000001
@@ -219,6 +223,7 @@ loc_date,pcs_m
 "('zuerichsee_richterswil_benkoem_2', '2020-10-26')",0.15
 "('zuerichsee_richterswil_benkoem_2', '2020-11-21')",0.7
 "('zuerichsee_richterswil_benkoem_2', '2020-12-17')",0.03
+"('zuerichsee_richterswil_benkoem_2', '2021-01-21')",0.04
 "('zuerichsee_staefa_hennm', '2020-12-17')",0.18
 "('zuerichsee_waedenswil_colomboc_1', '2020-11-21')",0.26
 "('zurcher-strand', '2020-09-11')",12.03
