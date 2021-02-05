@@ -21,6 +21,15 @@ Make sure to use the requirements.txt or .yml file to set your environment.
 
 !! Make sure to read the use case for each template or notebook !!
 
+#### The atemplate notebook:
+
+This notebook should produce the following output (after you run getdataforrepo):
+
+![wheres the sample](https://github.com/hammerdirt-analyst/iqals/blob/main/output/test_directory/atestchart.svg)
+
+If this doesn't work check the requirements.txt file. You probably need a more updated version of jupyterlab or python. Geopandas is absent from many prepackaged environments. Contact analyst@hammerdirt if you need assistance.
+
+
 #### The a_summary notebook:
 
 Reports the incidence of any object nationally and regionally. Allows the selection of one lake and date range for a drill down analysis. Provides the following charts and data:
@@ -33,10 +42,29 @@ For now the only shape files available are for Switzerland and the geographic fe
 4. Summary table of object identification rates per lake
 5. Definition and identification of significant values
 6. Geo location of significant events
+7. matching .jpg figures for all output
 
 Based off the template. **You need to supply your own .shp files** if you change geographic center of analysis.
 
 The narrative is not automated. This may take a few hours to complete.
+
+#### The a_groupsummary notebook:
+
+Compares the survey results for groups of objects on a regional and national scale
+
+1. Survey results and explanatory variables
+2. Geographic scope of all surveys
+3. Cumualtive distribution of surveys and % of total
+4. Summary table of object identification rates per lake
+5. Definition and identification of significant values
+6. Geo location of significant events
+7. Complete list of code definitions each object in a group
+8. matching .jpg figures for all output
+
+Based off a_summary. **You need to supply your own .shp files** if you change geographic center of analysis.
+
+The narrative is not automated. This may take a few hours to complete.
+
 
 **Syncing of geo data and economic data** as new survey locations get added, there is a delay between when the explanatory vairiables are extracted. For now this gets updated weekly.
 
