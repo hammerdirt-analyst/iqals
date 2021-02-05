@@ -65,6 +65,10 @@ Based off a_summary. **You need to supply your own .shp files** if you change ge
 
 The narrative is not automated. This may take a few hours to complete.
 
+#### The code_groups notebook:
+
+Definition of groups of codes by use or industry or ecomic sector. Output: .json objects of mlw codes that represent a group of objects. Objects can be incorporated into other note books using ut.json_file_get()
+
 
 **Syncing of geo data and economic data** as new survey locations get added, there is a delay between when the explanatory vairiables are extracted. For now this gets updated weekly.
 
@@ -76,7 +80,7 @@ Veillez à utiliser le fichier requirements.txt ou .yml pour définir votre envi
 
 ! ! Assurez-vous de lire le cas d'utilisation pour chaque modèle ou cahier ! !
 
-#### The \_summary notebook:
+#### The a_summary notebook:
 
 Rapporte l'incidence de tout objet au niveau national et régional. Permet de sélectionner un lac et une plage de dates pour une analyse en profondeur. Fournit les graphiques et données suivants :
 
