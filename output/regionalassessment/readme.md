@@ -4,6 +4,8 @@
 
 #### The data: Beach litter survey results conducted in four watersheds of Switzerland.
 
+#### Use the .html doc at the top to view all the charts and graphs.
+
 February 24, 2021
 
 As part of a national strategy to increase quality of life and biodiversity the Swiss Federal Office of the Environment mandated that a national survey of litter density and compostion be conducted.
@@ -43,9 +45,3 @@ The note book defines, caluculates and displays the number of times a location e
 Provide reliable, observation based data to organizations intreseted in improving quality of life and biodiversity by reducing the amount of trash in the natural envrionment.
 
 Document in draft
-
-
-
-
-
-
