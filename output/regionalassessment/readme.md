@@ -22,9 +22,9 @@ A dril down from the national level with an emphasis on defining a 'significant 
 
 The surveys are grouped initially by location and date and then further divided in to code groups. The code groups are defined by the \<code_groups\> notebook and stored under the output directory.
 
-curently you can designate up to nine groups. This is not automateed and requires a bit of copy pasting if youi want to adjust that number. In future editions the number of code groups will be defined by the leingth of the array supplying the groups.
+Curently you can designate up to nine groups. This is not automateed and requires a bit of copy pasting if you want to adjust that number. In future editions the number of code groups will be defined by the leingth of the array supplying the groups.
 
-The note book defines, caluculates and displays the number of times a location exceeds the 90th percentile for each of code groups. Those results are summarized in heatmaps (nationally and regionally) and topographic maps.
+The note book defines, caluculates and displays the number of times a location exceeds the 90th percentile for each of the code groups. Those results are summarized in heatmaps (nationally and regionally) and topographic maps.
 
 #### output
 
@@ -40,7 +40,7 @@ The note book defines, caluculates and displays the number of times a location e
 
 #### intended use
 
-Provide reliable, observation based data to organizations intreseted in improving quality of life and biodiversity by reducing the amont of trash in the natural envrionment.
+Provide reliable, observation based data to organizations intreseted in improving quality of life and biodiversity by reducing the amount of trash in the natural envrionment.
 
 Document in draft
 
