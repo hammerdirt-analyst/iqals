@@ -1,0 +1,34 @@
+slug,location,latitude,longitude,post,country,water,water_name,city_slug,water_name_slug,is_2020,city,bfsnum,population,buildings,streets,intersects,pop_group_proj,pop_group_rip,streets_rank,buildings_rank
+aare-limmatspitz,Aare Limmatspitz,47.50106,8.237371,5300,CH,r,Aare,gebenstorf,aare,True,Gebenstorf,4029,5414,45453.103,33002.378,0,2,5,0,0
+aare-solothurn-lido-strand,Aare Solothurn Lido Strand,47.196949,7.521643,4500,CH,r,Aare,solothurn,aare,True,Solothurn,2601,16777,7833.625,63551.438,0,3,6,0,1
+aare_bern_gerberm,Aare_bern_gerberm,46.9893631,7.4520977,3004,CH,r,Aare,bern,aare,False,Bern,351,133883,63070.587,13885.698,0,3,6,3,3
+aare_bern_scheurerk,aare_bern_scheurerk,46.9709672,7.4525857,3004,CH,r,Aare,bern,aare,True,Bern,351,133883,72315.525,25398.322,0,3,6,3,3
+aare_brugg_buchie,Aare_Brugg_BuchiE,47.4948553,8.2365581,5200,CH,r,Aare,brugg,aare,False,Brugg,4095,11179,36478.667,27499.404,0,2,6,0,1
+aare_koniz_hoppej,aare_köniz_hoppej,46.9345885,7.4581703,3084,CH,r,Aare,koniz,aare,True,Köniz,355,41784,36869.221,30573.602,0,3,6,3,3
+aare_post,Aare_post,47.116665,7.271953,2562,CH,r,Aare|Nidau-Büren-Kanal,port,aarenidau-buren-kanal,True,Port,745,3695,33241.352,66934.621,0,1,4,0,0
+aare_suhrespitz_badert,aare_suhrespitz_badert,47.4056692,8.066018,5032,CH,r,Aare,aarau,aare,True,Aarau,4001,21506,24578.172,47582.592,0,3,6,0,1
+beich,Beich,47.048495,7.200528,3272,CH,r,Aare,walperswil,aare,True,Walperswil,754,1043,0.0,57033.588,0,0,1,0,0
+bern-fahrstrasse,Bern Fahrstrasse,46.975866,7.44421,3004,CH,r,Aare,bern,aare,True,Bern,351,133883,59905.024,29910.688,0,3,6,3,3
+bern-tiergarten,Bern Tiergarten,46.9331574,7.4520041,3005,CH,r,Aare,bern,aare,True,Bern,351,133883,70579.587,30481.131,0,3,6,3,3
+brugg-be-buren-bsg-standort,Brügg BE Büren BSG Standort,47.12222,7.28141,2555,CH,r,Aare|Nidau-Büren-Kanal,brugg,aarenidau-buren-kanal,True,Brügg,733,4390,89901.337,88079.037,0,1,5,0,0
+jona-river-rastplatz,Jona river Rastplatz,47.2161,8.84443,8654,CH,r,Jona,jona-city,jona,True,Rapperswil-Jona,3340,26999,5978.839,38774.51,4,3,6,1,2
+kusnachter-dorfbach-tobelweg-1-4,Küsnachter Dorfbach Tobelweg 1-4,47.31777,8.588258,8700,CH,r,Dorfbach,kusnacht,dorfbach,True,Küsnacht (ZH),154,14397,114929.558,56200.84,3,3,6,0,1
+la-thiele_le-mujon_confluence,La Thièle_Le Mujon_confluence,46.77534,6.6309,1400,CH,r,La Thièle,yverdon-les-bains,la-thiele,True,Yverdon-les-Bains,5938,30157,94893.431,66806.303,0,3,6,1,2
+lavey-la-source,Lavey la source,46.200804,7.021866,1892,CH,r,Rhône,lavey-morcles,rhone,True,Lavey-Morcles,5406,946,8332.632,44692.031,0,0,1,0,0
+lavey-les-bains,Lavey les bains,46.2051587,7.012722,1892,CH,r,Rhône,lavey-les-bains,rhone,True,Lavey-Morcles,5406,946,47603.552,24769.543,0,0,1,0,0
+les-glariers,Les Glariers,46.176736,7.228925,6139,CH,r,Rhône,riddes,rhone,True,Riddes,6139,3133,34639.734,22497.962,0,1,4,0,0
+les-vieux-ronquoz,Les Vieux Ronquoz,46.2220487,7.361664,1950,CH,r,Rhône,sion,rhone,True,Sion,6266,34708,106394.403,20147.82,0,3,6,2,3
+limmat_zuerich_suterdglauserp,limmat_zuerich_suterd&glauserp,47.3945393,8.5134435,8005,CH,r,Limmat,zurich,limmat,True,Zürich,261,415367,199157.26,56563.682,0,3,6,3,3
+limmat_zurich_mortensena_meiera,limmat_zürich_mortensena_meiera,47.4002515,8.485411,8064,CH,r,Limmat,zurich,limmat,True,Zürich,261,415367,102506.089,74734.557,0,3,6,3,3
+linthdammweg,Linthdammweg,47.13179,9.09191,8872,CH,r,Linthkanal,weesen,linthkanal,True,Weesen,3316,1724,57309.631,22881.807,6,0,2,0,0
+linth_mollis,Linth_Mollis,47.13137,9.094768,8872,CH,r,Linthkanal,glarus-nord,linthkanal,True,Glarus Nord,1630,18483,45498.102,31447.345,7,3,6,0,1
+linth_route9brucke,Linth_Route9brücke,47.12573,9.11734,8757,CH,r,Escherkanal,glarus-nord,escherkanal,True,Glarus Nord,1630,18483,3327.946,20127.078,6,3,6,0,1
+reuss_hunenberg_eberhardy,reuss_hünenberg_eberhardy,47.2329755,8.4010121,6331,CH,r,Reuss,hunenberg,reuss,True,Hünenberg,1703,8808,1913.223,32229.921,0,2,6,0,0
+reuss_ottenbach_schoenenbergerl,reuss_ottenbach_schoenenbergerl,47.2783545,8.3942242,5634,CH,r,Reuss,merenschwand,reuss,True,Merenschwand,4234,3549,7070.938,19573.421,0,1,4,0,0
+route-13,Route 13,46.162521,8.7825791,6600,CH,r,Maggia,locarno,maggia,True,Locarno,5113,15826,63737.472,30812.892,1,3,6,0,1
+schusspark-strand,Schüsspark strand,47.1465,7.26862,2504,CH,r,Schüss,biel,schuss,True,Biel/Bienne,371,55159,155775.724,46450.951,0,3,6,3,3
+seez,Seez,47.11983,9.300251,8880,CH,r,Seez,walenstadt,seez,True,Walenstadt,3298,5679,30124.519,40268.512,8,2,5,0,0
+seez_spennwiesenbrucke,Seez_Spennwiesenbrücke,47.114948,9.310123,8880,CH,r,Seez,walenstadt,seez,True,Walenstadt,3298,5679,10056.979,74623.878,4,2,5,0,0
+sihl_zuerich_eichenbergerd,Sihl_zuerich_eichenbergerD,47.3395883,8.5166965,8041,CH,r,Sihl,zurich,sihl,True,Zürich,261,415367,64533.326,55968.615,0,3,6,3,3
+spackmatt,Späckmatt,47.223749,7.576711,4542,CH,r,Aare,luterbach,aare,True,Luterbach,2527,3480,91639.905,73847.096,0,1,4,0,0
+tschilljus,Tschilljus,46.304399,7.580262,3970,CH,r,Rhône,salgesch,rhone,True,Salgesch,6113,1548,4685.255,30348.994,0,0,2,0,0
