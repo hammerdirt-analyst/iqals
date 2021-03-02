@@ -1,15 +1,10 @@
 code,material,description,source,source_two,source_three,parent_code,direct,single_use,micro,ospar_code
 G212,Chemicals,Oil nodules or coal fragments -- not from a BBQ,Undefined,Where does it come from,none,Parent code,False,False,False,none
 G214,Chemicals,Oil/tar,Construction,Where does it come from,none,Parent code,False,False,False,111
-G135,Cloth,"Clothes, footware, headware, gloves",Clothing,Where does it come from,none,Parent code,True,False,False,54
-G136,Cloth,Shoes,Clothing,Where does it come from,none,Parent code,True,False,False,none
 G137,Cloth,"Clothing, towels & rags",Clothing,Where does it come from,none,Parent code,True,False,False,54
-G138,Cloth,Shoes and sandals,Clothing,Where does it come from,none,Parent code,True,False,False,57
-G139,Cloth,Backpacks,Utility items,Recreation,none,Parent code,True,False,False,none
 G140,Cloth,"Bags, burlap, hessian, jute or hemp",Packaging,Agriculture,none,Parent code,False,False,False,56
 G141,Cloth,Carpet,Utility items,Where does it come from,none,Parent code,False,False,False,55
 G145,Cloth,Other textiles,Undefined,Personal hygiene,none,Parent code,True,False,False,59
-G902,Cloth,"Mask medical, cloth reusable",Personal hygiene,Where does it come from,none,G145,True,False,False,59
 G201,Glass,"Jars, glass or pottery, includes pieces",Packaging,Where does it come from,none,Parent code,True,False,False,93
 G202,Glass,Light bulbs,Utility items,Where does it come from,,Parent code,True,False,False,
 G203,Glass,"Tableware ceramic or glass, cups, plates, pieces",Food,Where does it come from,none,Parent code,False,False,False,none
@@ -21,99 +16,42 @@ G917,Glass,Terracotta balls,Utility items,Where does it come from,none,G210,Fals
 G180,Metal,Appliances,Utility items,Where does it come from,,Parent code,True,False,False,
 G185,Metal,Middle size containers,Utility items,Where does it come from,,Parent code,True,False,False,
 G193,Metal,car parts and batteries,Vehicle,Where does it come from,,Parent code,True,False,False,
-G195,Metal,Batteries - household,Utility items,Where does it come from,,Parent code,True,False,False,
 G196,Metal,Large metallic objects,Undefined,Where does it come from,,Parent code,True,False,False,
 G197,Metal,Other metal,Undefined,Where does it come from,,Parent code,True,False,False,
 G198,Metal,Other metal pieces < 50cm,Undefined,Where does it come from,,Parent code,True,False,False,
 G199,Metal,Other metal pieces > 50cm,Undefined,Where does it come from,,Parent code,True,False,False,
-G906,Metal,coffee capsules aluminum,Packaging,Food and drinks,Where does it come from,G177,False,True,False,81
-G918,Metal,"Safety pins, paper clips, small metal utility items",Utility items,Personal equipment,none,G198,True,False,False,89
-G929,Metal,"Electronics and pieces; sensors, headsets etc.",Utility items,Electronics,Personal equipment,G198,True,False,False,89
-G945,Metal,Razor blades,Personal hygiene,Water Treatment,Where does it come from,G198,False,True,False,89
-G146,Paper,"Paper, cardboard",Undefined,Where does it come from,,Parent code,True,False,False,
-G147,Paper,Paper bags,Packaging,Where does it come from,,Parent code,True,False,False,
 G148,Paper,Cardboard (boxes and fragments),Packaging,Where does it come from,,Parent code,True,False,False,
-G149,Paper,Paper packaging,Packaging,Where does it come from,,Parent code,True,False,False,
-G151,Paper,"Cartons, Tetrapacks",Packaging,Where does it come from,none,Parent code,True,False,False,62
-G154,Paper,Newspapers or magazines,Utility items,Where does it come from,,Parent code,True,False,False,
 G156,Paper,Paper fragments,Undefined,Where does it come from,,Parent code,True,False,False,
 G157,Paper,Paper,Undefined,Where does it come from,,Parent code,True,False,False,
 G158,Paper,Other paper items,Undefined,Where does it come from,,Parent code,True,False,False,
-G923,Paper,"Tissue, toilet paper, napkins, paper towels",Personal hygiene,Where does it come from,none,G158,True,False,False,67
-G101,Plastic,Dog feces bag,Utility items,Where does it come from,,Parent code,True,False,False,
-G102,Plastic,Flip-flops,Clothing,Where does it come from,,Parent code,True,False,False,
-G12,Plastic,"Cosmetics, non-beach use personal care containers",Personal hygiene,Where does it come from,none,Parent code,False,True,False,7
 G124,Plastic,Other plastic or foam products,Undefined,Where does it come from,,Parent code,True,False,False,
 G19,Plastic,Car parts,Vehicle,Where does it come from,,Parent code,True,False,False,
-G2,Plastic,Bags,Packaging,Where does it come from,none,Parent code,True,True,False,none
-G20,Plastic,Caps and lids,Packaging,Where does it come from,none,Parent code,True,True,False,15
-G23,Plastic,Lids unidentified,Packaging,Where does it come from,,Parent code,True,False,False,
-G28,Plastic,"Pens, lids, mechanical pencils etc.",Utility items,Where does it come from,Direct,Parent code,True,False,False,17
-G3,Plastic,Bags; plastic shopping/carrier/grocery and pieces,Packaging,Food and drink,none,Parent code,True,True,False,2
 G37,Plastic,Mesh bags,Packaging,Where does it come from,,Parent code,True,False,False,
 G39,Plastic,Gloves,Clothing,Where does it come from,,Parent code,True,False,False,
-G4,Plastic,"Small plastic bags; freezer, zip-lock etc.",Packaging,Food and drink,Medical,Parent code,True,True,False,3
 G40,Plastic,Gloves household/gardening,Clothing,Where does it come from,none,Parent code,True,False,False,25
-G5,Plastic,Generic plastic bags,Packaging,Where does it come from,,Parent code,True,False,False,
-G55,Plastic,Fishing line (entangled),Fishing,Where does it come from,,Parent code,True,False,False,
-G56,Plastic,Tangled nets,Fishing,Where does it come from,,Parent code,True,False,False,
-G57,Plastic,Fish boxes,Fishing,Where does it come from,,Parent code,True,False,False,
-G58,Plastic,Foam fish box,Fishing,Where does it come from,,Parent code,True,False,False,
-G59,Plastic,Fishing line monofilament (angling),Fishing,Where does it come from,,Parent code,True,False,False,
-G6,Plastic,"Bottles and containers, plastic non food/drink",Packaging,Where does it come from,Direct,Parent code,True,True,False,11
-G60,Plastic,Light sticks,Fishing,Where does it come from,,Parent code,True,False,False,
-G61,Plastic,Other fishing related,Fishing,Where does it come from,,Parent code,True,False,False,
-G62,Plastic,Floats for nets,Fishing,Where does it come from,,Parent code,True,False,False,
 G64,Plastic,Fenders,Vehicle,Where does it come from,,Parent code,True,False,False,
-G65,Plastic,Buckets,Utility items,Where does it come from,,Parent code,True,False,False,
-G71,Plastic,Shoes sandals,Clothing,Where does it come from,,Parent code,True,False,False,
 G75,Plastic,Plastic/polystyrene pcs 0 - 2.5 cm,Undefined,Where does it come from,none,Parent code,True,False,False,117
 G76,Plastic,Plastic/foamed polystyrene 2.5 > < 50,Undefined,Where does it come from,Indirect,Parent code,True,False,False,46
 G77,Plastic,Plastic or polystyrene  > 50cm,Undefined,Where does it come from,,Parent code,True,False,False,
 G78,Plastic,Plastic pieces 0.5cm - 2.5cm,Undefined,Where does it come from,none,Parent code,True,False,False,117
 G79,Plastic,Plastic pieces 2.5cm - 50cm,Undefined,None,None,Parent code,True,False,False,46
 G80,Plastic,Plastic pieces > 50cm,Undefined,Where does it come from,,Parent code,True,False,False,
-G84,Plastic,CD or CD box,Packaging,Where does it come from,,Parent code,True,False,False,
 G85,Plastic,Salt packaging,Packaging,Where does it come from,,Parent code,True,False,False,
-G88,Plastic,Telephone incl. parts,Utility items,Where does it come from,none,Parent code,True,False,False,48
 G90,Plastic,Plastic flower pots,Agriculture,Where does it come from,,Parent code,True,False,False,
-G901,Plastic,"Mask medical, synthetic",Personal hygiene,Where does it come from,none,G124,True,True,False,48
-G903,Plastic,Hand sanitizer containers & packets,Personal hygiene,Where does it come from,none,G12,True,True,False,7
-G905,Plastic,"Hair clip,  hair ties, personal accessories plastic",Personal hygiene,Where does it come from,Where does it come from,G124,True,False,False,48
-G907,Plastic,coffee capsules plastic,Undefined,Where does it come from,none,G124,False,True,False,48
 G909,Plastic,"Foamed-plastic for insulation; yellow, pink, blue/green & spray foams 0.5cm - 2.5cm",Construction,none,none,G74,False,False,False,45
 G910,Plastic,"Foamed-plastic for insulation; yellow, pink, blue/green & spray foams 2.5cm - 50cm",Construction,Where does it come from,none,G74,False,False,False,46
 G911,Plastic,Foamed polystyrene pieces 0.5cm - 2.5 cm,Packaging,Construction,none,G81,False,True,False,117
 G912,Plastic,Foam polystyrene; expanded beads/balls  2.5cm - 50cm,Packaging,Construction,none,G82,False,True,False,46
-G913,Plastic,Pacifier,Personal hygiene,Where does it come from,none,G124,True,False,False,48
-G914,Plastic,"Paperclips, clothespins, plastic utility items",Utility items,Where does it come from,none,G124,True,False,False,48
-G915,Plastic,"Reflectors, plastic motility items",Utility items,Recreation,none,G124,True,False,False,48
-G922,Plastic,"Labels, bar codes",Packaging,Where does it come from,none,G124,True,True,False,48
-G925,Plastic,"Packets: desiccant/ moisture absorbers, plastic case filled with silica",Utility items,Packaging,none,G124,True,True,False,Ospar...
-G926,Plastic,"Chewing gum, often contains plastics",Undefined,Where does it come from,Where does it come from,G124,True,True,False,Ospar...
 G927,Plastic,"String trimmer line, used to cut grass, weeds, and shrubbery",Utility items,Where does it come from,Where does it come from,G124,True,True,False,Ospar...
 G928,Plastic,Ribbons and bows,Recreation,Where does it come from,Where does it come from,G124,True,True,False,Ospar...
-G930,Plastic,Foam earplugs,Personal hygiene,Where does it come from,Where does it come from,G124,True,True,False,Ospar...
-G932,Plastic,"Bio-beads, micro plastic for wastewater treatment, irregular shape, ridged sides < 5mm",Water Treatment,Where does it come from,Where does it come from,G91,False,False,True,Ospar...
-G933,Plastic,"Bags, cases for accessories; glasses, electronics, incl. straps, pieces, plstc. nylon etc.",Undefined,Personal equipment,Where does it come from,G124,True,False,False,Ospar...
-G935,Plastic,"Walking stick pads and pieces, often elastomeric material",Recreation,Where does it come from,Where does it come from,G124,False,False,False,Ospar...
-G938,Plastic,"Toothpicks, dental floss plastic",Personal hygiene,Where does it come from,Where does it come from,G124,True,True,False,Ospar...
 G939,Plastic,"Flowers, plants plastic",Undefined,Where does it come from,Where does it come from,G124,False,False,False,Ospar...
-G940,Plastic,Foamed EVA (flexible plastic) for crafts & watersports,Recreation,Where does it come from,Where does it come from,G73,True,False,False,Ospar...
-G941,Plastic,Packaging plastic nonfood or unknown,Packaging,Where does it come from,Where does it come from,G124,False,True,False,48
 G942,Plastic,"Plastic shavings from lathes, CNC machining",Industry,Where does it come from,Where does it come from,G124,False,False,False,Ospar...
 G944,Plastic,Pellet mass from injection molding,Industry,Manufacturing,Where does it come from,G112,False,True,False,Ospar...
-G99,Plastic,Syringes - needles,Medical,Where does it come from,,Parent code,True,False,False,
 G127,Rubber,Rubber boots,Clothing,Where does it come from,,Parent code,True,False,False,
 G128,Rubber,Tires and belts,Vehicle,Where does it come from,,Parent code,True,False,False,
 G129,Rubber,Inner tubes and rubber sheets,Vehicle,Where does it come from,,Parent code,True,False,False,
 G130,Rubber,Wheels,Vehicle,Where does it come from,,Parent code,True,False,False,
-G131,Rubber,Rubber bands,Utility items,Where does it come from,,Parent code,True,False,False,
 G134,Rubber,Other rubber,Undefined,Where does it come from,,Parent code,True,False,False,
-G900,Rubber,Gloves latex  personal protective equipment,Personal hygiene,Where does it come from,none,G134,True,True,False,53
 G998,Undefined,No exposed shoreline,Where does it come from,Where does it come from,Where does it come from,Parent code,True,False,False,Ospar...
-G211,Unidentified,"Other medical items (swabs, bandaging, adhesive plaster)",Medical,Where does it come from,none,Parent code,True,True,False,105
 G999,Unidentified,No objects found on this survey,Undefined,Where does it come from,,Parent code,True,False,False,
-G166,Wood,Paint brushes,Utility items,Where does it come from,,Parent code,True,False,False,
 G173,Wood,Other,Undefined,Where does it come from,,Parent code,True,False,False,
-G916,Wood,Pencils and pieces,Utility items,Where does it come from,none,G170,True,False,False,none
