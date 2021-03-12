@@ -1,0 +1,221 @@
+quantity,description,material,group,% of total
+0,Six pack rings,Plastic,food,0.0
+244,Food containers single use foamed or plastic,Plastic,food,0.01
+165,Medical; containers/tubes/ packaging,Plastic,waste water,0.01
+7,Dog feces bag,Plastic,personal items,0.0
+1,Flip-flops,Plastic,personal items,0.0
+228,Plastic fragments rounded <5mm,Plastic,less than 5mm,0.01
+2,Plastic fragments subrounded <5mm,Plastic,less than 5mm,0.0
+57,Plastic fragments subangular <5mm,Plastic,less than 5mm,0.0
+422,Plastic fragments angular <5mm,Plastic,less than 5mm,0.02
+0,Cylindrical pellets < 5mm,Plastic,less than 5mm,0.0
+2,disk pellets  <5mm,Plastic,less than 5mm,0.0
+2,Flat pellets  <5mm,Plastic,less than 5mm,0.0
+9,"Cosmetics for the beach, e.g. sunblock",Plastic,recreation,0.0
+0,Spheruloid pellets < 5mm,Plastic,less than 5mm,0.0
+1322,Industrial pellets (nurdles),Plastic,less than 5mm,0.05
+13,Filaments  <5mm,Plastic,less than 5mm,0.0
+18,Films  <5mm,Plastic,less than 5mm,0.0
+43,Foamed  plastic <5mm,Plastic,less than 5mm,0.0
+0,Granules <5mm,Plastic,less than 5mm,0.0
+681,Styrofoam < 5mm,Plastic,less than 5mm,0.03
+8,Small industrial spheres <5mm,Plastic,less than 5mm,0.0
+8,Sheetlike user plastic (>1mm),Plastic,less than 5mm,0.0
+19,"Cosmetics, non-beach use personal care containers",Plastic,personal items,0.0
+0,Plastic fragments ( >1mm),Plastic,less than 5mm,0.0
+17,Polyurethane granules < 5mm,Plastic,less than 5mm,0.0
+66,Other plastic or foam products,Plastic,the rest,0.0
+73,Balloons and balloon sticks,Rubber,recreation,0.0
+14,Balls,Rubber,recreation,0.0
+8,Tires and belts,Rubber,the rest,0.0
+3,Inner tubes and rubber sheets,Rubber,the rest,0.0
+2,"Bottles, containers, drums to transport, store material",Plastic,agg-con-trans,0.0
+39,Rubber bands,Rubber,personal items,0.0
+0,Bobbers (fishing),Rubber,recreation,0.0
+7,Condoms incl. packaging,Rubber,waste water,0.0
+20,Other rubber,Rubber,the rest,0.0
+29,"Clothes, footware, headware, gloves",Cloth,personal items,0.0
+6,Shoes,Cloth,personal items,0.0
+53,"Clothing, towels & rags",Cloth,the rest,0.0
+1,Shoes and sandals,Cloth,personal items,0.0
+2,Backpacks,Cloth,personal items,0.0
+1,Engine oil bottles,Plastic,agg-con-trans,0.0
+2,"Bags, burlap, hessian, jute or hemp",Cloth,the rest,0.0
+0,Carpet,Cloth,the rest,0.0
+28,"Rope , string or nets",Cloth,recreation,0.0
+0,Sails and canvas,Cloth,recreation,0.0
+27,Tampons,Cloth,waste water,0.0
+12,Other textiles,Cloth,the rest,0.0
+40,"Paper, cardboard",Paper,packaging,0.0
+4,Paper bags,Paper,packaging,0.0
+22,Cardboard (boxes and fragments),Paper,the rest,0.0
+37,Paper packaging,Paper,packaging,0.0
+2,"Milk cartons, tetrapack",Paper,food,0.0
+1,"Cartons, Tetrapacks",Paper,packaging,0.0
+35,"Cigarette boxes, tobacco related paper/cardboard",Paper,tobacco,0.0
+42,"Cups, food containers, wrappers (paper)",Paper,food,0.0
+1,Newspapers or magazines,Paper,personal items,0.0
+42,Fireworks paper tubes and fragments,Paper,recreation,0.0
+75,Paper fragments,Paper,the rest,0.0
+33,Paper,Paper,the rest,0.0
+10,Other paper items,Paper,the rest,0.0
+83,Corks,Wood,food,0.0
+0,Pallets,Wood,construction,0.0
+3,Processed timber,Wood,agg-con-trans,0.0
+0,Crates,Wood,construction,0.0
+57,"Ice cream sticks, toothpicks, chopsticks",Wood,food,0.0
+1,Paint brushes,Wood,construction,0.0
+5,Matches or fireworks,Wood,recreation,0.0
+3,Injection gun cartridge,Plastic,construction,0.0
+11,Wood (processed),Wood,agg-con-trans,0.0
+1,Other wood < 50cm,Wood,agg-con-trans,0.0
+1,Other wood > 50cm,Wood,agg-con-trans,0.0
+0,Other,Wood,the rest,0.0
+1,Aerosol spray cans,Metal,construction,0.0
+27,"Cans, beverage",Metal,food,0.0
+5,"Cans, food",Metal,food,0.0
+155,"Foil wrappers, aluminum foil",Metal,food,0.01
+277,"Metal bottle caps, lids & pull tabs from cans",Metal,food,0.01
+1,Disposable BBQs,Metal,food,0.0
+0,Appliances,Metal,the rest,0.0
+4,"Tableware metal;  cups, cutlery etc.",Metal,food,0.0
+12,"Fishing; hooks, weights, lures, sinkers etc.",Metal,recreation,0.0
+1,Fish hook remains,Metal,recreation,0.0
+1,Middle size containers,Metal,the rest,0.0
+11,Industrial scrap,Metal,construction,0.0
+0,Other cans < 4 L,Metal,construction,0.0
+5,Car parts,Plastic,the rest,0.0
+0,Paint cans,Metal,construction,0.0
+27,Wire and mesh,Metal,agg-con-trans,0.0
+1,car parts and batteries,Metal,the rest,0.0
+12,"Cables, metal wire(s) often inside rubber or plastic tubes",Metal,construction,0.0
+6,Batteries - household,Metal,personal items,0.0
+3,Other metal,Metal,the rest,0.0
+47,Other metal pieces < 50cm,Metal,the rest,0.0
+12,Other metal pieces > 50cm,Metal,the rest,0.0
+20,Bags,Plastic,packaging,0.0
+30,Caps and lids,Plastic,packaging,0.0
+450,"Glass or ceramic drink bottles, pieces",Glass,food,0.02
+12,"Jars, glass or pottery, includes pieces",Glass,the rest,0.0
+1,Light bulbs,Glass,the rest,0.0
+14,"Tableware ceramic or glass, cups, plates, pieces",Glass,the rest,0.0
+67,"Construction material; bricks, pipes, cement",Glass,agg-con-trans,0.0
+0,Fluorescent light tubes,Glass,the rest,0.0
+83,Glass or ceramic fragments > 2.5 cm,Glass,the rest,0.0
+354,Drink lids,Plastic,food,0.01
+10,Other glass/ceramic,Glass,the rest,0.0
+100,"Other medical items (swabs, bandaging, adhesive plaster)",Unidentified,personal items,0.0
+23,Paraffin wax,Chemicals,recreation,0.0
+0,Oil/tar,Chemicals,the rest,0.0
+136,"Lids for chemicals, detergents (non-food)",Plastic,construction,0.01
+238,Lids unidentified,Plastic,packaging,0.01
+303,Lid/cap rings from plastic bottles/containers,Plastic,food,0.01
+226,"Tobacco; plastic  packaging, containers",Plastic,tobacco,0.01
+39,Cigarette lighters,Plastic,tobacco,0.0
+2769,Cigarette butts and filters,Plastic,tobacco,0.11
+52,"Pens, lids, mechanical pencils etc.",Plastic,personal items,0.0
+4,"Combs, brushes and sunglasses",Plastic,recreation,0.0
+182,Bags; plastic shopping/carrier/grocery and pieces,Plastic,packaging,0.01
+1374,"Food wrappers; candy, snack packaging",Plastic,food,0.05
+219,Lollypop sticks,Plastic,food,0.01
+170,Toys and party favors,Plastic,recreation,0.01
+165,"Cups, lids, single use foamed and hard plastic",Plastic,food,0.01
+57,"Cutlery, plates and trays",Plastic,food,0.0
+244,Straws and stirrers,Plastic,food,0.01
+7,"Bags/sacks heavy duty plastic for 25 Kg or more; animal feed, fertilizers, garden trash etc.",Plastic,agriculture,0.0
+6,Mesh bags,Plastic,the rest,0.0
+152,"Coverings; plastic packaging, sheeting for protecting large cargo items",Plastic,agg-con-trans,0.01
+1,Gloves,Plastic,the rest,0.0
+16,"Small plastic bags; freezer, zip-lock etc.",Plastic,packaging,0.0
+3,Gloves household/gardening,Plastic,the rest,0.0
+0,Glove industrial/professional,Plastic,agg-con-trans,0.0
+15,"Tags fishing or industry (security tags, seals)",Plastic,recreation,0.0
+21,"Rope, synthetic",Plastic,recreation,0.0
+2,Rope > 1cm,Plastic,recreation,0.0
+2,Generic plastic bags,Plastic,packaging,0.0
+57,String < 1cm,Plastic,recreation,0.0
+0,Nets and pieces,Plastic,recreation,0.0
+0,Nets and pieces < 50cm,Plastic,recreation,0.0
+2,Fishing line (entangled),Plastic,recreation,0.0
+0,Tangled nets,Plastic,recreation,0.0
+11,Fishing line monofilament (angling),Plastic,recreation,0.0
+18,"Bottles and containers, plastic non food/drink",Plastic,packaging,0.0
+0,Light sticks,Plastic,recreation,0.0
+7,Other fishing related,Plastic,recreation,0.0
+3,Floats for nets,Plastic,recreation,0.0
+3,Buoys,Plastic,recreation,0.0
+11,Fenders,Plastic,the rest,0.0
+22,Buckets,Plastic,agg-con-trans,0.0
+119,"Straps/bands;  hard, plastic package fastener",Plastic,construction,0.0
+917,Industrial sheeting,Plastic,agg-con-trans,0.04
+7,Fiberglass fragments,Plastic,construction,0.0
+33,Drink bottles < = 0.5L,Plastic,food,0.0
+309,Shotgun cartridges,Plastic,recreation,0.01
+0,Shoes sandals,Plastic,personal items,0.0
+157,Foamed items & pieces (non packaging/insulation) foamed sponge material,Plastic,recreation,0.01
+1060,Foamed plastic  for thermal insulation or packing material,Plastic,construction,0.04
+424,Plastic/polystyrene pcs 0 - 2.5 cm,Plastic,fragmented plastics,0.02
+82,Plastic/foamed polystyrene 2.5 > < 50,Plastic,the rest,0.0
+1827,Plastic pieces 0.5cm - 2.5cm,Plastic,fragmented plastics,0.07
+1489,Plastic pieces 2.5cm - 50cm,Plastic,fragmented plastics,0.06
+16,Drink bottles  > 0.5L,Plastic,food,0.0
+0,Plastic pieces > 50cm,Plastic,the rest,0.0
+2421,Foamed polystyrene pieces 0.5cm - 2.5cm,Plastic,construction,0.1
+1071,Foam polystyrene; expanded beads/balls  2.5cm - 50cm,Plastic,construction,0.04
+5,Polystyrene pieces > 50cm,Plastic,construction,0.0
+0,CD or CD box,Plastic,personal items,0.0
+16,"Tape, masking/duct/packing",Plastic,construction,0.0
+0,Telephone incl. parts,Plastic,personal items,0.0
+538,Plastic construction waste,Plastic,construction,0.02
+0,"Cleaner, chemical bottles & containers",Plastic,construction,0.0
+64,Plastic flower pots,Plastic,the rest,0.0
+7,Gloves latex  personal protective equipment,Rubber,personal items,0.0
+7,"Mask medical, synthetic",Plastic,personal items,0.0
+0,"Mask medical, cloth reusable",Cloth,personal items,0.0
+0,Hand sanitizer containers & packets,Plastic,personal items,0.0
+77,"Fireworks; rocket caps, exploded parts & packaging",Plastic,recreation,0.0
+36,"Hair clip,  hair ties, personal accessories plastic",Plastic,personal items,0.0
+3,coffee capsules aluminum,Metal,personal items,0.0
+2,coffee capsules plastic,Plastic,personal items,0.0
+54,"Tape; electrical, insulating",Plastic,construction,0.0
+85,Biomass holder,Plastic,waste water,0.0
+3,Pacifier,Plastic,personal items,0.0
+60,"Paperclips, clothespins, plastic utility items",Plastic,personal items,0.0
+3,"Reflectors, plastic motility items",Plastic,personal items,0.0
+5,Pencils and pieces,Wood,personal items,0.0
+5,Terracotta balls,Glass,the rest,0.0
+7,"Safety pins, paper clips, small metal utility items",Metal,personal items,0.0
+4,"Nails, screws, bolts etc.",Metal,agg-con-trans,0.0
+3,Bait containers,Plastic,recreation,0.0
+146,Ceramic tile and pieces,Glass,construction,0.01
+76,"Labels, bar codes",Plastic,packaging,0.0
+42,"Tissue, toilet paper, napkins, paper towels",Paper,personal items,0.0
+1,"Packets: desiccant/ moisture absorbers, plastic case filled with silica",Plastic,packaging,0.0
+6,"Chewing gum, often contains plastics",Plastic,food,0.0
+14,"String trimmer line, used to cut grass, weeds, and shrubbery",Plastic,the rest,0.0
+11,Ribbons and bows,Plastic,the rest,0.0
+7,"Electronics and pieces; sensors, headsets etc.",Metal,personal items,0.0
+40,"Cable ties; steggel, zip, zap straps",Plastic,construction,0.0
+12,Foam earplugs,Plastic,personal items,0.0
+10,"Tape-caution for barrier, police, construction etc.",Plastic,construction,0.0
+2,"Bio-beads, micro plastic for wastewater treatment, irregular shape, ridged sides < 5mm",Plastic,waste water,0.0
+7,"Bags, cases for accessories; glasses, electronics, incl. straps, pieces, plstc. nylon etc.",Plastic,personal items,0.0
+0,"Sandbag, plastic for flood, erosion control etc..",Plastic,agg-con-trans,0.0
+1,"Walking stick pads and pieces, often elastomeric material",Plastic,personal items,0.0
+17,Sheeting ag. greenhouse film,Plastic,agriculture,0.0
+35,Pheromone baits for vineyards,Plastic,agriculture,0.0
+8,"Toothpicks, dental floss plastic",Plastic,food,0.0
+15,"Flowers, plants plastic",Plastic,the rest,0.0
+0,Table cloth,Plastic,recreation,0.0
+9,Foamed EVA (flexible plastic) for crafts & watersports,Plastic,recreation,0.0
+63,Packaging plastic nonfood or unknown,Plastic,packaging,0.0
+9,"Plastic shavings from lathes, CNC machining",Plastic,the rest,0.0
+15,"Fencing agriculture, plastic",Plastic,agriculture,0.0
+0,Pellet mass from injection molding,Plastic,the rest,0.0
+0,Razor blades,Metal,personal items,0.0
+1036,Cotton bud/swab sticks,Plastic,waste water,0.04
+66,Sanitary pads /panty liners/tampons and applicators,Plastic,waste water,0.0
+5,Toilet fresheners,Plastic,waste water,0.0
+286,Diapers - wipes,Plastic,waste water,0.01
+19,Syringes - needles,Plastic,personal items,0.0
+0,No objects found on this survey,Unidentified,the rest,0.0

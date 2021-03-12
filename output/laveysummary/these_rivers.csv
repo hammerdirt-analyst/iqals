@@ -1,7 +1,0 @@
-slug,location,latitude,longitude,post,country,water,water_name,city_slug,water_name_slug,is_2020,city,bfsnum,population,buildings,streets,intersects,pop_group_proj,pop_group_rip,streets_rank,buildings_rank,significant,median pcs/m
-lavey-la-source,Lavey la source,46.200804,7.021866,1892,CH,r,Rhône,lavey-morcles,rhone,True,Lavey-Morcles,5406,946,8332.632,44692.031,0,0,1,0,0,5,4.55
-lavey-les-bains,Lavey les bains,46.205158700000005,7.012722,1892,CH,r,Rhône,lavey-les-bains,rhone,True,Lavey-Morcles,5406,946,47603.552,24769.543,0,0,1,0,0,0,1.1600000000000004
-lavey-les-bains-2,lavey les bains-2,46.207726,7.011685000000001,Postal-code,CH,r,Rhône,lavey-morcles,rhone,True,Lavey-Morcles,5406,946,0.0,0.0,0,0,1,0,0,3,4.169999999999998
-les-glariers,Les Glariers,46.176736,7.228925,6139,CH,r,Rhône,riddes,rhone,True,Riddes,6139,3133,34639.734,22497.962000000003,0,1,4,0,0,0,0.09
-les-vieux-ronquoz,Les Vieux Ronquoz,46.2220487,7.361664,1950,CH,r,Rhône,sion,rhone,True,Sion,6266,34708,106394.403,20147.82,0,3,6,2,3,0,0.18
-tschilljus,Tschilljus,46.304399,7.580261999999999,3970,CH,r,Rhône,salgesch,rhone,True,Salgesch,6113,1548,4685.255,30348.994,0,0,2,0,0,1,1.0199999999999998
