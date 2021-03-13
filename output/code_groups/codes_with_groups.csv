@@ -169,13 +169,13 @@ G71,Plastic,Shoes sandals,Clothing,pi,,Parent code,True,False,False,
 G72,Plastic,Traffic cones,Utility items,cons,,Parent code,True,False,False,
 G73,Plastic,Foamed items & pieces (not packaging or insulation related) made of foamed sponge-like material,Undefined,recre,Recreation,Parent code,True,False,False,45
 G74,Plastic,Foamed plastic  for thermal insulation or packing material,Undefined,cons,Industrial,Parent code,False,False,False,45
-G75,Plastic,Plastic/polystyrene pcs 0 - 2.5 cm,Undefined,unk,none,Parent code,True,False,False,117
-G76,Plastic,Plastic/foamed polystyrene 2.5 > < 50,Undefined,unk,Indirect,Parent code,True,False,False,46
+G75,Plastic,Plastic/polystyrene pcs 0 - 2.5 cm,Undefined,plasticpcs,none,Parent code,True,False,False,117
+G76,Plastic,Plastic/foamed polystyrene 2.5 > < 50,Undefined,plasticpcs,Indirect,Parent code,True,False,False,46
 G77,Plastic,Plastic or polystyrene  > 50cm,Undefined,unk,,Parent code,True,False,False,
-G78,Plastic,Plastic pieces 0.5cm - 2.5cm,Undefined,unk,none,Parent code,True,False,False,117
-G79,Plastic,Plastic pieces 2.5cm - 50cm,Undefined,unk,None,Parent code,True,False,False,46
+G78,Plastic,Plastic pieces 0.5cm - 2.5cm,Undefined,plasticpcs,none,Parent code,True,False,False,117
+G79,Plastic,Plastic pieces 2.5cm - 50cm,Undefined,plasticpcs,None,Parent code,True,False,False,46
 G8,Plastic,Drink bottles  > 0.5L,Packaging,food,none,Parent code,True,True,False,4
-G80,Plastic,Plastic pieces > 50cm,Undefined,unk,,Parent code,True,False,False,
+G80,Plastic,Plastic pieces > 50cm,Undefined,plasticpcs,,Parent code,True,False,False,
 G81,Plastic,Foamed polystyrene pieces 0.5cm - 2.5cm,Packaging,cons,None,Parent code,False,False,False,117
 G82,Plastic,Foam polystyrene; expanded beads/balls  2.5cm - 50cm,Undefined,cons,Construction,Parent code,False,False,False,46
 G83,Plastic,Polystyrene pieces > 50cm,Undefined,cons,,Parent code,True,False,False,
@@ -193,11 +193,11 @@ G904,Plastic,"Fireworks; rocket caps, exploded parts & packaging",Recreation,rec
 G905,Plastic,"Hair clip,  hair ties, personal accessories plastic",Personal hygiene,pi,Where does it come from,G124,True,False,False,48
 G907,Plastic,coffee capsules plastic,Undefined,pi,none,G124,False,True,False,48
 G908,Plastic,"Tape; electrical, insulating",Construction,cons,none,G124,False,False,False,48
-G909,Plastic,"Foamed-plastic for insulation; yellow, pink, blue/green & spray foams 0.5cm - 2.5cm",Construction,unk,none,G74,False,False,False,45
+G909,Plastic,"Foamed-plastic for insulation; yellow, pink, blue/green & spray foams 0.5cm - 2.5cm",Construction,cons,none,G74,False,False,False,45
 G91,Plastic,Biomass holder,Water Treatment,waste_water,none,Parent code,False,False,False,91
-G910,Plastic,"Foamed-plastic for insulation; yellow, pink, blue/green & spray foams 2.5cm - 50cm",Construction,unk,none,G74,False,False,False,46
-G911,Plastic,Foamed polystyrene pieces 0.5cm - 2.5 cm,Packaging,unk,none,G81,False,True,False,117
-G912,Plastic,Foam polystyrene; expanded beads/balls  2.5cm - 50cm,Packaging,unk,none,G82,False,True,False,46
+G910,Plastic,"Foamed-plastic for insulation; yellow, pink, blue/green & spray foams 2.5cm - 50cm",Construction,cons,none,G74,False,False,False,46
+G911,Plastic,Foamed polystyrene pieces 0.5cm - 2.5 cm,Packaging,cons,none,G81,False,True,False,117
+G912,Plastic,Foam polystyrene; expanded beads/balls  2.5cm - 50cm,Packaging,cons,none,G82,False,True,False,46
 G913,Plastic,Pacifier,Personal hygiene,pi,none,G124,True,False,False,48
 G914,Plastic,"Paperclips, clothespins, plastic utility items",Utility items,pi,none,G124,True,False,False,48
 G915,Plastic,"Reflectors, plastic motility items",Utility items,pi,none,G124,True,False,False,48

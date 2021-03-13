@@ -30,18 +30,9 @@ G37,Plastic,Mesh bags,Packaging,Where does it come from,,Parent code,True,False,
 G39,Plastic,Gloves,Clothing,Where does it come from,,Parent code,True,False,False,
 G40,Plastic,Gloves household/gardening,Clothing,Where does it come from,none,Parent code,True,False,False,25
 G64,Plastic,Fenders,Vehicle,Where does it come from,,Parent code,True,False,False,
-G75,Plastic,Plastic/polystyrene pcs 0 - 2.5 cm,Undefined,Where does it come from,none,Parent code,True,False,False,117
-G76,Plastic,Plastic/foamed polystyrene 2.5 > < 50,Undefined,Where does it come from,Indirect,Parent code,True,False,False,46
 G77,Plastic,Plastic or polystyrene  > 50cm,Undefined,Where does it come from,,Parent code,True,False,False,
-G78,Plastic,Plastic pieces 0.5cm - 2.5cm,Undefined,Where does it come from,none,Parent code,True,False,False,117
-G79,Plastic,Plastic pieces 2.5cm - 50cm,Undefined,None,None,Parent code,True,False,False,46
-G80,Plastic,Plastic pieces > 50cm,Undefined,Where does it come from,,Parent code,True,False,False,
 G85,Plastic,Salt packaging,Packaging,Where does it come from,,Parent code,True,False,False,
 G90,Plastic,Plastic flower pots,Agriculture,Where does it come from,,Parent code,True,False,False,
-G909,Plastic,"Foamed-plastic for insulation; yellow, pink, blue/green & spray foams 0.5cm - 2.5cm",Construction,none,none,G74,False,False,False,45
-G910,Plastic,"Foamed-plastic for insulation; yellow, pink, blue/green & spray foams 2.5cm - 50cm",Construction,Where does it come from,none,G74,False,False,False,46
-G911,Plastic,Foamed polystyrene pieces 0.5cm - 2.5 cm,Packaging,Construction,none,G81,False,True,False,117
-G912,Plastic,Foam polystyrene; expanded beads/balls  2.5cm - 50cm,Packaging,Construction,none,G82,False,True,False,46
 G927,Plastic,"String trimmer line, used to cut grass, weeds, and shrubbery",Utility items,Where does it come from,Where does it come from,G124,True,True,False,Ospar...
 G928,Plastic,Ribbons and bows,Recreation,Where does it come from,Where does it come from,G124,True,True,False,Ospar...
 G939,Plastic,"Flowers, plants plastic",Undefined,Where does it come from,Where does it come from,G124,False,False,False,Ospar...
