@@ -1,0 +1,64 @@
+code,description,matériel,quantité,% du total,groupe
+G38,Couvertures ; emballages en plastique gros...,Plastic,1,0.0%,agg-con-trans
+G65,Seaux,Plastic,2,0.0%,agg-con-trans
+G67,"bâche plastique, épaisse, couvrant, enveloppant,",Plastic,104,18.0%,agg-con-trans
+G204,"Matériaux de construction ; briques, tuyaux,",Glass,36,6.0%,agg-con-trans
+G191,Fils et grillages,Metal,6,1.0%,agg-con-trans
+G36,Sacs/sacs en plastique résistant pour 25 kg ou,Plastic,5,1.0%,agriculture
+G943,"Clôturer l'agriculture, plastique",Plastic,1,0.0%,agriculture
+G921,Carreaux et pièces de céramique,Glass,1,0.0%,construction
+G66,sangles/bandes ; fermeture de paquet en... dur,Plastic,5,1.0%,construction
+G93,"Colson, zip-ties",Plastic,4,1.0%,construction
+G82,Mousse de polystyrène; perles/billes expansées >,Plastic,1,0.0%,construction
+G931,"Ruban adhésif pour barrière, police,...",Plastic,2,0.0%,construction
+G89,Déchets de construction en plastique,Plastic,26,4.0%,construction
+G194,"Câbles, fil(s) métallique(s) souvent à... du... ou...",Metal,1,0.0%,construction
+G174,Bombes aérosols,Metal,1,0.0%,construction
+G186,Débris industriels,Metal,2,0.0%,construction
+G176,Des boîtes de conserve,Metal,3,1.0%,alimentation
+G33,"Gobelets, couvercles, mousse à usage unique et",Plastic,2,0.0%,alimentation
+G175,canettes de boissons,Metal,14,2.0%,alimentation
+G8,Bouteilles en PET de plus d'un demi-litre,Plastic,8,1.0%,alimentation
+G31,Bâtonnets de sucette,Plastic,1,0.0%,alimentation
+G7,Bouteilles en PET moins que d'un demi-litre,Plastic,3,1.0%,alimentation
+G30,"Emballages alimentaires ; emballages de bonbons,",Plastic,16,3.0%,alimentation
+G79,Plastiques fragmentés x > 25mm,Plastic,1,0.0%,plastiques fragmentés
+G78,Plastiques fragmentés .5mm < x < 25mm,Plastic,2,0.0%,plastiques fragmentés
+G149,emballages en papier,Paper,1,0.0%,emballages
+G23,Couvercles non identifiés,Plastic,1,0.0%,emballages
+G941,"Emballages en plastique, pas pour les aliments",Plastic,7,1.0%,emballages
+G2,sacs,Plastic,3,1.0%,emballages
+G4,Sacs de congélation en plastique,Plastic,1,0.0%,emballages
+G3,"sacs en plastique, épiceries, achats",Plastic,41,7.0%,emballages
+G933,boîtier d'appareil,Plastic,1,0.0%,affaires personnelles
+G914,Articles utilitaires en plastique,Plastic,1,0.0%,affaires personnelles
+G900,Gants en latex: ppe,Rubber,1,0.0%,affaires personnelles
+G101,Sac à excréments de chien,Plastic,2,0.0%,affaires personnelles
+G195,piles ménage,Metal,1,0.0%,affaires personnelles
+G135,"vêtements, chaussures, gants",Cloth,9,2.0%,affaires personnelles
+G136,Chaussures,Cloth,3,1.0%,affaires personnelles
+G211,"articles médicaux : pansements, attelles",Unidentified,1,0.0%,affaires personnelles
+G48,Corde synthétique,Plastic,5,1.0%,recreation
+G32,Jouets et faveurs de fête,Plastic,1,0.0%,recreation
+G70,cartouche de fusil de chasse,Plastic,1,0.0%,recreation
+G73,Articles et pièces en mousse (sans emballage,Plastic,4,1.0%,recreation
+G142,"Corde, non synthétique",Cloth,1,0.0%,recreation
+G129,chambres à air et feuilles de caoutchouc,Rubber,2,0.0%,le rest
+G134,Objets en caoutchouc,Rubber,3,1.0%,le rest
+G137,"Vêtements, serviettes, chiffons",Cloth,24,4.0%,le rest
+G927,la corde de désherbage,Plastic,2,0.0%,le rest
+G185,récipient en métal,Metal,1,0.0%,le rest
+G90,pots de fleurs en plastique,Plastic,1,0.0%,le rest
+G40,Gants pour le jardinage,Plastic,2,0.0%,le rest
+G37,sac en filet,Plastic,3,1.0%,le rest
+G198,Pièces métalliques de moins de 50 cm,Metal,7,1.0%,le rest
+G199,Pièces métalliques,Metal,10,2.0%,le rest
+G76,polystyrène expansé non isolant,Plastic,1,0.0%,le rest
+G64,Aile de véhicule,Plastic,10,2.0%,le rest
+G19,Pièces détachées:pour voitures,Plastic,2,0.0%,le rest
+G25,"Tabac ; emballages en plastique, conteneurs",Plastic,1,0.0%,tabac
+G27,Mégots et filtres à cigarettes,Plastic,1,0.0%,tabac
+G91,Porte-biomasse,Plastic,1,0.0%,traitement d'eau
+G144,Tampons,Cloth,14,2.0%,traitement d'eau
+G96,Serviettes hygiéniques / protège-slips / tampons,Plastic,7,1.0%,traitement d'eau
+G98,Couches - lingettes,Plastic,169,28.0%,traitement d'eau
