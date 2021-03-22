@@ -167,7 +167,7 @@ G7,Plastic,Drink bottles < = 0.5L,Packaging,Food and drink,Where does it come fr
 G70,Plastic,Shotgun cartridges,Hunting,Where does it come from,,Parent code,True,False,False,
 G71,Plastic,Shoes sandals,Clothing,Where does it come from,,Parent code,True,False,False,
 G72,Plastic,Traffic cones,Utility items,Where does it come from,,Parent code,True,False,False,
-G73,Plastic,Foamed items & pieces (not packaging or insulation related) made of foamed sponge-like material,Undefined,Utility,Recreation,Parent code,True,False,False,45
+G73,Plastic,Foamed items & pieces (non packaging/insulation) foamed sponge material,Recreation,Utility,Unknown,Parent code,True,False,False,45
 G74,Plastic,Foamed plastic  for thermal insulation or packing material,Undefined,Construction,Industrial,Parent code,False,False,False,45
 G75,Plastic,Plastic/polystyrene pcs 0 - 2.5 cm,Undefined,Where does it come from,none,Parent code,True,False,False,117
 G76,Plastic,Plastic/foamed polystyrene 2.5 > < 50,Undefined,Where does it come from,Indirect,Parent code,True,False,False,46
