@@ -1,5 +1,16 @@
 import pandas as pd
 import utilities.utility_functions as ut
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+from matplotlib import ticker
+import matplotlib.ticker as mtick
+import seaborn as sns
+from matplotlib.gridspec import GridSpec
+from matplotlib import cm
+from matplotlib.colors import ListedColormap, LinearSegmentedColormap, Colormap
+import numpy as np
+
 
 class PreprocessData:
     """preprocesses data"""
@@ -111,3 +122,177 @@ class CatchmentArea:
     
     def get_locations_by_region(self, locations_in_use, locations_of_interest):        
         return [x for x in locations_of_interest if x in locations_in_use]
+
+    
+    
+def makeTableOfKeyStatistics(ca_data_pcsm_day):
+    a_sum = pd.DataFrame(ca_data_pcsm_day.pcs_m.describe()[1:].round(2)).T
+    a_sum_table = [[x] for x in a_sum.values[0]]
+    row_labels = [x for x in list(a_sum.columns)]
+    return a_sum_table, row_labels
+
+def regionalCodeQty(regional_code_totals, code_defs, code_groups):
+    regional_code_totals = regional_code_totals.set_index('code', drop=True)
+    regional_code_totals['description'] = regional_code_totals.index.map(lambda x: code_defs.loc[x].description)
+    regional_code_totals['material'] = regional_code_totals.index.map(lambda x: code_defs.loc[x].material)
+    regional_code_totals['group'] = regional_code_totals.index.map(lambda x: code_groups[x])
+    a_total = regional_code_totals.quantity.sum()
+    regional_code_totals['% of total'] = regional_code_totals['% of total'] * 100 
+    regional_code_totals['% of total'] = regional_code_totals['% of total'].round(2)
+    regional_code_totals.sort_values(by='quantity',ascending=False)
+    return regional_code_totals
+
+def makeRegionalCodeQtyTable(table_data, pcsm_vals):
+    table_data = table_data[table_data.quantity > 0][['description', 'material', 'quantity', '% of total', 'group']].copy()
+    top_ten_all = table_data.sort_values(by='quantity', ascending=False).iloc[:10].copy()
+    top_ten_all['pcs_m'] = top_ten_all.index.map(lambda x: pcsm_vals.loc[x])
+    top_ten_all_table = top_ten_all[['description', 'material', 'quantity','% of total',  'pcs_m', 'group']].copy()
+    top_ten_all_table.reset_index(inplace=True)
+    return top_ten_all_table, table_data
+
+def make_ecdf(somdata, numsamps):
+    vals = somdata.pcs_m.sort_values()
+    valsy = [i/numsamps for i in np.arange(numsamps)]
+    return vals, valsy
+
+def count_k(a_string, limit):
+    split = a_string.split(" ")
+    total = 0
+    new_words = []
+    for i,word in enumerate(split):
+        if (total + len(word))+1 >= limit:
+            thisnewword = F"{split[i-1]}..."
+            if (len(thisnewword) + total) <= limit:
+                del new_words[-1]
+                new_words.append(thisnewword)
+            else:
+                continue
+        else:
+            total += len(word)+1
+            new_words.append(word)
+
+    return " ".join(new_words)
+
+# convenience functions for tables
+
+def make_table_grids(anax):
+    anax.grid(False)
+    anax.spines["top"].set_visible(False)
+    anax.spines["right"].set_visible(False)
+    anax.spines["bottom"].set_visible(False)
+    anax.spines["left"].set_visible(False)
+    return(anax)
+
+def table_fonts(a_table, size=12):
+    a_table.auto_set_font_size(False)
+    a_table.set_fontsize(size)
+    
+weeks = mdates.WeekdayLocator(byweekday=1, interval=4)
+# onedayweek = mdates.DayLocator(bymonthday=1, interval=1)
+# everytwoweeks = mdates.WeekdayLocator(byweekday=1, interval=4)
+
+months = mdates.MonthLocator(bymonth=[3,6,9,12])
+bimonthly = mdates.MonthLocator(bymonth=[1,3,5,7,9,11])
+allmonths = mdates.MonthLocator()
+wks_fmt = mdates.DateFormatter('%d')
+mths_fmt = mdates.DateFormatter('%b')
+
+table_k = dict(loc="top left", bbox=(0,0,1,1), colWidths=[.5, .5], cellLoc='center')
+tablecenter_k = dict(loc="top left", bbox=(0,0,1,1), cellLoc='center')
+tabtickp_k = dict(axis='both', which='both', bottom=False, top=False, left=False, right=False, labelleft=False, labelbottom=False)
+
+
+
+def make_one_column_table(a_sum_table, is_french, row_labels, xlabel = '', title=" ", output=False, o_kwargs={}, t_kwargs={}, title_kwargs={}, label_kwargs={}):
+
+    fig, ax = plt.subplots(figsize=(4,8))
+    if is_french:
+        col_label =[ 'Pièces par mètre']
+    else:
+        col_label = ['Pieces per meter']
+
+    # define the table
+    a_table = mpl.table.table(
+        cellText=a_sum_table,
+        rowLabels=row_labels,
+        rowColours=['antiquewhite' for i in row_labels],
+        colLabels=col_label,
+        colColours=['antiquewhite' for col in np.arange(1)],
+        ax=ax,
+        **t_kwargs)
+
+    table_format(a_table, ax)
+    ax.set_title(F"{title}", **title_kwargs)
+    ax.set_xlabel(xlabel, **label_kwargs)
+
+    # add table to ax
+    ax.add_table(a_table)
+    plt.tight_layout()
+
+    # tag the output:
+    if output:
+        add_output(**o_kwargs)
+
+    plt.show()
+    plt.close()
+    
+def scatterRegionalResults(data, labels, colors=[], title="", y_label={}, output=False, o_kwargs={},title_kwargs={}, label_kwargs={}):
+    
+    fig, ax  = plt.subplots(figsize=(12,6))
+    # scatter plot
+    for i,n in enumerate(data):
+        sns.scatterplot(data=data[i], x='date',  y='pcs_m', alpha=0.5, label=labels[i], color=colors[i], edgecolor=colors[i], linewidth=1, s=70,ax=ax)
+
+    # format scatter    
+    forma_taxis_sc(ax, mths_fmt, allmonths)
+
+    ax.set_title(title, **title_kwargs)
+    ax.set_ylabel(y_label, **label_kwargs)
+    plt.tight_layout()
+    
+    if output:
+        add_output(**o_kwargs)
+
+    plt.show()
+    plt.close()
+
+def makeMultiColumnTable(data, title="", output=False, o_kwargs={}, t_kwargs={}, tick_params={}, title_kwargs={}):
+
+    fig, ax = plt.subplots(figsize=(15, len(data)*.75))
+    ax = make_table_grids(ax)
+    a_table = mpl.table.table(
+        cellText=data.values,
+        colLabels=data.columns,
+        colColours=['antiquewhite' for col in list(data.columns)],    
+        ax=ax,
+        **t_kwargs)
+
+    # set parameters
+    table_fonts(a_table, size=12)
+    ax.tick_params(**tick_params)
+
+    # add the table
+    ax.add_table(a_table)
+
+    ax.set_title(title, **title_kwargs)
+
+
+    plt.tight_layout()
+
+    if output:
+        add_output(**o_kwargs)
+
+    plt.show()
+    plt.close()
+
+    
+def forma_taxis_sc(ax, amajorformatter, amajorlocator):
+    ax.xaxis.set_major_formatter(amajorformatter)
+    ax.xaxis.set_major_locator(amajorlocator)
+    ax.set_xlabel("")
+    
+    
+def table_format(a_table, ax, size=12):
+    table_fonts(a_table, size=size)
+    make_table_grids(ax)
+    ax.tick_params(**tabtickp_k)    
