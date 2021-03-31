@@ -32,19 +32,23 @@ class PreprocessData:
             a_map = data[data.code.isin(these_codes[code])].groupby(these_cols, as_index=False).agg({'pcs_m':'sum', 'quantity':'sum'})
             a_map['code']=code
             wiw.update({code:a_map})
+        print("code maps done")
         return wiw
     def agg_foams(self):
         accounted = [v for k,v in self.foams.items()]
         accounted = [item for a_list in accounted for item in a_list]
         remove_foam = self.data[~self.data.code.isin(accounted)].copy()
         foam = [v for k,v in self.code_maps.items()]        
-        newdf = pd.concat([remove_foam, *foam])        
+        newdf = pd.concat([remove_foam, *foam])
+        print("agg foams complet")
         return newdf
     def add_exp_group_pop_locdate(self):
         anewdf = self.agg_foams()
         anewdf['groupname'] = 'groupname'
         anewdf['population']=anewdf.location.map(lambda x: self.beaches.loc[x]['population'])
-        anewdf['loc_date'] = list(zip(anewdf.location, anewdf.date))
+        anewdf['string_date'] = anewdf.date.dt.strftime('%Y-%m-%d')
+        anewdf['loc_date'] = list(zip(anewdf.location, anewdf.string_date))
+        print("added exp vs")
         return anewdf
 
 class CatchmentArea:
