@@ -45,7 +45,8 @@ class PreprocessData:
     def add_exp_group_pop_locdate(self):
         anewdf = self.agg_foams()
         anewdf['groupname'] = 'groupname'
-        anewdf['population']=anewdf.location.map(lambda x: self.beaches.loc[x]['population'])
+        for beach in anewdf.location.unique():
+            anewdf.loc[anewdf.location==beach, 'population'] = self.beaches.loc[beach].population
         anewdf['string_date'] = anewdf.date.dt.strftime('%Y-%m-%d')
         anewdf['loc_date'] = list(zip(anewdf.location, anewdf.string_date))
         print("added exp vs")
@@ -89,6 +90,7 @@ class CatchmentArea:
             keys = a_dict_of_lists[group]
             a_dict = {x:group for x in keys}
             wiw.update(**a_dict)
+        print('making group map')
         return wiw
     
     def make_code_groups(self):
@@ -98,11 +100,14 @@ class CatchmentArea:
         accounted = [item for a_list in accounted for item in a_list]
         the_rest = [x for x in self.codes_in_use if x not in accounted]
         these_groups.update({'the rest':the_rest})
+        print('made code groups')
         return these_groups
     
     def assign_code_groups_to_results(self, data, code_group_map):
         data = data.copy()
-        data['groupname'] = data.code.map(lambda x: code_group_map[x])
+        for code in data.code.unique():
+            data.loc[data.code==code, 'groupname'] = code_group_map[code]
+        print('assigned results to code groups')
         return data
     
     def tag_regional_label(self,x, levels):
@@ -114,14 +119,17 @@ class CatchmentArea:
     
     def assign_regional_labels_to_data(self, data, levels, these_beaches):
         data = data.copy()
-        data['region'] = data.location.map(lambda x: self.tag_regional_label(x, self.levels))
-        data['city'] = data.location.map(lambda x: these_beaches.loc[x]['city'])
+        for beach in data.location.unique():
+            data.loc[data.location==beach, 'region'] = self.tag_regional_label(beach, levels)
+            data.loc[data.location==beach, 'city'] = these_beaches.loc[beach]['city']
+        print('assigned regional labels')
         return data
     
     def code_totals_regional(self, data):
         data = data.groupby('code', as_index=False).quantity.sum()
         a_total = data.quantity.sum()
         data['% of total'] = data.quantity/a_total
+        print('made code totals')
         return data
     
     def get_locations_by_region(self, locations_in_use, locations_of_interest):        
