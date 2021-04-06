@@ -270,7 +270,7 @@ def scatterRegionalResults(data, labels, colors=[], title="", y_label={}, output
 
 def makeMultiColumnTable(data, title="", output=False, o_kwargs={}, t_kwargs={}, tick_params={}, title_kwargs={}):
 
-    fig, ax = plt.subplots(figsize=(15, len(data)*.75))
+    fig, ax = plt.subplots(figsize=(len(data.columns)*2, len(data)*.75))
     ax = make_table_grids(ax)
     a_table = mpl.table.table(
         cellText=data.values,
@@ -292,10 +292,15 @@ def makeMultiColumnTable(data, title="", output=False, o_kwargs={}, t_kwargs={},
     plt.tight_layout()
 
     if output:
-        add_output(**o_kwargs)
+        a_list = add_output(**o_kwargs)
+        plt.show()
+        plt.close()
+        return a_list
+    else:
+        plt.show()
+        plt.close()
 
-    plt.show()
-    plt.close()
+
 
     
 def forma_taxis_sc(ax, amajorformatter, amajorlocator):
@@ -307,4 +312,13 @@ def forma_taxis_sc(ax, amajorformatter, amajorlocator):
 def table_format(a_table, ax, size=12):
     table_fonts(a_table, size=size)
     make_table_grids(ax)
-    ax.tick_params(**tabtickp_k)    
+    ax.tick_params(**tabtickp_k)
+
+def add_output(**kwargs):
+    files_generated = kwargs['files_generated']
+    files_generated.append({'tag':kwargs['tag'], 'number':kwargs['figure_num'], 'file':kwargs['file'],'type':kwargs['a_type']})
+    if kwargs['a_type'] == 'data':
+        kwargs['data'].to_csv(F"{kwargs['file']}.csv", index=False)
+    else:
+        plt.savefig(F"{kwargs['file']}.jpeg", dpi=300)
+    return files_generated
