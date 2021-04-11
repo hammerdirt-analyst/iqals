@@ -14,17 +14,23 @@ import numpy as np
 
 class PreprocessData:
     """preprocesses data"""
-    def __init__(self, data, beaches, these_cols=[], foams=[], start_date="", end_date=""):
+    def __init__(self, data, beaches, these_cols=[], foams=[], **kwargs):
         self.data = data
         self.these_cols=these_cols
         self.foams=foams        
         self.beaches = beaches
         self.code_maps = self.make_code_maps(self.data, self.these_cols, self.foams)
+        self.codes_in_use = data.code.unique()
+        self.group_names_locations = kwargs['code_group_data']
+        self.new_code_group = kwargs['new_code_group']
+        self.code_groups = self.make_code_groups()
+        self.code_group_map = self.make_group_map(self.code_groups)
         self.processed = self.add_exp_group_pop_locdate()
-        self.daily_totals_all = data.groupby(these_cols, as_index=False).agg({'pcs_m':'sum', 'quantity':'sum'})
+        self.survey_data = self.assign_code_groups_to_results(self.processed, self.code_group_map)
+        self.daily_totals_all = self.survey_data.groupby(these_cols, as_index=False).agg({'pcs_m':'sum', 'quantity':'sum'})
         self.median_daily_total = self.daily_totals_all.pcs_m.median()
-        self.code_totals = self.data.groupby('code').quantity.sum()
-        self.code_pcsm_med = self.data.groupby('code').pcs_m.median()
+        self.code_totals = self.survey_data.groupby('code').quantity.sum()
+        self.code_pcsm_med = self.survey_data.groupby('code').pcs_m.median()
         
     def make_code_maps(self, data, these_cols, these_codes):
         wiw = {}
@@ -51,6 +57,31 @@ class PreprocessData:
         anewdf['loc_date'] = list(zip(anewdf.location, anewdf.string_date))
         print("added exp vs")
         return anewdf
+
+    def make_code_groups(self):
+        these_groups ={k:ut.json_file_get(F"output/code_groups/{v}") for k,v in self.group_names_locations.items()}
+        these_groups.update(self.new_code_group)
+        accounted = [v for k,v in these_groups.items()]
+        accounted = [item for a_list in accounted for item in a_list]
+        the_rest = [x for x in self.codes_in_use if x not in accounted]
+        these_groups.update({'the rest':the_rest})
+        print('made code groups')
+        return these_groups
+    def make_group_map(self,a_dict_of_lists):
+        wiw = {}
+        for group in a_dict_of_lists:
+            keys = a_dict_of_lists[group]
+            a_dict = {x:group for x in keys}
+            wiw.update(**a_dict)
+        print('making group map')
+        return wiw
+    def assign_code_groups_to_results(self, data, code_group_map):
+        data = data.copy()
+        for code in data.code.unique():
+            # print(code)
+            data.loc[data.code==code, 'groupname'] = code_group_map[code]
+        print('assigned results to code groups')
+        return data
 
 class CatchmentArea:
     """aggregates survey results"""
