@@ -14,17 +14,23 @@ import numpy as np
 
 class PreprocessData:
     """preprocesses data"""
-    def __init__(self, data, beaches, these_cols=[], foams=[], start_date="", end_date=""):
+    def __init__(self, data, beaches, these_cols=[], foams=[], **kwargs):
         self.data = data
         self.these_cols=these_cols
         self.foams=foams        
         self.beaches = beaches
         self.code_maps = self.make_code_maps(self.data, self.these_cols, self.foams)
+        self.codes_in_use = data.code.unique()
+        self.group_names_locations = kwargs['code_group_data']
+        self.new_code_group = kwargs['new_code_group']
+        self.code_groups = self.make_code_groups()
+        self.code_group_map = self.make_group_map(self.code_groups)
         self.processed = self.add_exp_group_pop_locdate()
-        self.daily_totals_all = data.groupby(these_cols, as_index=False).agg({'pcs_m':'sum', 'quantity':'sum'})
+        self.survey_data = self.assign_code_groups_to_results(self.processed, self.code_group_map)
+        self.daily_totals_all = self.survey_data.groupby(these_cols, as_index=False).agg({'pcs_m':'sum', 'quantity':'sum'})
         self.median_daily_total = self.daily_totals_all.pcs_m.median()
-        self.code_totals = self.data.groupby('code').quantity.sum()
-        self.code_pcsm_med = self.data.groupby('code').pcs_m.median()
+        self.code_totals = self.survey_data.groupby('code').quantity.sum()
+        self.code_pcsm_med = self.survey_data.groupby('code').pcs_m.median()
         
     def make_code_maps(self, data, these_cols, these_codes):
         wiw = {}
@@ -51,6 +57,31 @@ class PreprocessData:
         anewdf['loc_date'] = list(zip(anewdf.location, anewdf.string_date))
         print("added exp vs")
         return anewdf
+
+    def make_code_groups(self):
+        these_groups ={k:ut.json_file_get(F"output/code_groups/{v}") for k,v in self.group_names_locations.items()}
+        these_groups.update(self.new_code_group)
+        accounted = [v for k,v in these_groups.items()]
+        accounted = [item for a_list in accounted for item in a_list]
+        the_rest = [x for x in self.codes_in_use if x not in accounted]
+        these_groups.update({'the rest':the_rest})
+        print('made code groups')
+        return these_groups
+    def make_group_map(self,a_dict_of_lists):
+        wiw = {}
+        for group in a_dict_of_lists:
+            keys = a_dict_of_lists[group]
+            a_dict = {x:group for x in keys}
+            wiw.update(**a_dict)
+        print('making group map')
+        return wiw
+    def assign_code_groups_to_results(self, data, code_group_map):
+        data = data.copy()
+        for code in data.code.unique():
+            # print(code)
+            data.loc[data.code==code, 'groupname'] = code_group_map[code]
+        print('assigned results to code groups')
+        return data
 
 class CatchmentArea:
     """aggregates survey results"""
@@ -270,7 +301,7 @@ def scatterRegionalResults(data, labels, colors=[], title="", y_label={}, output
 
 def makeMultiColumnTable(data, title="", output=False, o_kwargs={}, t_kwargs={}, tick_params={}, title_kwargs={}):
 
-    fig, ax = plt.subplots(figsize=(15, len(data)*.75))
+    fig, ax = plt.subplots(figsize=(len(data.columns)*2, len(data)*.75))
     ax = make_table_grids(ax)
     a_table = mpl.table.table(
         cellText=data.values,
@@ -292,10 +323,15 @@ def makeMultiColumnTable(data, title="", output=False, o_kwargs={}, t_kwargs={},
     plt.tight_layout()
 
     if output:
-        add_output(**o_kwargs)
+        a_list = add_output(**o_kwargs)
+        plt.show()
+        plt.close()
+        return a_list
+    else:
+        plt.show()
+        plt.close()
 
-    plt.show()
-    plt.close()
+
 
     
 def forma_taxis_sc(ax, amajorformatter, amajorlocator):
@@ -307,4 +343,13 @@ def forma_taxis_sc(ax, amajorformatter, amajorlocator):
 def table_format(a_table, ax, size=12):
     table_fonts(a_table, size=size)
     make_table_grids(ax)
-    ax.tick_params(**tabtickp_k)    
+    ax.tick_params(**tabtickp_k)
+
+def add_output(**kwargs):
+    files_generated = kwargs['files_generated']
+    files_generated.append({'tag':kwargs['tag'], 'number':kwargs['figure_num'], 'file':kwargs['file'],'type':kwargs['a_type']})
+    if kwargs['a_type'] == 'data':
+        kwargs['data'].to_csv(F"{kwargs['file']}.csv", index=False)
+    else:
+        plt.savefig(F"{kwargs['file']}.jpeg", dpi=300)
+    return files_generated
