@@ -11,7 +11,10 @@ loc_date,pcs_m
 "('baby-plage-geneva', '2020-12-16')",0.4
 "('baby-plage-geneva', '2021-01-16')",0.39999999999999997
 "('baby-plage-geneva', '2021-02-10')",0.11
+"('baby-plage-geneva', '2021-03-10')",0.19000000000000003
+"('baby-plage-geneva', '2021-04-14')",0.17
 "('baby-plage-ii-geneve', '2020-11-01')",0.56
+"('baby-plage-ii-geneve', '2020-12-08')",0.07
 "('bain-des-dames', '2020-06-11')",2.2300000000000004
 "('baye-de-montreux-g', '2020-05-07')",1.37
 "('baye-de-montreux-g', '2020-06-02')",2.35
@@ -29,6 +32,8 @@ loc_date,pcs_m
 "('bielersee_vinelz_fankhausers', '2020-11-30')",0.31000000000000005
 "('bielersee_vinelz_fankhausers', '2020-12-30')",0.07
 "('bielersee_vinelz_fankhausers', '2021-01-30')",0.24
+"('bielersee_vinelz_fankhausers', '2021-02-25')",0.3
+"('bielersee_vinelz_fankhausers', '2021-03-25')",0.24
 "('boiron', '2020-11-04')",0.24
 "('camp-des-peches', '2020-11-20')",0.5700000000000001
 "('camping-gwatt-strand', '2020-11-06')",0.4
@@ -45,6 +50,8 @@ loc_date,pcs_m
 "('evole-plage', '2020-12-02')",0.4
 "('evole-plage', '2021-01-04')",0.22
 "('evole-plage', '2021-02-03')",0.6
+"('evole-plage', '2021-03-04')",0.63
+"('evole-plage', '2021-04-02')",0.54
 "('flibach-river-right-bank', '2020-07-20')",0.77
 "('gals-reserve', '2020-05-30')",0.35000000000000003
 "('gals-reserve', '2020-08-28')",0.3
@@ -58,6 +65,8 @@ loc_date,pcs_m
 "('gasi-strand', '2020-11-22')",0.18
 "('gasi-strand', '2020-12-22')",0.11
 "('gasi-strand', '2021-01-21')",0.03
+"('gasi-strand', '2021-02-19')",0.22
+"('gasi-strand', '2021-03-23')",0.22
 "('gerra-gambarogno', '2020-08-09')",0.04
 "('grand-clos', '2020-05-07')",1.6900000000000002
 "('grand-clos', '2020-06-09')",1.8
@@ -68,6 +77,7 @@ loc_date,pcs_m
 "('grand-clos', '2020-12-08')",1.4400000000000002
 "('grand-clos', '2021-01-07')",1.21
 "('grand-clos', '2021-02-09')",0.30000000000000004
+"('grand-clos', '2021-03-09')",16.0
 "('hafeli', '2020-06-08')",1.5400000000000003
 "('hafeli', '2020-09-07')",1.02
 "('hauterive-petite-plage', '2020-07-31')",1.05
@@ -84,6 +94,8 @@ loc_date,pcs_m
 "('la-petite-plage', '2020-11-15')",0.11
 "('la-petite-plage', '2020-12-14')",0.060000000000000005
 "('la-petite-plage', '2021-01-16')",0.05
+"('la-petite-plage', '2021-02-15')",0.18
+"('la-petite-plage', '2021-03-12')",0.01
 "('lacleman_gland_lecoanets', '2020-06-15')",0.37
 "('lacleman_gland_lecoanets', '2020-10-27')",0.26
 "('le-pierrier', '2020-11-17')",0.13
@@ -94,6 +106,7 @@ loc_date,pcs_m
 "('luscherz-plage', '2020-10-30')",0.07
 "('luscherz-plage', '2020-12-26')",0.17
 "('luscherz-two', '2020-06-10')",0.05
+"('magadino-lido', '2021-03-17')",0.42000000000000004
 "('maladaire', '2020-05-28')",1.3199999999999998
 "('maladaire', '2020-06-28')",3.59
 "('maladaire', '2020-07-29')",0.48
@@ -103,6 +116,8 @@ loc_date,pcs_m
 "('maladaire', '2020-11-27')",0.23
 "('maladaire', '2020-12-29')",0.26
 "('maladaire', '2021-01-29')",0.22
+"('maladaire', '2021-03-02')",0.62
+"('maladaire', '2021-03-30')",0.37
 "('mols-rocks', '2020-11-22')",0.0
 "('muhlehorn-dorf', '2020-11-21')",0.27
 "('mullermatte', '2020-04-29')",2.3499999999999996
@@ -115,6 +130,8 @@ loc_date,pcs_m
 "('mullermatte', '2020-11-30')",0.61
 "('mullermatte', '2020-12-31')",0.5
 "('mullermatte', '2021-01-31')",0.98
+"('mullermatte', '2021-02-28')",3.8
+"('mullermatte', '2021-03-31')",1.8699999999999999
 "('murg-bad', '2020-10-23')",0.24000000000000002
 "('nidau-strand', '2020-11-30')",0.6
 "('nouvelle-plage', '2020-10-17')",0.16
@@ -122,6 +139,8 @@ loc_date,pcs_m
 "('oyonne', '2021-01-06')",1.24
 "('pacha-mama-gerra', '2020-08-10')",0.1
 "('parc-des-pierrettes', '2020-10-01')",1.8900000000000001
+"('pecos-plage', '2020-11-16')",0.43999999999999995
+"('pfafikon-bad', '2021-02-18')",0.42000000000000004
 "('plage-de-cheyres', '2020-04-17')",0.38
 "('plage-de-cheyres', '2020-05-12')",0.05
 "('plage-de-cheyres', '2020-06-15')",0.25
@@ -132,6 +151,8 @@ loc_date,pcs_m
 "('plage-de-cheyres', '2020-11-16')",0.12000000000000001
 "('plage-de-cheyres', '2020-12-14')",0.15
 "('plage-de-cheyres', '2021-01-16')",0.2
+"('plage-de-cheyres', '2021-02-15')",0.12000000000000001
+"('plage-de-serriere', '2021-04-02')",0.44
 "('plage-de-st-sulpice', '2020-10-01')",1.4600000000000002
 "('pointe-dareuse', '2020-12-03')",0.13999999999999999
 "('preverenges', '2020-06-07')",4.280000000000001
@@ -143,6 +164,8 @@ loc_date,pcs_m
 "('preverenges', '2020-12-10')",0.72
 "('preverenges', '2021-01-07')",0.4
 "('preverenges', '2021-02-07')",1.46
+"('preverenges', '2021-03-08')",0.9199999999999999
+"('preverenges', '2021-04-08')",0.5700000000000001
 "('preverenges-le-sout', '2021-02-04')",0.18
 "('quai-maria-belgia', '2020-04-28')",4.2700000000000005
 "('quai-maria-belgia', '2020-05-31')",0.7100000000000001
@@ -153,6 +176,9 @@ loc_date,pcs_m
 "('quai-maria-belgia', '2020-10-25')",0.8900000000000001
 "('quai-maria-belgia', '2020-11-30')",1.29
 "('quai-maria-belgia', '2020-12-23')",0.47
+"('quai-maria-belgia', '2021-01-31')",1.04
+"('quai-maria-belgia', '2021-02-28')",1.98
+"('quai-maria-belgia', '2021-03-29')",3.0500000000000003
 "('rastplatz-stampf', '2020-04-24')",0.6300000000000001
 "('rastplatz-stampf', '2020-05-22')",0.8200000000000001
 "('rastplatz-stampf', '2020-06-18')",0.43
@@ -163,6 +189,8 @@ loc_date,pcs_m
 "('rastplatz-stampf', '2020-11-21')",0.43000000000000005
 "('rastplatz-stampf', '2020-12-22')",1.24
 "('rastplatz-stampf', '2021-01-21')",0.48
+"('rastplatz-stampf', '2021-02-18')",0.25
+"('rastplatz-stampf', '2021-03-23')",0.42000000000000004
 "('rivapiana', '2020-11-27')",0.62
 "('rocky-plage', '2020-11-01')",0.3
 "('ruisseau-de-la-croix-plage', '2020-09-15')",0.33999999999999997
@@ -173,12 +201,14 @@ loc_date,pcs_m
 "('sentiero-giro-del-golf-spiaggia', '2020-05-27')",0.85
 "('sentiero-giro-del-golf-spiaggia', '2020-08-26')",0.51
 "('sentiero-giro-del-golf-spiaggia', '2020-11-27')",0.02
+"('sentiero-giro-del-golf-spiaggia', '2021-03-17')",0.07
 "('signalpain', '2020-12-10')",1.03
 "('strandboden-biel', '2020-10-10')",1.05
 "('strandboden-biel', '2020-12-25')",0.35
 "('sundbach-strand', '2020-08-26')",0.8
 "('sundbach-strand', '2020-11-07')",0.6200000000000001
 "('thun-strandbad', '2020-11-28')",0.44000000000000006
+"('thun-strandbad', '2021-02-14')",0.29000000000000004
 "('thunersee_spiez_meierd_1', '2020-04-09')",0.04
 "('thunersee_spiez_meierd_1', '2020-05-08')",0.06
 "('thunersee_spiez_meierd_1', '2020-06-08')",0.1
@@ -203,11 +233,13 @@ loc_date,pcs_m
 "('vidy-ruines', '2020-08-01')",4.8
 "('vidy-ruines', '2020-09-02')",1.2
 "('vidy-ruines', '2020-12-01')",1.18
+"('vidy-ruines', '2021-03-04')",1.62
 "('villa-barton', '2020-10-20')",1.77
 "('villa-barton', '2021-01-22')",2.7000000000000006
 "('vira-gambarogno', '2020-05-26')",0.42000000000000004
 "('vira-gambarogno', '2020-08-27')",0.12000000000000001
 "('vira-gambarogno', '2020-11-26')",0.33
+"('vira-gambarogno', '2021-03-17')",0.15000000000000002
 "('vira-spiaggia-left-of-river', '2020-05-26')",0.87
 "('walensee_walenstadt_wysse', '2020-04-21')",1.1800000000000002
 "('walensee_walenstadt_wysse', '2020-05-19')",1.7000000000000002
@@ -219,6 +251,7 @@ loc_date,pcs_m
 "('walensee_walenstadt_wysse', '2020-11-22')",0.48
 "('walensee_walenstadt_wysse', '2020-12-22')",0.38999999999999996
 "('walensee_walenstadt_wysse', '2021-01-20')",0.31
+"('walensee_walenstadt_wysse', '2021-02-19')",0.6
 "('weissenau-neuhaus', '2020-05-08')",0.7000000000000001
 "('weissenau-neuhaus', '2020-06-08')",1.03
 "('weissenau-neuhaus', '2020-07-08')",1.7599999999999998
@@ -228,6 +261,9 @@ loc_date,pcs_m
 "('weissenau-neuhaus', '2020-11-06')",0.29000000000000004
 "('weissenau-neuhaus', '2020-12-08')",0.16
 "('weissenau-neuhaus', '2021-01-08')",0.45
+"('weissenau-neuhaus', '2021-02-07')",0.28
+"('weissenau-neuhaus', '2021-03-09')",0.74
+"('weissenau-neuhaus', '2021-04-08')",0.5700000000000001
 "('wycheley', '2020-09-07')",0.5700000000000001
 "('wycheley', '2020-11-07')",0.5800000000000001
 "('zuerichsee_richterswil_benkoem_2', '2020-04-21')",1.3599999999999999
@@ -240,6 +276,8 @@ loc_date,pcs_m
 "('zuerichsee_richterswil_benkoem_2', '2020-11-21')",0.7
 "('zuerichsee_richterswil_benkoem_2', '2020-12-17')",0.03
 "('zuerichsee_richterswil_benkoem_2', '2021-01-21')",0.04
+"('zuerichsee_richterswil_benkoem_2', '2021-02-18')",0.22999999999999998
+"('zuerichsee_richterswil_benkoem_2', '2021-03-18')",0.30000000000000004
 "('zuerichsee_staefa_hennm', '2020-12-17')",0.18
 "('zuerichsee_waedenswil_colomboc_1', '2020-11-21')",0.26
 "('zurcher-strand', '2020-09-11')",12.03
@@ -254,6 +292,7 @@ loc_date,pcs_m
 "('zurichsee_kusnachterhorn_thirkell-whitej', '2020-11-21')",0.29000000000000004
 "('zurichsee_kusnachterhorn_thirkell-whitej', '2020-12-22')",0.7899999999999999
 "('zurichsee_kusnachterhorn_thirkell-whitej', '2021-01-24')",1.89
+"('zurichsee_kusnachterhorn_thirkell-whitej', '2021-02-18')",0.5
 "('zurichsee_wollishofen_langendorfm', '2020-04-18')",1.78
 "('zurichsee_wollishofen_langendorfm', '2020-05-12')",1.4100000000000001
 "('zurichsee_wollishofen_langendorfm', '2020-06-12')",1.18
@@ -264,3 +303,4 @@ loc_date,pcs_m
 "('zurichsee_wollishofen_langendorfm', '2020-11-12')",0.13
 "('zurichsee_wollishofen_langendorfm', '2020-12-10')",0.22000000000000003
 "('zurichsee_wollishofen_langendorfm', '2021-01-10')",0.41000000000000003
+"('zurichsee_wollishofen_langendorfm', '2021-02-12')",0.03
