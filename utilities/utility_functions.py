@@ -173,23 +173,31 @@ def dict_to_csv(the_dict, a_name, prefix):
         dict_writer = csv.DictWriter(output_file, keys)
         dict_writer.writeheader()
         dict_writer.writerows(the_dict)
-# def get_tuples_from_series(a_df):
-#     """Makes a 2d tuple from the index value and column value of a
-#     dataframe of series with one column and an index
-#     """
-#     return list(zip(a_df.index, a_df))
-# def get_the_rest(a_list, total_quant):
-#     """Returns the difference between some given value and the sum of an array of 2d tuples.
-#     """
-#     some_number = 0
-#     for x in a_list:
-#         some_number += x[1]
-#     return total_quant - some_number
 
-# def start_end_date(start, end, date_format):
-#     """Returns a tuple datetime objects (start, end) from string dates using the given format.
-#     """
-#     return ((datetime.datetime.strptime(start, date_format), datetime.datetime.strptime(end, date_format)))
+
+def use_this_key(x, key, column='no column'):
+    this_type = type(key)
+    if type(x) == tuple:
+        x = [x]
+    else:
+        pass
+    if this_type == dict:
+        try:
+            data = key[x]
+        except:
+            data = 'no data'
+    elif this_type == pd.core.series.Series:
+        try:
+            data = key.loc[x]
+        except:
+            data = 'no data'
+    else:
+        try:
+            data = key.loc[x, column][0]
+        except:
+            data = 'no data'
+
+    return data
 def legend_style(t_fs=14, fs=11, b_box_a=(1,1.02), loc='upper left', title=None):
     return({
         "title_fontsize":t_fs,

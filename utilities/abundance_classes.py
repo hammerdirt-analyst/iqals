@@ -42,7 +42,7 @@ class PreprocessData:
             a_map = data[data.code.isin(these_codes[code])].groupby(these_cols, as_index=False).agg({'pcs_m':'sum', 'quantity':'sum'})
             a_map['code']=code
             wiw.update({code:a_map})
-        print("code maps done")
+        # print("code maps done")
         return wiw
     def agg_foams(self):
         accounted = [v for k,v in self.foams.items()]
@@ -50,7 +50,7 @@ class PreprocessData:
         remove_foam = self.data[~self.data.code.isin(accounted)].copy()
         foam = [v for k,v in self.code_maps.items()]        
         newdf = pd.concat([remove_foam, *foam])
-        print("agg foams complet")
+        # print("agg foams complet")
         return newdf
     def add_exp_group_pop_locdate(self):
         anewdf = self.agg_foams()
@@ -62,7 +62,7 @@ class PreprocessData:
         anewdf['loc_date'] = list(zip(anewdf.location, anewdf.string_date))
         this_df = self.assign_regional_labels_to_data(anewdf)
 
-        print("added exp vs")
+        # print("added exp vs")
         return this_df
 
 
@@ -73,7 +73,7 @@ class PreprocessData:
         accounted = [item for a_list in accounted for item in a_list]
         the_rest = [x for x in self.codes_in_use if x not in accounted]
         these_groups.update({'the rest':the_rest})
-        print('made code groups')
+        # print('made code groups')
         return these_groups
     def make_group_map(self,a_dict_of_lists):
         wiw = {}
@@ -81,14 +81,14 @@ class PreprocessData:
             keys = a_dict_of_lists[group]
             a_dict = {x:group for x in keys}
             wiw.update(**a_dict)
-        print('making group map')
+        # print('making group map')
         return wiw
     def assign_code_groups_to_results(self, data, code_group_map):
         data = data.copy()
         for code in data.code.unique():
             # print(code)
             data.loc[data.code==code, 'groupname'] = code_group_map[code]
-        print('assigned results to code groups')
+        # print('assigned results to code groups')
         return data
     def tag_regional_label(self,x, beaches):
         try:
@@ -101,7 +101,7 @@ class PreprocessData:
         for k,v in self.river_bassins.items():
            data.loc[data.water_name.isin(v), 'river_bassin'] = k
 
-        print('assigned regional labels')
+        # print('assigned regional labels')
         return data
 
 class CatchmentArea:
@@ -189,6 +189,41 @@ class CatchmentArea:
 
         print('assigned regional labels')
         return data
+
+
+def make_a_group_summary(adf, groups={}, aggs={}):
+    som_data = adf.groupby(groups['columns'], as_index=False).agg(aggs)
+    a_quantity = som_data.groupby(groups['quantity_level']).quantity.sum()
+    return som_data, a_quantity
+
+
+def calculate_rates(adf, feature_total_map=None, feature_map=None, groups=None, aggs=None, rates=None, products=None,
+                    methods=None):
+    fgs = adf.copy()
+    if groups != None:
+        fgs = adf.groupby(groups['columns'], as_index=False).agg(aggs)
+        a_list_of_features = adf[groups['quantity_level']].unique()
+        for this_feature in a_list_of_features:
+            fgs.loc[fgs[groups['quantity_level']] == this_feature, 'feature_total'] = feature_total_map(this_feature,
+                                                                                                        feature_map)
+    if rates:
+        for rate in rates:
+            fgs[rate['rate_name']] = fgs[rate['columns']['this']] / fgs[rate['columns']['over_that']]
+    if products:
+        for product in products:
+            fgs[product['rate_name']] = fgs[product['columns']['this']] * fgs[product['columns']['times_that']]
+
+    return fgs
+
+
+def make_heat_map_data(data, cols=[], columns=[], index=None, sort_values=None):
+    new_data = data[cols].pivot(index=index, columns=columns, values=cols[-1])
+    if sort_values != None:
+        new_data.sort_values(by=sort_values, inplace=True, ascending=False)
+    if isinstance(new_data.columns, pd.MultiIndex) == True:
+        new_data.columns = new_data.columns.get_level_values(1)
+
+    return new_data.astype(float)
     
 def makeTableOfKeyStatistics(ca_data_pcsm_day):
     a_sum = pd.DataFrame(ca_data_pcsm_day.pcs_m.describe()[1:].round(2)).T
