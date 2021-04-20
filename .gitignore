@@ -10,6 +10,7 @@
 /resources/locationdata/beaches_pop_bfs.csv
 /resources/locationdata/beaches_with_ranks.csv
 /resources/locationdata/list_of_beaches.json
+# /output/*
 # IPython
 profile_default/
 ipython_config.py
