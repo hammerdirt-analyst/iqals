@@ -1,0 +1,68 @@
+{
+  "linth": [
+    "Zurichsee",
+    "Walensee",
+    "Jona",
+    "Katzensee",
+    "Dorfbach",
+    "Limmat",
+    "Linthkanal",
+    "Escherkanal",
+    "Seez",
+    "Sihlsee",
+    "Sihl"
+  ],
+  "rhine": [
+    "Untersee",
+    "Bodensee",
+    "Glatt",
+    "Chriesbach",
+    "Goldach",
+    "Greifensee",
+    "Grändelbach",
+    "Inn",
+    "Murg",
+    "Rhein",
+    "Sitter",
+    "Thur",
+    "Töss",
+    "Urnäsch",
+    "Vorderrhein"
+  ],
+  "reuss": [
+    "Reuss",
+    "Lorze",
+    "Quatre Cantons",
+    "Zugersee"
+  ],
+  "aare": [
+    "Aare",
+    "Aare|Nidau-Büren-Kanal",
+    "Thunersee",
+    "Bielersee",
+    "Birs",
+    "Neuenburgersee",
+    "Emme",
+    "Brienzersee",
+    "La Thièle",
+    "Langeten",
+    "Lötschebach",
+    "Pfaffnern",
+    "Schiffenensee",
+    "Schüss",
+    "Sempachsee",
+    "Sense",
+    "Zulg"
+  ],
+  "rhone": [
+    "Lac Léman",
+    "Arve",
+    "Ognonnaz",
+    "Rhône"
+  ],
+  "ticino": [
+    "Lago Maggiore",
+    "Ticino",
+    "Maggia"
+  ]
+}

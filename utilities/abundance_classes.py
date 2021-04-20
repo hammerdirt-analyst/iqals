@@ -19,6 +19,10 @@ class PreprocessData:
         self.these_cols=these_cols
         self.foams=foams        
         self.beaches = beaches
+        self.levels = kwargs['levels']
+        self.exp_variables = kwargs['exp_variables']
+        self.locations_in_use = data.location.unique()
+        self.river_bassins = kwargs['river_bassins']
         self.code_maps = self.make_code_maps(self.data, self.these_cols, self.foams)
         self.codes_in_use = data.code.unique()
         self.group_names_locations = kwargs['code_group_data']
@@ -52,11 +56,15 @@ class PreprocessData:
         anewdf = self.agg_foams()
         anewdf['groupname'] = 'groupname'
         for beach in anewdf.location.unique():
-            anewdf.loc[anewdf.location==beach, 'population'] = self.beaches.loc[beach].population
+            for variable in self.exp_variables:
+                anewdf.loc[anewdf.location==beach, variable] = self.beaches.loc[beach][variable]
         anewdf['string_date'] = anewdf.date.dt.strftime('%Y-%m-%d')
         anewdf['loc_date'] = list(zip(anewdf.location, anewdf.string_date))
+        this_df = self.assign_regional_labels_to_data(anewdf)
+
         print("added exp vs")
-        return anewdf
+        return this_df
+
 
     def make_code_groups(self):
         these_groups ={k:ut.json_file_get(F"output/code_groups/{v}") for k,v in self.group_names_locations.items()}
@@ -82,6 +90,19 @@ class PreprocessData:
             data.loc[data.code==code, 'groupname'] = code_group_map[code]
         print('assigned results to code groups')
         return data
+    def tag_regional_label(self,x, beaches):
+        try:
+            a_label = beaches[x]
+        except:
+            a_label = "no data"
+        return a_label
+    def assign_regional_labels_to_data(self, data):
+        data = data.copy()
+        for k,v in self.river_bassins.items():
+           data.loc[data.water_name.isin(v), 'river_bassin'] = k
+
+        print('assigned regional labels')
+        return data
 
 class CatchmentArea:
     """aggregates survey results"""
@@ -95,66 +116,60 @@ class CatchmentArea:
         self.start_date = kwargs['start_date']
         self.end_date = kwargs['end_date']
         self.levels = kwargs['levels']
-        self.catchment = self.levels['catchment']
-        self.muni = self.levels['muni']
+        self.catchment = kwargs['catchment_name']
+        # self.muni = self.levels['muni']
         self.locations_in_use = self.data.location.unique()
-        self.muni_beaches = self.get_locations_by_region(self.locations_in_use, self.beaches[self.beaches.city == self.muni].index)
+        # self.muni_beaches = self.get_locations_by_region(self.locations_in_use, self.beaches[self.beaches.city == self.muni].index)
         self.catchment_features = kwargs['catchment_features']
         self.bassin_beaches = self.get_locations_by_region(self.locations_in_use, self.beaches[self.beaches.water_name.isin(self.catchment_features)].index)        
         self.codes_in_use = data.code.unique()
-        self.group_names_locations = kwargs['code_group_data']
-        self.new_code_group = kwargs['new_code_group']
-        self.code_groups = self.make_code_groups()
-        self.code_group_map = self.make_group_map(self.code_groups)
-        self.bassin_data = self.assign_regional_labels_to_data(self.assign_code_groups_to_results(data[data.location.isin(self.bassin_beaches)].copy(), self.code_group_map), self.levels, these_beaches)
-        self.muni_data = self.assign_regional_labels_to_data(self.assign_code_groups_to_results(data[data.location.isin(self.muni_beaches)].copy(), self.code_group_map), self.levels, these_beaches)
+        # self.group_names_locations = kwargs['code_group_data']
+        # self.new_code_group = kwargs['new_code_group']
+        # self.code_groups = self.make_code_groups()
+        # self.code_group_map = self.make_group_map(self.code_groups)
+        self.bassin_data = self.assign_regional_labels_to_data(data[data.location.isin(self.bassin_beaches)].copy(), self.levels, these_beaches)
+        # self.muni_data = self.assign_regional_labels_to_data(self.assign_code_groups_to_results(data[data.location.isin(self.muni_beaches)].copy(), self.code_group_map), self.levels, these_beaches)
         self.bassin_code_totals = self.code_totals_regional(self.bassin_data)
-        self.muni_code_totals = self.code_totals_regional(self.muni_data)
+        # self.muni_code_totals = self.code_totals_regional(self.muni_data)
         self.bassin_code_pcsm_med = self.bassin_data.groupby('code').pcs_m.median()
-        self.muni_code_pcsm_med = self.muni_data.groupby('code').pcs_m.median()
+        # self.muni_code_pcsm_med = self.muni_data.groupby('code').pcs_m.median()
         self.bassin_pcsm_day = self.bassin_data.groupby(kwargs['catchment_cols'], as_index=False).agg({'pcs_m':'sum', 'quantity':'sum'})
-        self.muni_pcsm_day = self.muni_data.groupby(kwargs['catchment_cols'], as_index=False).agg({'pcs_m':'sum', 'quantity':'sum'})        
+        # self.muni_pcsm_day = self.muni_data.groupby(kwargs['catchment_cols'], as_index=False).agg({'pcs_m':'sum', 'quantity':'sum'})
            
-    def make_group_map(self,a_dict_of_lists):
-        wiw = {}
-        for group in a_dict_of_lists:
-            keys = a_dict_of_lists[group]
-            a_dict = {x:group for x in keys}
-            wiw.update(**a_dict)
-        print('making group map')
-        return wiw
+    # def make_group_map(self,a_dict_of_lists):
+    #     wiw = {}
+    #     for group in a_dict_of_lists:
+    #         keys = a_dict_of_lists[group]
+    #         a_dict = {x:group for x in keys}
+    #         wiw.update(**a_dict)
+    #     print('making group map')
+    #     return wiw
     
-    def make_code_groups(self):
-        these_groups ={k:ut.json_file_get(F"output/code_groups/{v}") for k,v in self.group_names_locations.items()}
-        these_groups.update(self.new_code_group)
-        accounted = [v for k,v in these_groups.items()]
-        accounted = [item for a_list in accounted for item in a_list]
-        the_rest = [x for x in self.codes_in_use if x not in accounted]
-        these_groups.update({'the rest':the_rest})
-        print('made code groups')
-        return these_groups
+    # def make_code_groups(self):
+    #     these_groups ={k:ut.json_file_get(F"output/code_groups/{v}") for k,v in self.group_names_locations.items()}
+    #     these_groups.update(self.new_code_group)
+    #     accounted = [v for k,v in these_groups.items()]
+    #     accounted = [item for a_list in accounted for item in a_list]
+    #     the_rest = [x for x in self.codes_in_use if x not in accounted]
+    #     these_groups.update({'the rest':the_rest})
+    #     print('made code groups')
+    #     return these_groups
     
-    def assign_code_groups_to_results(self, data, code_group_map):
-        data = data.copy()
-        for code in data.code.unique():
-            data.loc[data.code==code, 'groupname'] = code_group_map[code]
-        print('assigned results to code groups')
-        return data
-    
-    def tag_regional_label(self,x, levels):
-        if x in self.muni_beaches:
-            a_label = self.muni
-        else:
-            a_label = self.catchment
+    # def assign_code_groups_to_results(self, data, code_group_map):
+    #     data = data.copy()
+    #     for code in data.code.unique():
+    #         data.loc[data.code==code, 'groupname'] = code_group_map[code]
+    #     print('assigned results to code groups')
+    #     return data
+    #
+    def tag_regional_label(self,x, beaches):
+        try:
+            a_label = beaches[x]
+        except:
+            a_label = "no data"
         return a_label
     
-    def assign_regional_labels_to_data(self, data, levels, these_beaches):
-        data = data.copy()
-        for beach in data.location.unique():
-            data.loc[data.location==beach, 'region'] = self.tag_regional_label(beach, levels)
-            data.loc[data.location==beach, 'city'] = these_beaches.loc[beach]['city']
-        print('assigned regional labels')
-        return data
+
     
     def code_totals_regional(self, data):
         data = data.groupby('code', as_index=False).quantity.sum()
@@ -166,7 +181,14 @@ class CatchmentArea:
     def get_locations_by_region(self, locations_in_use, locations_of_interest):        
         return [x for x in locations_of_interest if x in locations_in_use]
 
-    
+    def assign_regional_labels_to_data(self, data, levels, these_beaches):
+        data = data.copy()
+        for a_level in levels:
+            this_key = these_beaches[a_level]
+            data.loc[data.location.isin(this_key.index), a_level] = self.tag_regional_label(this_key.index[0], this_key)
+
+        print('assigned regional labels')
+        return data
     
 def makeTableOfKeyStatistics(ca_data_pcsm_day):
     a_sum = pd.DataFrame(ca_data_pcsm_day.pcs_m.describe()[1:].round(2)).T
