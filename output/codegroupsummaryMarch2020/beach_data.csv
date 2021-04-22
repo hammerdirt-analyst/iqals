@@ -97,7 +97,7 @@ Les Glariers,46.176736,7.228925,6139,CH,r,Rhône,riddes,rhone,True,Riddes,6139,3
 Les Vieux Ronquoz,46.2220487,7.361664,1950,CH,r,Rhône,sion,rhone,True,Sion,6266,34708,816500.07,138033.37,0,no_data,10.0,3,3
 leuk mattenstrasse,46.3147545,7.6225205,3953,CH,r,Rhône,leuk,rhone,True,Leuk,6110,3949,144455.88,87178.83,0,no_data,155.0,3,1
 Ligerz strand,47.083979,7.135894,2514,CH,l,Bielersee,ligerz,bielersee,True,Ligerz,740,544,81834.76,50842.85,4,49.0,355.0,1,0
-limmat_dietikon_keiserp,47.4079891,8.4095398,8953,CH,r,Limmat,dietikon,limmat,False,Dietikon,243,27265,832955.73,130249.17,0,no_data,14.0,3,3
+limmat_dietikon_keiserp,47.4079891,8.4095398,8953,CH,r,Limmat,dietikon,limmat,True,Dietikon,243,27265,832955.73,130249.17,0,no_data,14.0,3,3
 Limmat_Unterengstringen_OggierBührer,47.409400299999994,8.4469334,8103,CH,r,Limmat,unterengstringen,limmat,True,Unterengstringen,249,3881,745077.39,125876.89,0,no_data,158.0,3,3
 Limmat_Zuerich_JansenA,47.4000247,8.484684699999999,8064,CH,r,Limmat,zurich,limmat,True,Zürich,261,415367,1043689.88,153002.4,0,1.0,1.0,3,3
 limmat_zuerich_suterd&glauserp,47.3945393,8.5134435,8005,CH,r,Limmat,zurich,limmat,True,Zürich,261,415367,1301584.0,145688.02,0,1.0,1.0,3,3
