@@ -99,7 +99,9 @@ class PreprocessData:
     def assign_regional_labels_to_data(self, data):
         data = data.copy()
         for k,v in self.river_bassins.items():
-           data.loc[data.water_name_slug.isin(v), 'river_bassin'] = k
+            data.loc[data.water_name_slug.isin(v), 'river_bassin'] = k
+        for beach in self.locations_in_use:
+            data.loc[data.location == beach, 'city'] = self.beaches.loc[beach].city
 
         # print('assigned regional labels')
         return data
