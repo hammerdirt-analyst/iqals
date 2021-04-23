@@ -11,7 +11,8 @@ Produce decision support packages using the data from beach litter surveys condu
 
 We removed the summary notebooks and added "use_a_class". We are defining the methods for the backend of the application based on the comments and needs recieved from stakeholders over the past year.
 
-Over the next few weeks the abundance class (in the utilities folder) will be dveloped along with a few other methods to be used in the backend of the web application.
+1. The project description notebook provides summary statistics on effected populations, time to survey, number of municipalities
+2. The fail rate note book explains the fail rate parameter and how to use it ! in development
 
 Check one of the feature branches to see how this work is progressing.
 
