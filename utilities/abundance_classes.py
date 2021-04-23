@@ -16,7 +16,7 @@ import numpy as np
 
 class PreprocessData:
     """preprocesses data"""
-    def __init__(self, data, beaches, these_cols=['loc_date', 'location', 'water_name','type', 'date'], foams={'G82':['G82', 'G912'], 'G81':['G81', 'G911'], 'G74':['G74', 'G910', 'G909']}, **kwargs):
+    def __init__(self, data, beaches, these_cols=['loc_date', 'location', 'water_name_slug','type', 'date'], foams={'G82':['G82', 'G912'], 'G81':['G81', 'G911'], 'G74':['G74', 'G910', 'G909']}, **kwargs):
         self.data = data
         self.these_cols=these_cols
         self.foams=foams        
@@ -99,7 +99,7 @@ class PreprocessData:
     def assign_regional_labels_to_data(self, data):
         data = data.copy()
         for k,v in self.river_bassins.items():
-           data.loc[data.water_name.isin(v), 'river_bassin'] = k
+           data.loc[data.water_name_slug.isin(v), 'river_bassin'] = k
 
         # print('assigned regional labels')
         return data
