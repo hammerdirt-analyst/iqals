@@ -34,7 +34,9 @@ def make_local_paths():
     stat_ent = os.path.join('resources','statentpop')
     geo_data = os.path.join('resources', 'geodata')
     output = os.path.join('output')
-    return survey_data, location_data, code_defs, stat_ent, geo_data, output
+    most_recent = os.path.join('resources','most_recent')
+
+    return most_recent, survey_data, location_data, code_defs, stat_ent, geo_data, output
 
 
 def check_for_folders(folders, here):
