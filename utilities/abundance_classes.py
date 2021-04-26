@@ -166,6 +166,20 @@ def agg_fail_rate_by_city_feature_basin_all(som_data, levels, group='code',
         new_dfs.append(national)
     return pd.concat(new_dfs, axis=1)
 
+def agg_pcs_m_by_city_feature_basin_all(som_data, levels, group='code',
+                                            agg_cols={"pcs_m":"median"}, national=True,
+                                            col_name="All river bassins"):
+    new_dfs = []
+    for level in levels:
+        a_newdf = som_data[som_data[level] == levels[level]].groupby(group).agg(agg_cols)
+        a_newdf[levels[level]] = a_newdf[list(agg_cols.keys())[0]]
+        new_dfs.append(a_newdf[levels[level]])
+    if national:
+        national = som_data.groupby(group).agg(agg_cols)
+        national[col_name] = national[list(agg_cols.keys())[0]]
+        new_dfs.append(national[col_name])
+    return pd.concat(new_dfs, axis=1)
+
 class CatchmentArea:
     """aggregates survey results"""
     def __init__(
