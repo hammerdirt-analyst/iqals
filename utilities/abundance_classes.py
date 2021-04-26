@@ -32,7 +32,7 @@ class PreprocessData:
         self.code_group_map = self.make_group_map(self.code_groups)
         self.processed = self.add_exp_group_pop_locdate()
         self.survey_data = self.assign_code_groups_to_results(self.processed, self.code_group_map)
-        self.daily_totals_all = self.survey_data.groupby(these_cols, as_index=False).agg({'pcs_m':'sum', 'quantity':'sum'})
+        self.daily_totals_all = self.survey_total_pcsm_q()
         self.median_daily_total = self.daily_totals_all.pcs_m.median()
         self.code_totals = self.survey_data.groupby('code').quantity.sum()
         self.code_pcsm_med = self.survey_data.groupby('code').pcs_m.median()
@@ -65,7 +65,6 @@ class PreprocessData:
 
         # print("added exp vs")
         return this_df
-
 
     def make_code_groups(self):
         these_groups ={k:ut.json_file_get(F"output/code_groups/{v}") for k,v in self.group_names_locations.items()}
@@ -105,8 +104,12 @@ class PreprocessData:
 
         # print('assigned regional labels')
         return data
+    def survey_total_pcsm_q(self):
+        anewdf = self.survey_data.groupby(self.these_cols, as_index=False).agg({'pcs_m': 'sum', 'quantity': 'sum'})
+        anewdf['string_date'] = anewdf.date.dt.strftime('%Y-%m-%d')
+        anewdf['loc_date'] = list(zip(anewdf.location, anewdf.string_date))
 
-
+        return anewdf
 # connvenience methods for notebooks using the abundance class
 
 # collect data
