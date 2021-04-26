@@ -11,10 +11,10 @@ Produce decision support packages using the data from beach litter surveys condu
 
 We removed the summary notebooks and added "use_a_class". We are defining the methods for the backend of the application based on the comments and needs recieved from stakeholders over the past year.
 
-1. The project description notebook provides summary statistics on effected populations, time to survey, number of municipalities
-2. The fail rate note book explains the fail rate parameter and how to use it ! in development
+1. The project_scope notebook provides summary statistics on effected populations, time to survey, number of municipalities, geographic and administrative scope
+2. The key indicator is an eplanantion of the key indicators we use in the analysis 
 
-Check one of the feature branches to see how this work is progressing.
+The most recent version is in the corresponding feature branch
 
 ### About the data
 
