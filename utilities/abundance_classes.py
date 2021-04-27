@@ -106,6 +106,80 @@ class PreprocessData:
         # print('assigned regional labels')
         return data
 
+
+# connvenience methods for notebooks using the abundance class
+
+# collect data
+def get_the_file_extension(x):
+    split = x.split('.')[-1]
+    return split
+
+def get_data_from_most_recent(data_sources, check_ext=get_the_file_extension, data_methods={}, a_dir="resources/most_recent"):
+    a_list = []
+    for key in data_sources:
+        ext = check_ext(data_sources[key])
+        method = data_methods[ext]
+        my_file = method(F"{a_dir}/{data_sources[key]}")
+        a_list.append(my_file)
+
+    return a_list
+
+def fo_rmat_date_column(x, a_format="%Y-%m-%d"):
+    # takes in a a data frame and converts the date column to timestamp
+    x['date'] = pd.to_datetime(x['date'], format=a_format)
+    return x.copy()
+
+def slic_eby_date(x, start_date, end_date):
+    # slices a data frame by the start and end date inclusive
+    return x[(x.date >= start_date) & (x.date <= end_date)].copy()
+
+def fo_rmat_and_slice_date(x, a_format="", start_date="", end_date=""):
+    # formats the date column and slices the data frame by the start and end date
+    new_df = fo_rmat_date_column(x, a_format=a_format)
+    new_df = slic_eby_date(new_df, start_date, end_date)
+    return new_df
+
+def add_a_grouping_column(x, a_dict, column_to_match="", new_column_name='river_bassin'):
+    # maps values of the column to the dict and creates a new column
+    # called new column name
+    for k, v in a_dict.items():
+        x.loc[x[column_to_match].isin(v), new_column_name] = k
+    return x
+
+
+def add_national_column(x, col_name="", group="", agg_cols={}):
+    add_me = x.groupby(group).agg(agg_cols)
+    add_me[col_name] = add_me.fail / add_me.loc_date
+    return add_me[col_name]
+
+
+def agg_fail_rate_by_city_feature_basin_all(som_data, levels, group='code',
+                                            agg_cols={'loc_date': 'nunique', 'fail': 'sum'}, national=True,
+                                            col_name="All river bassins"):
+    new_dfs = []
+    for level in levels:
+        a_newdf = som_data[som_data[level] == levels[level]].groupby(group).agg(agg_cols)
+        a_newdf[levels[level]] = a_newdf.fail / a_newdf.loc_date
+        new_dfs.append(a_newdf[levels[level]])
+    if national:
+        national = add_national_column(som_data, col_name=col_name, group=group, agg_cols=agg_cols)
+        new_dfs.append(national)
+    return pd.concat(new_dfs, axis=1)
+
+def agg_pcs_m_by_city_feature_basin_all(som_data, levels, group='code',
+                                            agg_cols={"pcs_m":"median"}, national=True,
+                                            col_name="All river bassins"):
+    new_dfs = []
+    for level in levels:
+        a_newdf = som_data[som_data[level] == levels[level]].groupby(group).agg(agg_cols)
+        a_newdf[levels[level]] = a_newdf[list(agg_cols.keys())[0]]
+        new_dfs.append(a_newdf[levels[level]])
+    if national:
+        national = som_data.groupby(group).agg(agg_cols)
+        national[col_name] = national[list(agg_cols.keys())[0]]
+        new_dfs.append(national[col_name])
+    return pd.concat(new_dfs, axis=1)
+
 class CatchmentArea:
     """aggregates survey results"""
     def __init__(
