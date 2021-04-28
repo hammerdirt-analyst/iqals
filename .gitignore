@@ -1,6 +1,14 @@
 # if you are producing data in a repo with
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+*.log
+*.pot
+*.pyc
+*/*/*/__pycache__/
+*/*/__pycache__/
+*/__pycache__/
+
+
 
 # generated data
 /resources/surveydata/*
