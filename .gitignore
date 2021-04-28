@@ -19,6 +19,7 @@
 /resources/locationdata/beaches_with_ranks.csv
 /resources/locationdata/list_of_beaches.json
 /output/code_groups/*.jpeg
+/output/code_groups/*.jpg
 # /output/*
 # IPython
 profile_default/
