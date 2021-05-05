@@ -82,8 +82,9 @@
     "G23":"Couvercles non identifiés",
     "G73":"Articles et pièces en mousse (sans emballage ou... liés)",
     "G22":"Couvercles pour produits chimiques, détergents (non alimentaires)",
-    "G78":"Plastiques fragmentés .5mm < x < 25mm",
+    "G78":"Plastiques fragmentés .5mm < x < 25mm"to
     "G79":"Plastiques fragmentés x > 25mm",
     "G200":"verre brisé ",
-    "G10":"Emballage fast food"
+    "G10":"Emballage fast food",
+    "G212":"Nodules de petrol",
 }
