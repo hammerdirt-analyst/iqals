@@ -118,6 +118,7 @@ def get_the_file_extension(x):
     return split
 
 def get_data_from_most_recent(data_sources, check_ext=get_the_file_extension, data_methods={}, a_dir="resources/most_recent"):
+    """Retrieves files from specified directory using specified methods"""
     a_list = []
     for key in data_sources:
         ext = check_ext(data_sources[key])
