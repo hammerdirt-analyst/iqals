@@ -1,16 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>project_scope</title>
+<title>project_scope</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<style type="text/css">
+  pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight .hll { background-color: #ffffcc }
+.highlight { background: #f8f8f8; }
+.highlight .c { color: #408080; font-style: italic } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #A00000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00A000 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
+.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #B00040 } /* Keyword.Type */
+.highlight .m { color: #666666 } /* Literal.Number */
+.highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .nb { color: #008000 } /* Name.Builtin */
+.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight .no { color: #880000 } /* Name.Constant */
+.highlight .nd { color: #AA22FF } /* Name.Decorator */
+.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #0000FF } /* Name.Function */
+.highlight .nl { color: #A0A000 } /* Name.Label */
+.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #19177C } /* Name.Variable */
+.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #666666 } /* Literal.Number.Bin */
+.highlight .mf { color: #666666 } /* Literal.Number.Float */
+.highlight .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
+.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight .sx { color: #008000 } /* Literal.String.Other */
+.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #0000FF } /* Name.Function.Magic */
+.highlight .vc { color: #19177C } /* Name.Variable.Class */
+.highlight .vg { color: #19177C } /* Name.Variable.Global */
+.highlight .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight .vm { color: #19177C } /* Name.Variable.Magic */
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
+  </style>
 
 
 
 <style type="text/css">
-    /*!
+/*!
 *
 * Twitter Bootstrap
 *
@@ -12944,81 +13019,7 @@ ul.typeahead-list  > li > a.pull-right {
 .terminal-app #terminado-container {
   margin-top: 20px;
 }
-/*# sourceMappingURL=style.min.css.map */
-    </style>
-<style type="text/css">
-    .highlight .hll { background-color: #ffffcc }
-.highlight  { background: #f8f8f8; }
-.highlight .c { color: #408080; font-style: italic } /* Comment */
-.highlight .err { border: 1px solid #FF0000 } /* Error */
-.highlight .k { color: #008000; font-weight: bold } /* Keyword */
-.highlight .o { color: #666666 } /* Operator */
-.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
-.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
-.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
-.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
-.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
-.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
-.highlight .gd { color: #A00000 } /* Generic.Deleted */
-.highlight .ge { font-style: italic } /* Generic.Emph */
-.highlight .gr { color: #FF0000 } /* Generic.Error */
-.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
-.highlight .gi { color: #00A000 } /* Generic.Inserted */
-.highlight .go { color: #888888 } /* Generic.Output */
-.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
-.highlight .gs { font-weight: bold } /* Generic.Strong */
-.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
-.highlight .gt { color: #0044DD } /* Generic.Traceback */
-.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
-.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
-.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
-.highlight .kp { color: #008000 } /* Keyword.Pseudo */
-.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
-.highlight .kt { color: #B00040 } /* Keyword.Type */
-.highlight .m { color: #666666 } /* Literal.Number */
-.highlight .s { color: #BA2121 } /* Literal.String */
-.highlight .na { color: #7D9029 } /* Name.Attribute */
-.highlight .nb { color: #008000 } /* Name.Builtin */
-.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
-.highlight .no { color: #880000 } /* Name.Constant */
-.highlight .nd { color: #AA22FF } /* Name.Decorator */
-.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
-.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
-.highlight .nf { color: #0000FF } /* Name.Function */
-.highlight .nl { color: #A0A000 } /* Name.Label */
-.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
-.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
-.highlight .nv { color: #19177C } /* Name.Variable */
-.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
-.highlight .w { color: #bbbbbb } /* Text.Whitespace */
-.highlight .mb { color: #666666 } /* Literal.Number.Bin */
-.highlight .mf { color: #666666 } /* Literal.Number.Float */
-.highlight .mh { color: #666666 } /* Literal.Number.Hex */
-.highlight .mi { color: #666666 } /* Literal.Number.Integer */
-.highlight .mo { color: #666666 } /* Literal.Number.Oct */
-.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
-.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
-.highlight .sc { color: #BA2121 } /* Literal.String.Char */
-.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
-.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
-.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
-.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
-.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
-.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
-.highlight .sx { color: #008000 } /* Literal.String.Other */
-.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
-.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
-.highlight .ss { color: #19177C } /* Literal.String.Symbol */
-.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
-.highlight .fm { color: #0000FF } /* Name.Function.Magic */
-.highlight .vc { color: #19177C } /* Name.Variable.Class */
-.highlight .vg { color: #19177C } /* Name.Variable.Global */
-.highlight .vi { color: #19177C } /* Name.Variable.Instance */
-.highlight .vm { color: #19177C } /* Name.Variable.Magic */
-.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
-    </style>
-
-
+/*# sourceMappingURL=style.min.css.map */</style>
 <style type="text/css">
 /* Overrides of notebook CSS for static HTML export */
 body {
@@ -13032,44 +13033,62 @@ div#notebook {
 }div#notebook-container{
   padding: 6ex 12ex 8ex 12ex;
 }@media print {
+  body {
+    margin: 0;
+  }
   div.cell {
     display: block;
     page-break-inside: avoid;
-  } 
-  div.output_wrapper { 
-    display: block;
-    page-break-inside: avoid; 
   }
-  div.output { 
+  div.output_wrapper {
     display: block;
-    page-break-inside: avoid; 
+    page-break-inside: avoid;
+  }
+  div.output {
+    display: block;
+    page-break-inside: avoid;
   }
 }
 </style>
 
-<!-- Custom stylesheet, it must be in the same directory as the html file -->
-<link rel="stylesheet" href="custom.css">
 
-<!-- Loading mathjax macro -->
 <!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML-full,Safe"> </script>
     <!-- MathJax configuration -->
     <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-            processEscapes: true,
-            processEnvironments: true
-        },
-        // Center justify equations in code and markdown cells. Elsewhere
-        // we use CSS to left justify single line equations in code cells.
-        displayAlign: 'center',
-        "HTML-CSS": {
-            styles: {'.MathJax_Display': {"margin": 0}},
-            linebreaks: { automatic: true }
+    init_mathjax = function() {
+        if (window.MathJax) {
+        // MathJax loaded
+            MathJax.Hub.Config({
+                TeX: {
+                    equationNumbers: {
+                    autoNumber: "AMS",
+                    useLabelIds: true
+                    }
+                },
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                    processEscapes: true,
+                    processEnvironments: true
+                },
+                displayAlign: 'center',
+                CommonHTML: {
+                    linebreaks: { 
+                    automatic: true 
+                    }
+                },
+                "HTML-CSS": {
+                    linebreaks: { 
+                    automatic: true 
+                    }
+                }
+            });
+        
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
         }
-    });
+    }
+    init_mathjax();
     </script>
     <!-- End of mathjax configuration --></head>
 <body>
@@ -13111,17 +13130,19 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-This data is valid for surveys between 2020-04-01 and 2021-04-29 from the following catchment areas:
 
-  [&#39;linth&#39; &#39;aare&#39; &#39;reuss&#39; &#39;rhone&#39; &#39;ticino&#39;]
+<div class="output_markdown rendered_html output_subarea output_execute_result">
+<p>This summary is valid for all surveys between 2020-04-01 and 2021-05-10 from the following catchment areas:</p>
+<ol>
+<li>linth</li>
+<li>aare</li>
+<li>reuss</li>
+<li>rhone</li>
+<li>ticino</li>
+</ol>
 
-There are 79,781 observations from 361 surveys.
-
-There were 51,165 objects collected.
-</pre>
 </div>
+
 </div>
 
 </div>
@@ -13135,33 +13156,49 @@ There were 51,165 objects collected.
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-There are 130 different survey locations from 74 municipalities with a total population of ~1,669,684
 
-There are 312 samples from 10 different lakes and 49 samples from 16 different rivers.
+<div class="output_markdown rendered_html output_subarea output_execute_result">
+<p>There were 51,165 objects collected in the course of 361 surveys. This includes 130 different survey locations from 74 municipalities with a total population of ~1,669,684. There were 312 samples from 10 different lakes and 49 samples from 16 different rivers.</p>
 
-
-The lakes where the surveys were conducted:
-
-[&#39;bielersee&#39;, &#39;brienzersee&#39;, &#39;lac-leman&#39;, &#39;lago-maggiore&#39;, &#39;neuenburgersee&#39;, &#39;quatre-cantons&#39;, &#39;thunersee&#39;, &#39;walensee&#39;, &#39;zugersee&#39;, &#39;zurichsee&#39;]
-
-
-The rivers where the surveys were conducted:
-
-[&#39;aare&#39;, &#39;aarenidau-buren-kanal&#39;, &#39;dorfbach&#39;, &#39;emme&#39;, &#39;escherkanal&#39;, &#39;jona&#39;, &#39;la-thiele&#39;, &#39;limmat&#39;, &#39;linthkanal&#39;, &#39;maggia&#39;, &#39;reuss&#39;, &#39;rhone&#39;, &#39;schuss&#39;, &#39;seez&#39;, &#39;sihl&#39;, &#39;ticino&#39;]
-
-
-The municpalities where the surveys were conducted:
-
-[&#39;Aarau&#39;, &#39;Allaman&#39;, &#39;Ascona&#39;, &#39;Beatenberg&#39;, &#39;Bellinzona&#39;, &#39;Bern&#39;, &#39;Biel/Bienne&#39;, &#39;Boudry&#39;, &#39;Bourg-en-Lavaux&#39;, &#39;Brienz (BE)&#39;, &#39;Brugg&#39;, &#39;Brügg&#39;, &#39;Burgdorf&#39;, &#39;Bönigen&#39;, &#39;Cheyres-Châbles&#39;, &#39;Cudrefin&#39;, &#39;Dietikon&#39;, &#39;Estavayer&#39;, &#39;Freienbach&#39;, &#39;Gals&#39;, &#39;Gambarogno&#39;, &#39;Gebenstorf&#39;, &#39;Genève&#39;, &#39;Gland&#39;, &#39;Glarus Nord&#39;, &#39;Grandson&#39;, &#39;Hauterive (NE)&#39;, &#39;Hünenberg&#39;, &#39;Kallnach&#39;, &#39;Köniz&#39;, &#39;Küsnacht (ZH)&#39;, &#39;La Tour-de-Peilz&#39;, &#39;Lausanne&#39;, &#39;Lavey-Morcles&#39;, &#39;Le Landeron&#39;, &#39;Leuk&#39;, &#39;Ligerz&#39;, &#39;Locarno&#39;, &#39;Luterbach&#39;, &#39;Lüscherz&#39;, &#39;Merenschwand&#39;, &#39;Minusio&#39;, &#39;Montreux&#39;, &#39;Neuchâtel&#39;, &#39;Nidau&#39;, &#39;Port&#39;, &#39;Préverenges&#39;, &#39;Quarten&#39;, &#39;Rapperswil-Jona&#39;, &#39;Richterswil&#39;, &#39;Riddes&#39;, &#39;Rubigen&#39;, &#39;Saint-Gingolph&#39;, &#39;Saint-Sulpice (VD)&#39;, &#39;Salgesch&#39;, &#39;Schmerikon&#39;, &#39;Sion&#39;, &#39;Solothurn&#39;, &#39;Spiez&#39;, &#39;Stäfa&#39;, &#39;Thun&#39;, &#39;Tolochenaz&#39;, &#39;Unterengstringen&#39;, &#39;Unterseen&#39;, &#39;Versoix&#39;, &#39;Vevey&#39;, &#39;Vinelz&#39;, &#39;Walenstadt&#39;, &#39;Walperswil&#39;, &#39;Weesen&#39;, &#39;Weggis&#39;, &#39;Yverdon-les-Bains&#39;, &#39;Zug&#39;, &#39;Zürich&#39;]
-
-</pre>
 </div>
+
 </div>
 
 </div>
 </div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea output_execute_result">
+<p><strong>The lakes where the surveys were conducted</strong>:</p>
+<ol>
+<li>linth</li>
+<li>aare</li>
+<li>reuss</li>
+<li>rhone</li>
+<li>ticino</li>
+</ol>
+<p><strong>The rivers where the surveys were conducted</strong>:</p>
+<p>aare, aarenidau-buren-kanal, dorfbach, emme, escherkanal, jona, la-thiele, limmat, linthkanal, maggia, reuss, rhone, schuss, seez, sihl, and ticino</p>
+<p><strong>The municpalities where the surveys were conducted</strong>:</p>
+<p>Aarau, Allaman, Ascona, Beatenberg, Bellinzona, Bern, Biel/Bienne, Boudry, Bourg-en-Lavaux, Brienz (BE), Brugg, Brügg, Burgdorf, Bönigen, Cheyres-Châbles, Cudrefin, Dietikon, Estavayer, Freienbach, Gals, Gambarogno, Gebenstorf, Genève, Gland, Glarus Nord, Grandson, Hauterive (NE), Hünenberg, Kallnach, Köniz, Küsnacht (ZH), La Tour-de-Peilz, Lausanne, Lavey-Morcles, Le Landeron, Leuk, Ligerz, Locarno, Luterbach, Lüscherz, Merenschwand, Minusio, Montreux, Neuchâtel, Nidau, Port, Préverenges, Quarten, Rapperswil-Jona, Richterswil, Riddes, Rubigen, Saint-Gingolph, Saint-Sulpice (VD), Salgesch, Schmerikon, Sion, Solothurn, Spiez, Stäfa, Thun, Tolochenaz, Unterengstringen, Unterseen, Versoix, Vevey, Vinelz, Walenstadt, Walperswil, Weesen, Weggis, Yverdon-les-Bains, Zug, and Zürich.</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
@@ -13171,9 +13208,9 @@ The municpalities where the surveys were conducted:
 <li>The objects that are found</li>
 <li>The context in which they were found -- dimensional data</li>
 </ol>
-<p>These two elements are transmitted seperately when the surveyor submits the data. The main reason for this is efficiency and speed. The context for each survey is unique and each survey can generate up to 220 observations with the same context.</p>
-<p>Before analysis the dimensional data records need to be matched up to the survey data. The <em>loc_date</em> key is the unique indentifier for each survey. Here we match up the loc_date keys from both data sets.</p>
-<p>Dimensional data with no matching survey is dropped. An inquiry is made to the surveyor to identify the nature of the discrepancy. Missing dimensional data can be recuperated by asking the surveyor. There are paper records generated at each survey. Records are dropped from the server or ammended once the surveyor has replied to the inquiry.</p>
+<p>These two elements are transmitted seperately when the surveyor submits the data. The context for each survey is unique and each survey can generate up to 220 observations with the same context, sending the dimensional data only once is more efficient and faster.</p>
+<p>Before analysis the dimensional data records need to be matched up to the survey data. The <em>location_date</em> key is the unique indentifier for each survey. Here we match up the location_date keys from both data sets.</p>
+<p>Dimensional data with no matching survey is dropped. An inquiry is made to the surveyor to identify the nature of the discrepancy. There are paper records generated at each survey. Records are dropped from the server or ammended once the surveyor has replied to the inquiry.</p>
 
 </div>
 </div>
@@ -13185,29 +13222,15 @@ The municpalities where the surveys were conducted:
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-These are the dimensional records that do not have a matching survey in the survey data:
 
-Empty DataFrame
-Columns: [location, date]
-Index: []
+<div class="output_markdown rendered_html output_subarea output_execute_result">
+<p><span style='color:#008891'>These are the surveys that do not have matching dimensional data</span>:</p>
+<p>('baby-plage-geneva', '2021-04-14'), ('quai-maria-belgia', '2021-02-28'), ('quai-maria-belgia', '2021-01-31')</p>
+<p>! THE DIMENSIONAL DATA SUMMARY IS CALCULATED USING 99.2% of the survey data !
+Requests have been made to surveyors to submit the missing records.</p>
 
-All dimensional records found a home in the survey data!
-
-These are the surveys that do not have matching dimensional data:
-
-[(&#39;baby-plage-geneva&#39;, &#39;2021-04-14&#39;), (&#39;quai-maria-belgia&#39;, &#39;2021-02-28&#39;), (&#39;quai-maria-belgia&#39;, &#39;2021-01-31&#39;)]
-
-
-The dimensional data for the surveys with no matching dimensional records are not included in the survey dimensions summary.
-
-!In other terms THE DIMENSIONAL DATA IS CALCULATED USING 99.2% of the survey data.
-
-Requests have been made to surveyors to submit the missing records. The dimensional data is initially recorded in the surveyors notebook.
-
-</pre>
 </div>
+
 </div>
 
 </div>
@@ -13251,12 +13274,6 @@ Requests have been made to surveyors to submit the missing records. The dimensio
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Cumulative-totals-all-data"><span style="color:#008891">Cumulative totals all data</span><a class="anchor-link" href="#Cumulative-totals-all-data">&#182;</a></h4>
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 
 </div>
@@ -13267,14 +13284,22 @@ Requests have been made to surveyors to submit the missing records. The dimensio
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-The cumulative results from 358 samples, weights are in kilograms, time is in hours
 
+<div class="output_markdown rendered_html output_subarea output_execute_result">
+<h4 id="Cumulative-totals-all-data"><span style="color:#008891">Cumulative totals all data</span><a class="anchor-link" href="#Cumulative-totals-all-data">&#182;</a></h4><p>The cumulative results from 358 samples, weights are in kilograms, time is in hours</p>
 
-</pre>
+</div>
+
+</div>
+
 </div>
 </div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
 
 <div class="output_area">
 
@@ -13348,13 +13373,6 @@ The cumulative results from 358 samples, weights are in kilograms, time is in ho
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><br></br></p>
-<h4 id="Cumulative-totals-by-river-basin"><span style="color:#008891">Cumulative totals by river basin</span><a class="anchor-link" href="#Cumulative-totals-by-river-basin">&#182;</a></h4>
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 
 <div class="output_wrapper">
@@ -13362,15 +13380,23 @@ The cumulative results from 358 samples, weights are in kilograms, time is in ho
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
 
-The cumulative results for each river basin, weights are in kilograms, time is in hours:
+<div class="output_markdown rendered_html output_subarea output_execute_result">
+<p><span style='color:#008891'>Cumulative totals by river basin</span></p>
+<p>The cumulative results for each river basin, weights are in kilograms, time is in hours:</p>
 
+</div>
 
-</pre>
+</div>
+
 </div>
 </div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
 
 <div class="output_area">
 
@@ -13514,20 +13540,16 @@ The cumulative results for each river basin, weights are in kilograms, time is i
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-The following Surveys are not included in the charts below:
 
-Surveys with a total weight greater than 50kg:
+<div class="output_markdown rendered_html output_subarea output_execute_result">
+<p>The following Surveys <em>are not included</em> in the charts below:</p>
+<p>Surveys with a total weight greater than 50kg:</p>
+<p>('lavey-les-bains-2', '2021-02-24')</p>
+<p>Surveys with a micro plastic weight greater than 10g:</p>
+<p>('baby-plage-geneva', '2020-07-07'), ('wycheley', '2020-11-07')</p>
 
-  [(&#39;lavey-les-bains-2&#39;, &#39;2021-02-24&#39;)]
-
-Surveys with a micro plastic weight greater than 10g:
-
-  [(&#39;baby-plage-geneva&#39;, &#39;2020-07-07&#39;) (&#39;wycheley&#39;, &#39;2020-11-07&#39;)]
-
-</pre>
 </div>
+
 </div>
 
 </div>
@@ -13582,9 +13604,9 @@ Surveys with a micro plastic weight greater than 10g:
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
 Produced by: roger@hammerdirt.ch
-Date: 2021-04-29
+Date: 2021-05-10
 
-Statistics is fun when you do it outside
+love what you do
 </pre>
 </div>
 </div>
@@ -13596,6 +13618,9 @@ Statistics is fun when you do it outside
     </div>
   </div>
 </body>
+
+
+
 
  
 
