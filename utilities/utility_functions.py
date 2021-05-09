@@ -27,7 +27,10 @@ def make_directory(needed, here):
         os.mkdir(place)
         
 
-def make_local_paths():    
+def make_local_paths():
+    """The directory structure for the repo.
+    returns the directory locations as variables
+    """
     survey_data = os.path.join('resources', 'surveydata')
     location_data = os.path.join('resources', 'locationdata')
     code_defs = os.path.join('resources', 'mlwcodedefs')
