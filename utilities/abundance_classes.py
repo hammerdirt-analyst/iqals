@@ -194,7 +194,7 @@ def agg_pcs_m_by_city_feature_basin_all(som_data, levels, group='code', agg_cols
         national_data = national_data.groupby(group).agg(agg_cols)
         national_data[col_name] = national_data[list(agg_cols.keys())[0]]
         new_dfs.append(national_data[col_name])
-    elif national and  not daily:
+    elif national and not daily:
         a_newdf = som_data.groupby([group]).agg(agg_cols)
         a_newdf[col_name] = a_newdf[list(agg_cols.keys())[0]]
         new_dfs.append(a_newdf[col_name])
