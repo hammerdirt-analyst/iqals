@@ -12,7 +12,9 @@ Produce decision support packages using the data from beach litter surveys condu
 We removed the summary notebooks and added "use_a_class". We are defining the methods for the backend of the application based on the comments and needs recieved from stakeholders over the past year.
 
 1. The project_scope notebook provides summary statistics on effected populations, time to survey, number of municipalities, geographic and administrative scope
-2. The key indicator is an eplanantion of the key indicators we use in the analysis 
+2. The key_indicator notebook is an explanantion of the key indicators and an example of how you could use them to find specific objects or groups of objects
+3. The sitereport notebook gives a summary and analysis of the results for one municipality and compares those results to the water feature, the river bassin and the national results
+4. The code_groups notebook sets grouping levels for objects
 
 The most recent version is in the corresponding feature branch
 
