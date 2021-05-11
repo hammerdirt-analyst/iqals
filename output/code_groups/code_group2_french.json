@@ -1,12 +1,12 @@
 {
-  "waste water": "traitement d'eau",
-  "less than 5mm": "moins que 5mm",
-  "construction": "construction",
-  "food": "emballage alimentaire",
-  "agriculture": "agriculture",
-  "tobacco": "tabagisme",
-  "plastic_pieces":"plastics fragmentées",
-  "recreation": "recreation",
-  "packaging non food": "emballage non alimentaire",
-  "personal items": "effets personnels"
+  "traitement d'eau": "wastewater.json",
+  "moins que 5mm": "codeListMicros.json",
+  "construction": "construction2.json",
+  "emballage alimentaire": "foodstuff.json",
+  "agriculture": "ag2.json",
+  "tabagisme": "tobac.json",
+  "plastiques fragmentés": "plasticpcs.json",
+  "recreation": "recreation.json",
+  "emballage non alimentaire": "packaging.json",
+  "effets personnels": "pi.json"
 }
