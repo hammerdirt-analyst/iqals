@@ -1,0 +1,261 @@
+code,Unnamed: 0,material,description,source,source_two,source_three,parent_code,direct,single_use,micro,ospar_code
+G212,0,produits chimiques,Nodules de petrol,Undefined,Where does it come from,none,Parent code,False,False,False,none
+G213,1,produits chimiques,Paraffine,Undefined,Where does it come from,none,Parent code,True,False,False,181
+G214,2,produits chimiques,Goudron,Construction,Where does it come from,none,Parent code,False,False,False,111
+G135,3,tissus,"Vêtements, chaussures, chapeaux et gants",Clothing,Where does it come from,none,Parent code,True,False,False,54
+G136,4,tissus,Chaussures,Clothing,Where does it come from,none,Parent code,True,False,False,none
+G137,5,tissus,Serviettes et chiffons,Clothing,Where does it come from,none,Parent code,True,False,False,54
+G138,6,tissus,Chaussures et sandales,Clothing,Where does it come from,none,Parent code,True,False,False,57
+G139,7,tissus,Sacs à dos,Utility items,Recreation,none,Parent code,True,False,False,none
+G140,8,tissus,"Sacs, jute ou chanvre",Packaging,Agriculture,none,Parent code,False,False,False,56
+G141,9,tissus,Tapis,Utility items,Where does it come from,none,Parent code,False,False,False,55
+G142,10,tissus,"Corde, pas de plastique",Utility items,Recreation,none,Parent code,True,False,False,none
+G143,11,tissus,Voiles et toiles,Utility items,Recreation,none,Parent code,True,False,False,none
+G144,12,tissus,Tampons,Personal hygiene,Water Treatment,none,Parent code,False,False,False,100
+G145,13,tissus,Autres textiles,Undefined,Personal hygiene,none,Parent code,True,False,False,59
+G902,14,tissus,"Masque médical, tissu réutilisable",Personal hygiene,Where does it come from,none,G145,True,False,False,59
+G200,15,Glass,verre brisé ,Packaging,Food and drink,none,Parent code,True,True,False,91
+G201,16,Glass,"Pots, verre ou poterie et pièces",Packaging,Where does it come from,none,Parent code,True,False,False,93
+G202,17,Glass,Ampoules électriques,Utility items,Where does it come from,,Parent code,True,False,False,
+G203,18,Glass,Vaisselle en céramique ou verre,Food,Where does it come from,none,Parent code,False,False,False,none
+G204,19,Glass,"Matériaux de construction ; briques, tuyaux, ciment",Construction,Where does it come from,none,Parent code,True,False,False,94
+G205,20,Glass,Tubes fluorescents,Utility items,Where does it come from,,Parent code,True,False,False,
+G206,21,Glass,Bouées en verre,Fishing,Where does it come from,,Parent code,True,False,False,
+G207,22,Glass,Pots à poulpe,Fishing,Where does it come from,,Parent code,True,False,False,
+G208,23,Glass,"Fragments de verre ou de céramique > 2,5 cm",Undefined,Where does it come from,none,Parent code,True,False,False,none
+G209,24,Glass,Grands objets en verre,Undefined,Where does it come from,,Parent code,True,False,False,
+G210,25,Glass,Autre verre/céramique,Undefined,Where does it come from,none,Parent code,True,False,False,96
+G917,26,Glass,Boules de terre cuite,Utility items,Where does it come from,none,G210,False,False,False,96
+G921,27,Glass,Carreaux et pièces de céramique,Construction,Where does it come from,none,G204,False,False,False,94
+G174,28,métal,Bombes aérosols,Packaging,Where does it come from,,Parent code,True,False,False,
+G175,29,métal,"Boîtes de conserve, boissons",Packaging,Food and drink,none,Parent code,True,True,False,78
+G176,30,métal,Boîtes de conserve,Packaging,Food and drink,none,Parent code,True,True,False,82
+G177,31,métal,Papier d'emballage d'aluminium,Packaging,Where does it come from,none,Parent code,True,False,False,81
+G178,32,métal,"Bouchons de bouteilles en métal, couvercles et tirettes",Packaging,Food and drink,Direct,Parent code,True,True,False,77
+G179,33,métal,Barbecues jetables,Recreation,Where does it come from,,Parent code,True,False,False,
+G180,34,métal,Appareils ménagers,Utility items,Where does it come from,,Parent code,True,False,False,
+G181,35,métal,"Vaisselle en métal; tasses, couverts",Food,Where does it come from,none,Parent code,True,False,False,89
+G182,36,métal,"Hameçons, poids, leurres, plombs",Fishing,Where does it come from,none,Parent code,True,False,False,80
+G183,37,métal,Restes d'hameçons,Fishing,Where does it come from,,Parent code,True,False,False,
+G184,38,métal,Casiers à homards,Fishing,Where does it come from,,Parent code,True,False,False,
+G185,39,métal,Conteneurs de taille moyenne,Utility items,Where does it come from,,Parent code,True,False,False,
+G186,40,métal,Débris industriels,Undefined,Where does it come from,,Parent code,True,False,False,
+G187,41,métal,Tonneaux,Packaging,Where does it come from,,Parent code,True,False,False,
+G188,42,métal,Autres bidons < 4 L,Packaging,Where does it come from,none,Parent code,True,False,False,89
+G189,43,métal,"Bouteilles, fûts et seaux à gaz > 4L",Packaging,Where does it come from,none,Parent code,True,False,False,none
+G190,44,métal,Bidons de peinture,Packaging,Where does it come from,,Parent code,True,False,False,
+G191,45,métal,Fils et grillages,Utility items,Where does it come from,,Parent code,True,False,False,
+G192,46,métal,Tonneau de pétrole,Undefined,Where does it come from,,Parent code,True,False,False,
+G193,47,métal,Pièces automobiles et batteries,Vehicle,Where does it come from,,Parent code,True,False,False,
+G194,48,métal,"Câbles, fil métallique",Construction,Electronics,none,Parent code,False,False,False,89
+G195,49,métal,Batteries domestiques,Utility items,Where does it come from,,Parent code,True,False,False,
+G196,50,métal,Grands objets métalliques,Undefined,Where does it come from,,Parent code,True,False,False,
+G197,51,métal,Autre métal,Undefined,Where does it come from,,Parent code,True,False,False,
+G198,52,métal,Autres pièces métalliques < 50cm,Undefined,Where does it come from,,Parent code,True,False,False,
+G199,53,métal,Autres pièces métalliques > 50cm,Undefined,Where does it come from,,Parent code,True,False,False,
+G906,54,métal,Capsules de café en aluminium,Packaging,Food and drinks,Where does it come from,G177,False,True,False,81
+G918,55,métal,"Épingles trombones, petits outils métalliques",Utility items,Personal equipment,none,G198,True,False,False,89
+G919,56,métal,"Clous, vis, boulons, etc.",Utility items,Construction,Recreation,G197,False,False,False,89
+G929,57,métal,"Électronique et pièces ; capteurs, écouteurs",Utility items,Electronics,Personal equipment,G198,True,False,False,89
+G945,58,métal,Lames de rasoir,Personal hygiene,Water Treatment,Where does it come from,G198,False,True,False,89
+G146,59,papier,"Papier, carton",Undefined,Where does it come from,,Parent code,True,False,False,
+G147,60,papier,Sacs en papier,Packaging,Where does it come from,,Parent code,True,False,False,
+G148,61,papier,Boîtes en carton,Packaging,Where does it come from,,Parent code,True,False,False,
+G149,62,papier,Emballage en papier,Packaging,Where does it come from,,Parent code,True,False,False,
+G150,63,papier,"Carton de lait, tetrapack",Packaging,Where does it come from,none,Parent code,True,False,False,118
+G151,64,papier,"Cartons, Tetrapacks",Packaging,Where does it come from,none,Parent code,True,False,False,62
+G152,65,papier,"Boîtes à cigarettes, papier/carton",Tobacco,Where does it come from,none,Parent code,True,False,False,63
+G153,66,papier,Gobelets en papier et récipients alimentaires,Packaging,Food and drink,none,Parent code,True,True,False,67
+G154,67,papier,Journaux ou magazines,Utility items,Where does it come from,,Parent code,True,False,False,
+G155,68,papier,Tubes et fragments de papier: feux d'artifice,Recreation,Where does it come from,none,Parent code,True,False,False,67
+G156,69,papier,Fragments de papier,Undefined,Where does it come from,,Parent code,True,False,False,
+G157,70,papier,Papier,Undefined,Where does it come from,,Parent code,True,False,False,
+G158,71,papier,Autres articles en papier,Undefined,Where does it come from,,Parent code,True,False,False,
+G923,72,papier,"Mouchoirs en papier, papier toilette, serviettes de table",Personal hygiene,Where does it come from,none,G158,True,False,False,67
+G1,73,plastique,Anneaux pour six packs,Packaging,Food and drink,none,Parent code,True,True,False,1
+G10,74,plastique,Emballage fast food,Packaging,Food and drink,Direct,Parent code,True,True,False,6
+G100,75,plastique,Médical conteneurs/tubes/ emballages,Medical,Water Treatment,none,Parent code,False,True,False,103
+G101,76,plastique,Sac pour déjections canines,Utility items,Where does it come from,,Parent code,True,False,False,
+G102,77,plastique,Tongs,Clothing,Where does it come from,,Parent code,True,False,False,
+G103,78,plastique,fragments de plastique arrondis <5mm,Undefined,Where does it come from,none,Parent code,True,False,True,none
+G104,79,plastique,"fragments de plastique sous-arrondis < 0,5cm",Undefined,Where does it come from,none,Parent code,True,False,True,none
+G105,80,plastique,fragments de plastique subangulaires <5mm,Undefined,Where does it come from,none,Parent code,True,False,True,none
+G106,81,plastique,Fragments de plastique angulaires <5mm,Undefined,Where does it come from,none,Parent code,True,False,True,none
+G107,82,plastique,Boulettes cylindriques < 5mm,Industry,Where does it come from,none,Parent code,True,False,True,none
+G108,83,plastique,pastilles de disque <5mm,Industry,Where does it come from,Indirect,Parent code,True,False,True,none
+G109,84,plastique,Pellets plats <5mm,Industry,Where does it come from,Indirect,Parent code,True,False,True,none
+G11,85,plastique,Produits cosmétiques pour la plage,Personal hygiene,Where does it come from,none,Parent code,True,True,False,7
+G110,86,plastique,Granules ovoïdes < 5mm,Industry,Where does it come from,Indirect,Parent code,True,False,True,none
+G111,87,plastique,Granulés sphéroïdes < 5mm,Industry,Where does it come from,Indirect,Parent code,True,False,True,none
+G112,88,plastique,Pellets industriels (GPI),Industry,Where does it come from,Indirect,Parent code,False,False,True,none
+G113,89,plastique,Filaments <5mm,Undefined,Where does it come from,Indirect,Parent code,True,False,True,none
+G114,90,plastique,Films <5mm,Undefined,Where does it come from,Indirect,Parent code,True,False,True,none
+G115,91,plastique,Mousse de plastique <5mm,Undefined,Where does it come from,none,Parent code,True,False,True,none
+G116,92,plastique,Granules <5mm,Industry,Where does it come from,Indirect,Parent code,True,False,True,none
+G117,93,plastique,polystyrène < 5mm,Undefined,Where does it come from,none,Parent code,True,False,True,none
+G118,94,plastique,Petites sphères industrielles <5mm,Industry,Where does it come from,Indirect,Parent code,True,False,True,none
+G119,95,plastique,Plastique utilisateur en feuille (>1mm),Undefined,Where does it come from,,Parent code,True,False,False,
+G12,96,plastique,Récipients de soins personnels non destinés à la plage,Personal hygiene,Where does it come from,none,Parent code,False,True,False,7
+G120,97,plastique,Plastique utilisateur filiforme ( >1mm),Undefined,Where does it come from,,Parent code,True,False,False,
+G121,98,plastique,Plastique utilisateur moussé ( >1mm),Undefined,Where does it come from,,Parent code,True,False,False,
+G122,99,plastique,Fragments de plastique ( >1mm),Undefined,Where does it come from,,Parent code,True,False,False,
+G123,100,plastique,Granulés de polyuréthane < 5mm,Industry,Where does it come from,Indirect,Parent code,True,False,True,none
+G124,101,plastique,Autres produits en plastique ou en mousse,Undefined,Where does it come from,,Parent code,True,False,False,
+G13,102,plastique,"Bouteilles, conteneurs, fûts pour le transport, le stockage",Packaging,Industry,none,Parent code,False,False,False,12
+G14,103,plastique,Bouteilles d'huile moteur,Packaging,Where does it come from,,Parent code,True,False,False,
+G15,104,plastique,Bouteilles d'huile moteur > 50cm,Packaging,Where does it come from,,Parent code,True,False,False,
+G16,105,plastique,Jerrycan,Packaging,Where does it come from,,Parent code,True,False,False,
+G17,106,plastique,Cartouche pour pistolet d'injection,Packaging,Where does it come from,,Parent code,True,False,False,
+G18,107,plastique,Caisses/paniers,Packaging,Where does it come from,,Parent code,True,False,False,
+G19,108,plastique,Pièces détachées pour voitures,Vehicle,Where does it come from,,Parent code,True,False,False,
+G2,109,plastique,Sacs,Packaging,Where does it come from,none,Parent code,True,True,False,none
+G20,110,plastique,Capsules et couvercles,Packaging,Where does it come from,none,Parent code,True,True,False,15
+G21,111,plastique,Couvercles de bouteilles,Packaging,Food and drinks,none,Parent code,True,False,False,15
+G22,112,plastique,Couvercles pour produits  non alimentaires,Packaging,Where does it come from,none,Parent code,True,False,False,15
+G23,113,plastique,Couvercles non identifiés,Packaging,Where does it come from,,Parent code,True,False,False,
+G24,114,plastique,Anneaux de fermeture de récipients en plastique,Packaging,Where does it come from,none,Parent code,True,True,False,15
+G25,115,plastique,Tabac emballages en plastique,Tobacco,Smoking related,Direct,Parent code,True,True,False,48
+G26,116,plastique,Allume-cigarettes,Tobacco,Where does it come from,none,Parent code,True,False,False,16
+G27,117,plastique,Mégots et filtres à cigarettes,Tobacco,Where does it come from,none,Parent code,True,True,False,64
+G28,118,plastique,"Stylos, couvercles, porte-mines",Utility items,Where does it come from,Direct,Parent code,True,False,False,17
+G29,119,plastique,"Peignes, brosses et lunettes de soleil",Utility items,Where does it come from,Direct,Parent code,True,False,False,18
+G3,120,plastique,Sacs en plastique pour achats et pièces,Packaging,Food and drink,none,Parent code,True,True,False,2
+G30,121,plastique,"Emballages de bonbons, de snacks",Packaging,Food and drink,none,Parent code,True,True,False,19
+G31,122,plastique,Bâtonnets de sucette,Packaging,Food and drink,none,Parent code,True,True,False,19
+G32,123,plastique,Jouets et faveurs de fête,Recreation,Where does it come from,none,Parent code,True,False,False,20
+G33,124,plastique,"Gobelets, couvercles, mousse à usage unique et plastique dur",Packaging,Food and drink,Direct,Parent code,True,True,False,21
+G34,125,plastique,"Couverts, assiettes et plateaux palstique",Food,Where does it come from,none,Parent code,True,True,False,22
+G35,126,plastique,Pailles et agitateurs,Food,none,none,Parent code,True,True,False,22
+G36,127,plastique,Sacs/sacs en plastique résistant pour 25 kg ou plus,Packaging,Where does it come from,Indirect,Parent code,True,True,False,23
+G37,128,plastique,Sacs à mailles,Packaging,Where does it come from,,Parent code,True,False,False,
+G38,129,plastique,Couvertures; emballages en plastique gros calibre,Packaging,Industrial,none,Parent code,False,True,False,40
+G39,130,plastique,Gants,Clothing,Where does it come from,,Parent code,True,False,False,
+G4,131,plastique,"Petits sacs en plastique ; congélateur, zip-lock",Packaging,Food and drink,Medical,Parent code,True,True,False,3
+G40,132,plastique,Gants de ménage/jardinage,Clothing,Where does it come from,none,Parent code,True,False,False,25
+G41,133,plastique,Gant industriel/professionnel,Clothing,Where does it come from,none,Parent code,True,False,False,113
+G42,134,plastique,Pots à crabe et à homard,Fishing,Where does it come from,,Parent code,True,False,False,
+G43,135,plastique,"Étiquettes de sécurité, sceaux",Utility items,Where does it come from,none,Parent code,False,False,False,114
+G44,136,plastique,Pots à poulpe,Fishing,Where does it come from,,Parent code,True,False,False,
+G45,137,plastique,Filets à moules,Aquaculture,Where does it come from,,Parent code,True,False,False,
+G46,138,plastique,Plateaux à huîtres,Aquaculture,Where does it come from,,Parent code,True,False,False,
+G47,139,plastique,Feuilles de la culture des moules,Aquaculture,Where does it come from,,Parent code,True,False,False,
+G48,140,plastique,"Corde, synthétique",Utility items,Boating,Construction,Parent code,False,False,False,none
+G49,141,plastique,Corde > 1cm,Utility items,Where does it come from,,Parent code,True,False,False,
+G5,142,plastique,Sacs en plastique génériques,Packaging,Where does it come from,,Parent code,True,False,False,
+G50,143,plastique,Cordon < 1cm,Utility items,Where does it come from,,Parent code,True,False,False,
+G51,144,plastique,Filet de pêche,Fishing,Where does it come from,,Parent code,True,False,False,
+G52,145,plastique,Filets et pièces,Fishing,Where does it come from,,Parent code,True,False,False,
+G53,146,plastique,Filets et pièces < 50cm,Fishing,Where does it come from,,Parent code,True,False,False,
+G54,147,plastique,Filets et pièces > 50cm,Fishing,Where does it come from,,Parent code,True,False,False,
+G55,148,plastique,Ligne de pêche (enchevêtrée),Fishing,Where does it come from,,Parent code,True,False,False,
+G56,149,plastique,Filets emmêlés,Fishing,Where does it come from,,Parent code,True,False,False,
+G57,150,plastique,Caisses à poisson,Fishing,Where does it come from,,Parent code,True,False,False,
+G58,151,plastique,Caisses à poisson en mousse,Fishing,Where does it come from,,Parent code,True,False,False,
+G59,152,plastique,Ligne de pêche monofilament (pêche à la ligne),Fishing,Where does it come from,,Parent code,True,False,False,
+G6,153,plastique,Récipients en plastique non alimentaires,Packaging,Where does it come from,Direct,Parent code,True,True,False,11
+G60,154,plastique,Bâtons lumineux,Fishing,Where does it come from,,Parent code,True,False,False,
+G61,155,plastique,Autres activités liées à la pêche,Fishing,Where does it come from,,Parent code,True,False,False,
+G62,156,plastique,Flotteurs pour filets,Fishing,Where does it come from,,Parent code,True,False,False,
+G63,157,plastique,Bouées,Undefined,Where does it come from,,Parent code,True,False,False,
+G64,158,plastique,Garde-boue,Vehicle,Where does it come from,,Parent code,True,False,False,
+G65,159,plastique,Seaux,Utility items,Where does it come from,,Parent code,True,False,False,
+G66,160,plastique,sangles/bandes ; fermeture de paquet en plastique dur,Packaging,Where does it come from,none,Parent code,True,False,False,39
+G67,161,plastique,"Bâche, feuille plastique industrielle",Utility items,Industry,none,Parent code,False,False,False,40
+G68,162,plastique,Fragments de fibre de verre,Fishing,Where does it come from,,Parent code,True,False,False,
+G69,163,plastique,Casques ou casques de sécurité,Clothing,Where does it come from,,Parent code,True,False,False,
+G7,164,plastique,"Bouteilles à boisson < = 0,5L",Packaging,Food and drink,Where does it come from,Parent code,True,True,False,4
+G70,165,plastique,Cartouches de fusil de chasse,Hunting,Where does it come from,,Parent code,True,False,False,
+G71,166,plastique,Chaussures sandales,Clothing,Where does it come from,,Parent code,True,False,False,
+G72,167,plastique,Cônes de signalisation,Utility items,Where does it come from,,Parent code,True,False,False,
+G73,168,plastique,Articles et pièces en mousse (pas d'emballage),Recreation,Utility,Unknown,Parent code,True,False,False,45
+G74,169,plastique,Mousse de plastique pour l'isolation thermique ou ...,Undefined,Construction,Industrial,Parent code,False,False,False,45
+G75,170,plastique,Plastique/polystyrène pièces 0 - 2.5 cm,Undefined,Where does it come from,none,Parent code,True,False,False,117
+G76,171,plastique,"Plastique/polystyrène expansé 2,5 > < 50",Undefined,Where does it come from,Indirect,Parent code,True,False,False,46
+G77,172,plastique,Plastique ou polystyrène > 50cm,Undefined,Where does it come from,,Parent code,True,False,False,
+G78,173,plastique,"Plastiques fragmentés 0,5cm > < 2,5cm",Undefined,Where does it come from,none,Parent code,True,False,False,117
+G79,174,plastique,"Plastiques fragmentés 2,5cm > < 50cm",Undefined,None,None,Parent code,True,False,False,46
+G8,175,plastique,"Bouteilles à boisson > = 0,5L",Packaging,Food and drink,none,Parent code,True,True,False,4
+G80,176,plastique,Pièces en plastique > 50cm,Undefined,Where does it come from,,Parent code,True,False,False,
+G81,177,plastique,"Morceaux de polystyrène expansé 0,5cm > < 2,5cm",Packaging,Construction,None,Parent code,False,False,False,117
+G82,178,plastique,"Mousse de polystyrène expansé 2,5cm > <50cm",Undefined,Packaging,Construction,Parent code,False,False,False,46
+G83,179,plastique,Pièces en polystyrène > 50cm,Undefined,Where does it come from,,Parent code,True,False,False,
+G84,180,plastique,Disque compact ou conteneur,Packaging,Where does it come from,,Parent code,True,False,False,
+G85,181,plastique,Emballage du sel,Packaging,Where does it come from,,Parent code,True,False,False,
+G86,182,plastique,Arbres à palmes,Recreation,Where does it come from,,Parent code,True,False,False,
+G87,183,plastique,"Ruban adhésif, masquage, emballage",Utility items,Where does it come from,none,Parent code,False,False,False,48
+G88,184,plastique,"Téléphone, pièces détachées incluses",Utility items,Where does it come from,none,Parent code,True,False,False,48
+G89,185,plastique,Déchets de construction en plastique,Construction,Where does it come from,,Parent code,True,False,False,
+G9,186,plastique,Récipients pour produits chimiques et nettoyants,Packaging,Construction,Industry,Parent code,True,True,False,5
+G90,187,plastique,Pots de fleurs en plastique,Agriculture,Where does it come from,,Parent code,True,False,False,
+G901,188,plastique,"Masque médical, synthétique",Personal hygiene,Where does it come from,none,G124,True,True,False,48
+G903,189,plastique,Récipients et sachets de désinfectant pour les mains,Personal hygiene,Where does it come from,none,G12,True,True,False,7
+G904,190,plastique,"Feux d'artifice; capsules de fusées, pièces explosées",Recreation,Where does it come from,none,G124,False,True,False,48
+G905,191,plastique,"Pince à cheveux, accessoires personnels",Personal hygiene,Where does it come from,Where does it come from,G124,True,False,False,48
+G907,192,plastique,capsules de café en plastique,Undefined,Where does it come from,none,G124,False,True,False,48
+G908,193,plastique,"Ruban ; électrique, isolant",Construction,none,none,G124,False,False,False,48
+G909,194,plastique,"Mousse plastique pour l'isolation thermique  0,5cm > < 2.5cm,",Construction,none,none,G74,False,False,False,45
+G91,195,plastique,Porte-biomasse,Water Treatment,Where does it come from,none,Parent code,False,False,False,91
+G910,196,plastique,"Mousse plastique pour l'isolation thermique 2,5cm > < 50cm",Construction,Where does it come from,none,G74,False,False,False,46
+G911,197,plastique,"Mousse de polystyrène; perles/boules expansées 0,5cm > < 2,5cm",Packaging,Construction,none,G81,False,True,False,117
+G912,198,plastique,"Mousse de polystyrène; perles/boules expansées 2,5cm > <50cm",Packaging,Construction,none,G82,False,True,False,46
+G913,199,plastique,Tétine pour bébé,Personal hygiene,Where does it come from,none,G124,True,False,False,48
+G914,200,plastique,"Trombones, épingles à linge, articles utilitaires en plastique",Utility items,Where does it come from,none,G124,True,False,False,48
+G915,201,plastique,"Réflecteurs, articles de mobilité en plastique",Utility items,Recreation,none,G124,True,False,False,48
+G92,202,plastique,Conteneurs à appâts,Fishing,Where does it come from,,Parent code,True,False,False,
+G922,203,plastique,"Étiquettes, codes à barres",Packaging,Where does it come from,none,G124,True,True,False,48
+G925,204,plastique,Déshydratants/absorbants d'humidité,Utility items,Packaging,none,G124,True,True,False,Ospar...
+G926,205,plastique,Du chewing-gum,Undefined,Where does it come from,Where does it come from,G124,True,True,False,Ospar...
+G927,206,plastique,Ligne de débrousailleuse,Utility items,Where does it come from,Where does it come from,G124,True,True,False,Ospar...
+G928,207,plastique,Rubans et boucles,Recreation,Where does it come from,Where does it come from,G124,True,True,False,Ospar...
+G93,208,plastique,"Colson, zip-ties",Utility items,Construction,none,Parent code,False,True,False,48
+G930,209,plastique,Bouchons d'oreille en mousse,Personal hygiene,Where does it come from,Where does it come from,G124,True,True,False,Ospar...
+G931,210,plastique,"Ruban pour barrière, police, construction",Utility items,Construction,Recreation,G124,True,True,False,Ospar...
+G932,211,plastique,"Bio-perles, micro plastique pour les eaux usées",Water Treatment,Where does it come from,Where does it come from,G91,False,False,True,Ospar...
+G933,212,plastique,"Sacs, étuis pour accessoires; lunettes, électronique",Undefined,Personal equipment,Where does it come from,G124,True,False,False,Ospar...
+G934,213,plastique,"Sacs de sable, en plastique, pour le contrôle de l'érosion",Construction,Where does it come from,Where does it come from,G124,True,True,False,Ospar...
+G935,214,plastique,"Tampons et pièces pour bâtons de marche, souvent en élastomère",Recreation,Where does it come from,Where does it come from,G124,False,False,False,Ospar...
+G936,215,plastique,Film sur les serres,Agriculture,Where does it come from,Where does it come from,G67,False,False,False,40
+G937,216,plastique,Appâts à phéromones pour les vignobles,Agriculture,Where does it come from,Where does it come from,G124,False,False,False,Ospar...
+G938,217,plastique,"Cure-dents, fil dentaire en plastique",Personal hygiene,Where does it come from,Where does it come from,G124,True,True,False,Ospar...
+G939,218,plastique,"Fleurs, plantes en plastique",Undefined,Where does it come from,Where does it come from,G124,False,False,False,Ospar...
+G94,219,plastique,Nappe de table,Utility items,Where does it come from,,Parent code,True,False,False,
+G940,220,plastique,Mousse EVA pour les sports nautiques,Recreation,Where does it come from,Where does it come from,G73,True,False,False,Ospar...
+G941,221,plastique,Emballage plastique non alimentaire,Packaging,Where does it come from,Where does it come from,G124,False,True,False,48
+G942,222,plastique,Copeaux de plastique provenant de l'usinage,Industry,Where does it come from,Where does it come from,G124,False,False,False,Ospar...
+G943,223,plastique,"Clôturer l'agriculture, plastique",Agriculture,Where does it come from,Where does it come from,G124,False,False,False,Ospar...
+G944,224,plastique,Masse de granulés provenant du moulage par injection,Industry,Manufacturing,Where does it come from,G112,False,True,False,Ospar...
+G95,225,plastique,Coton-tige,Personal hygiene,Water Treatment,Indirect,Parent code,False,True,False,98
+G96,226,plastique,Serviettes hygiéniques / protège-slips / tampons et ...,Personal hygiene,Water Treatment,none,Parent code,False,True,False,99
+G97,227,plastique,Rafraîchisseurs de toilettes,Personal hygiene,Where does it come from,,Parent code,True,False,False,
+G98,228,plastique,Couches - lingettes,Personal hygiene,Where does it come from,none,Parent code,True,True,False,102
+G99,229,plastique,Seringues - aiguilles,Medical,Where does it come from,,Parent code,True,False,False,
+G125,230,caoutchouc,Ballons et bâtonnets de ballons,Recreation,Where does it come from,Direct,Parent code,True,True,False,49
+G126,231,caoutchouc,Boules en caoutchouc,Recreation,Where does it come from,,Parent code,True,False,False,
+G127,232,caoutchouc,Bottes en caoutchouc,Clothing,Where does it come from,,Parent code,True,False,False,
+G128,233,caoutchouc,Pneus et courroies,Vehicle,Where does it come from,,Parent code,True,False,False,
+G129,234,caoutchouc,Chambres à air et feuilles de caoutchouc,Vehicle,Where does it come from,,Parent code,True,False,False,
+G130,235,caoutchouc,Roues,Vehicle,Where does it come from,,Parent code,True,False,False,
+G131,236,caoutchouc,Bandes élastiques,Utility items,Where does it come from,,Parent code,True,False,False,
+G132,237,caoutchouc,Bobine de pêche,Fishing,Where does it come from,,Parent code,True,False,False,
+G133,238,caoutchouc,"Préservatifs, y compris emballage",Personal hygiene,Water Treatment,none,Parent code,True,True,False,97
+G134,239,caoutchouc,Autre caoutchouc,Undefined,Where does it come from,,Parent code,True,False,False,
+G900,240,caoutchouc,Gants latex de protection individuelle,Personal hygiene,Where does it come from,none,G134,True,True,False,53
+G998,241,non définis,aucun rivage exposé,Where does it come from,Where does it come from,Where does it come from,Parent code,True,False,False,Ospar...
+G211,242,non identifié,"Autres articles médicaux: compresses, pansements",Medical,Where does it come from,none,Parent code,True,True,False,105
+G999,243,non identifié,Aucun objet trouvé dans cette enquête,Undefined,Where does it come from,,Parent code,True,False,False,
+G159,244,bois,Bouchon de liège,Packaging,Where does it come from,,Parent code,True,False,False,
+G160,245,bois,Pallettes,Packaging,Where does it come from,,Parent code,True,False,False,
+G161,246,bois,Bois transformé,Packaging,Where does it come from,none,Parent code,False,False,False,69
+G162,247,bois,Caisse,Packaging,Where does it come from,,Parent code,True,False,False,
+G163,248,bois,Pots à crabe et à homard,Fishing,Where does it come from,,Parent code,True,False,False,
+G164,249,bois,Caisse à poisson en bois,Fishing,Where does it come from,,Parent code,True,False,False,
+G165,250,bois,"Bâtons de glace, cure-dents, baguettes chinoises",Packaging,Food and drink,none,Parent code,True,True,False,72
+G166,251,bois,pinceau,Utility items,Where does it come from,,Parent code,True,False,False,
+G167,252,bois,allumettes ou feux d'artifice,Recreation,Where does it come from,,Parent code,True,False,False,
+G168,253,bois,planches de bois,Undefined,Where does it come from,,Parent code,True,False,False,
+G169,254,bois,"Poutres, bois de calage",Undefined,Where does it come from,,Parent code,True,False,False,
+G170,255,bois,Bois (transformé),Undefined,Where does it come from,,Parent code,True,False,False,
+G171,256,bois,Autre bois < 50cm,Undefined,Where does it come from,,Parent code,True,False,False,
+G172,257,bois,Autres bois > 50cm,Undefined,Where does it come from,,Parent code,True,False,False,
+G173,258,bois,Autres bois,Undefined,Where does it come from,,Parent code,True,False,False,
+G916,259,bois,Crayons et morceaux,Utility items,Where does it come from,none,G170,True,False,False,none

@@ -118,6 +118,7 @@ def get_the_file_extension(x):
     return split
 
 def get_data_from_most_recent(data_sources, check_ext=get_the_file_extension, data_methods={}, a_dir="resources/most_recent"):
+    """Retrieves files from specified directory using specified methods"""
     a_list = []
     for key in data_sources:
         ext = check_ext(data_sources[key])
@@ -169,19 +170,39 @@ def agg_fail_rate_by_city_feature_basin_all(som_data, levels, group='code',
         new_dfs.append(national)
     return pd.concat(new_dfs, axis=1)
 
-def agg_pcs_m_by_city_feature_basin_all(som_data, levels, group='code',
-                                            agg_cols={"pcs_m":"median"}, national=True,
-                                            col_name="All river bassins"):
+def agg_pcs_m_by_city_feature_basin_all(som_data, levels, group='code', agg_cols={"pcs_m":"median"}, level_names=[], dailycols={'pcs_m':'sum', 'quantity':'sum'}, national=True,  col_name="All river bassins", daily=False, **kwargs):
     new_dfs = []
+    i = 0
     for level in levels:
-        a_newdf = som_data[som_data[level] == levels[level]].groupby(group).agg(agg_cols)
-        a_newdf[levels[level]] = a_newdf[list(agg_cols.keys())[0]]
-        new_dfs.append(a_newdf[levels[level]])
-    if national:
-        national = som_data.groupby(group).agg(agg_cols)
-        national[col_name] = national[list(agg_cols.keys())[0]]
-        new_dfs.append(national[col_name])
-    return pd.concat(new_dfs, axis=1)
+
+        if daily == True:
+            a_newdf = som_data[som_data[level] == levels[level]].groupby(['loc_date',group]).agg(dailycols)
+            a_newdf = a_newdf.groupby([group]).agg(agg_cols)
+            level_name = level_names[i]
+            a_newdf[level_name] = a_newdf[list(agg_cols.keys())[0]]
+            i+=1
+        else:
+
+            a_newdf = som_data[som_data[level] == levels[level]].groupby([group]).agg(agg_cols)
+            level_name = level_names[i]
+            a_newdf[level_name] = a_newdf[list(agg_cols.keys())[0]]
+            i+=1
+
+        new_dfs.append(a_newdf[level_name])
+    if national and daily:
+        national_data = som_data.groupby(['loc_date', group]).agg(dailycols)
+        national_data = national_data.groupby(group).agg(agg_cols)
+        national_data[col_name] = national_data[list(agg_cols.keys())[0]]
+        new_dfs.append(national_data[col_name])
+    elif national and not daily:
+        a_newdf = som_data.groupby([group]).agg(agg_cols)
+        a_newdf[col_name] = a_newdf[list(agg_cols.keys())[0]]
+        new_dfs.append(a_newdf[col_name])
+
+
+    this_df = pd.concat(new_dfs, axis=1)
+
+    return this_df
 
 class CatchmentArea:
     """aggregates survey results"""
