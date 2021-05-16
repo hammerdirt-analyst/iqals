@@ -1,7 +1,7 @@
 code,material,description,source,source_two,source_three,parent_code,direct,single_use,micro,ospar_code
 G212,Chemicals,Oil nodules or coal fragments -- not from a BBQ,Undefined,unk,none,Parent code,False,False,False,none
 G213,Chemicals,Paraffin wax,Undefined,recre,none,Parent code,True,False,False,181
-G214,Chemicals,Oil/tar,Construction,unk,none,Parent code,False,False,False,111
+G214,Chemicals,Oil/tar,Construction,construction2,none,Parent code,False,False,False,111
 G135,Cloth,"Clothes, footware, headware, gloves",Clothing,pi,none,Parent code,True,False,False,54
 G136,Cloth,Shoes,Clothing,pi,none,Parent code,True,False,False,none
 G137,Cloth,"Clothing, towels & rags",Clothing,unk,none,Parent code,True,False,False,54
@@ -21,7 +21,7 @@ G203,Glass,"Tableware ceramic or glass, cups, plates, pieces",Food,unk,none,Pare
 G204,Glass,"Construction material; bricks, pipes, cement",Construction,construction2,none,Parent code,True,False,False,94
 G205,Glass,Fluorescent light tubes,Utility items,unk,,Parent code,True,False,False,
 G206,Glass,Glass buoys,Fishing,recre,,Parent code,True,False,False,
-G207,Glass,Octopus pots,Fishing,recre,,Parent code,True,False,False,
+G207,Glass,Octopus pots,Fishing,unk,,Parent code,True,False,False,
 G208,Glass,Glass or ceramic fragments > 2.5 cm,Undefined,unk,none,Parent code,True,False,False,none
 G209,Glass,Large glass objects,Undefined,unk,,Parent code,True,False,False,
 G210,Glass,Other glass/ceramic,Undefined,unk,none,Parent code,True,False,False,96
@@ -37,7 +37,7 @@ G180,Metal,Appliances,Utility items,unk,,Parent code,True,False,False,
 G181,Metal,"Tableware metal;  cups, cutlery etc.",Food,food,none,Parent code,True,False,False,89
 G182,Metal,"Fishing; hooks, weights, lures, sinkers etc.",Fishing,recre,none,Parent code,True,False,False,80
 G183,Metal,Fish hook remains,Fishing,recre,,Parent code,True,False,False,
-G184,Metal,Lobster pots,Fishing,recre,,Parent code,True,False,False,
+G184,Metal,Lobster pots,Fishing,unk,,Parent code,True,False,False,
 G185,Metal,Middle size containers,Utility items,unk,,Parent code,True,False,False,
 G186,Metal,Industrial scrap,Undefined,construction2,,Parent code,True,False,False,
 G187,Metal,Drums,Packaging,construction2,,Parent code,True,False,False,
@@ -101,7 +101,7 @@ G121,Plastic,Foamed user plastic ( >1mm),Undefined,micro,,Parent code,True,False
 G122,Plastic,Plastic fragments ( >1mm),Undefined,micro,,Parent code,True,False,False,
 G123,Plastic,Polyurethane granules < 5mm,Industry,micro,Indirect,Parent code,True,False,True,none
 G124,Plastic,Other plastic or foam products,Undefined,unk,,Parent code,True,False,False,
-G13,Plastic,"Bottles, containers, drums to transport, store material",Packaging,cat,none,Parent code,False,False,False,12
+G13,Plastic,"Bottles, containers, drums to transport, store material",Packaging,unk,none,Parent code,False,False,False,12
 G14,Plastic,Engine oil bottles,Packaging,ag2,,Parent code,True,False,False,
 G15,Plastic,Engine oil bottles > 50cm,Packaging,ag2,,Parent code,True,False,False,
 G16,Plastic,Jerry cans,Packaging,ag2,,Parent code,True,False,False,
@@ -114,7 +114,7 @@ G21,Plastic,Drink lids,Packaging,food,none,Parent code,True,False,False,15
 G22,Plastic,"Lids for chemicals, detergents (non-food)",Packaging,construction2,none,Parent code,True,False,False,15
 G23,Plastic,Lids unidentified,Packaging,packaging,,Parent code,True,False,False,
 G24,Plastic,Lid/cap rings from plastic bottles/containers,Packaging,food,none,Parent code,True,True,False,15
-G25,Plastic,"Tobacco; plastic  packaging, containers",Tobacco,tobaco,Direct,Parent code,True,True,False,48
+G25,Plastic,"Tobacco; plastic packaging, containers",Tobacco,tobaco,Direct,Parent code,True,True,False,48
 G26,Plastic,Cigarette lighters,Tobacco,tobaco,none,Parent code,True,False,False,16
 G27,Plastic,Cigarette butts and filters,Tobacco,tobaco,none,Parent code,True,True,False,64
 G28,Plastic,"Pens, lids, mechanical pencils etc.",Utility items,pi,Direct,Parent code,True,False,False,17
@@ -133,12 +133,12 @@ G39,Plastic,Gloves,Clothing,unk,,Parent code,True,False,False,
 G4,Plastic,"Small plastic bags; freezer, zip-lock etc.",Packaging,packaging,Medical,Parent code,True,True,False,3
 G40,Plastic,Gloves household/gardening,Clothing,unk,none,Parent code,True,False,False,25
 G41,Plastic,Glove industrial/professional,Clothing,ag2,none,Parent code,True,False,False,113
-G42,Plastic,Crab lobster pots,Fishing,recre,,Parent code,True,False,False,
+G42,Plastic,Crab lobster pots,Fishing,unk,,Parent code,True,False,False,
 G43,Plastic,"Tags fishing or industry (security tags, seals)",Utility items,recre,none,Parent code,False,False,False,114
-G44,Plastic,Octopus pots,Fishing,recre,,Parent code,True,False,False,
-G45,Plastic,Mussel nets,Aquaculture,recre,,Parent code,True,False,False,
-G46,Plastic,Oyster trays,Aquaculture,recre,,Parent code,True,False,False,
-G47,Plastic,Sheeting from mussel culture,Aquaculture,recre,,Parent code,True,False,False,
+G44,Plastic,Octopus pots,Fishing,unk,,Parent code,True,False,False,
+G45,Plastic,Mussel nets,Aquaculture,unk,,Parent code,True,False,False,
+G46,Plastic,Oyster trays,Aquaculture,unk,,Parent code,True,False,False,
+G47,Plastic,Sheeting from mussel culture,Aquaculture,unk,,Parent code,True,False,False,
 G48,Plastic,"Rope, synthetic",Utility items,recre,Construction,Parent code,False,False,False,none
 G49,Plastic,Rope > 1cm,Utility items,recre,,Parent code,True,False,False,
 G5,Plastic,Generic plastic bags,Packaging,packaging,,Parent code,True,False,False,
@@ -186,7 +186,7 @@ G87,Plastic,"Tape, masking/duct/packing",Utility items,construction2,none,Parent
 G88,Plastic,Telephone incl. parts,Utility items,pi,none,Parent code,True,False,False,48
 G89,Plastic,Plastic construction waste,Construction,construction2,,Parent code,True,False,False,
 G9,Plastic,"Cleaner, chemical bottles & containers",Packaging,construction2,Industry,Parent code,True,True,False,5
-G90,Plastic,Plastic flower pots,Agriculture,unk,,Parent code,True,False,False,
+G90,Plastic,Plastic flower pots,Agriculture,ag2,,Parent code,True,False,False,
 G901,Plastic,"Mask medical, synthetic",Personal hygiene,pi,none,G124,True,True,False,48
 G903,Plastic,Hand sanitizer containers & packets,Personal hygiene,pi,none,G12,True,True,False,7
 G904,Plastic,"Fireworks; rocket caps, exploded parts & packaging",Recreation,recre,none,G124,False,True,False,48
@@ -222,7 +222,7 @@ G94,Plastic,Table cloth,Utility items,recre,,Parent code,True,False,False,
 G940,Plastic,Foamed EVA (flexible plastic) for crafts & watersports,Recreation,recre,Where does it come from,G73,True,False,False,Ospar...
 G941,Plastic,Packaging plastic nonfood or unknown,Packaging,packaging,Where does it come from,G124,False,True,False,48
 G942,Plastic,"Plastic shavings from lathes, CNC machining",Industry,unk,Where does it come from,G124,False,False,False,Ospar...
-G943,Plastic,"Fencing agriculture, plastic",Agriculture,ag,Where does it come from,G124,False,False,False,Ospar...
+G943,Plastic,"Fencing agriculture, plastic",Agriculture,unk,Where does it come from,G124,False,False,False,Ospar...
 G944,Plastic,Pellet mass from injection molding,Industry,unk,Where does it come from,G112,False,True,False,Ospar...
 G95,Plastic,Cotton bud/swab sticks,Personal hygiene,waste_water,Indirect,Parent code,False,True,False,98
 G96,Plastic,Sanitary pads /panty liners/tampons and applicators,Personal hygiene,waste_water,none,Parent code,False,True,False,99
