@@ -159,7 +159,7 @@ def add_national_column(x, col_name="", group="", agg_cols={}):
 
 def agg_fail_rate_by_city_feature_basin_all(som_data, levels, group='code',
                                             agg_cols={'loc_date': 'nunique', 'fail': 'sum'}, national=True,
-                                            col_name="All river bassins"):
+                                            col_name="All river bassins", **kwargs):
     new_dfs = []
     for level in levels:
         a_newdf = som_data[som_data[level] == levels[level]].groupby(group).agg(agg_cols)
@@ -173,22 +173,44 @@ def agg_fail_rate_by_city_feature_basin_all(som_data, levels, group='code',
 def agg_pcs_m_by_city_feature_basin_all(som_data, levels, group='code', agg_cols={"pcs_m":"median"}, level_names=[], dailycols={'pcs_m':'sum', 'quantity':'sum'}, national=True,  col_name="All river bassins", daily=False, **kwargs):
     new_dfs = []
     i = 0
-    for level in levels:
+    if kwargs['bassin_summary']:
 
-        if daily == True:
-            a_newdf = som_data[som_data[level] == levels[level]].groupby(['loc_date',group]).agg(dailycols)
-            a_newdf = a_newdf.groupby([group]).agg(agg_cols)
-            level_name = level_names[i]
-            a_newdf[level_name] = a_newdf[list(agg_cols.keys())[0]]
-            i+=1
-        else:
+        a_switch = len(levels)-1
+        for i, name in enumerate(levels):
+            if i < a_switch:
+                level = 'water_name_slug'
+            else:
+                level = 'river_bassin'
 
-            a_newdf = som_data[som_data[level] == levels[level]].groupby([group]).agg(agg_cols)
-            level_name = level_names[i]
-            a_newdf[level_name] = a_newdf[list(agg_cols.keys())[0]]
-            i+=1
+            if daily == True:
+                a_newdf = som_data[som_data[level] == name].groupby(['loc_date', group]).agg(dailycols)
+                a_newdf = a_newdf.groupby([group]).agg(agg_cols)
+                level_name = level_names[i]
+                a_newdf[level_name] = a_newdf[list(agg_cols.keys())[0]]
+                i += 1
+            else:
+                a_newdf = som_data[som_data[level] == levels[level]].groupby([group]).agg(agg_cols)
+                level_name = level_names[i]
+                a_newdf[level_name] = a_newdf[list(agg_cols.keys())[0]]
+                i += 1
 
-        new_dfs.append(a_newdf[level_name])
+            new_dfs.append(a_newdf[level_name])
+    else:
+        for level in levels:
+
+            if daily == True:
+                a_newdf = som_data[som_data[level] == levels[level]].groupby(['loc_date',group]).agg(dailycols)
+                a_newdf = a_newdf.groupby([group]).agg(agg_cols)
+                level_name = level_names[i]
+                a_newdf[level_name] = a_newdf[list(agg_cols.keys())[0]]
+                i+=1
+            else:
+                a_newdf = som_data[som_data[level] == levels[level]].groupby([group]).agg(agg_cols)
+                level_name = level_names[i]
+                a_newdf[level_name] = a_newdf[list(agg_cols.keys())[0]]
+                i+=1
+
+            new_dfs.append(a_newdf[level_name])
     if national and daily:
         national_data = som_data.groupby(['loc_date', group]).agg(dailycols)
         national_data = national_data.groupby(group).agg(agg_cols)

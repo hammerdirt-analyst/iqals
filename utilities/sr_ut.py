@@ -142,7 +142,7 @@ class SurveyData:
     def agg_foams(self):
       """Combines the different code values for foams into the parent MLW code
 
-      Aggregates each group of codes seperately, removes original values from data and concatenates
+      Aggregates each group of codes separately, removes original values from data and concatenates
       new values. Returns a new data frame.
 
       Args:
