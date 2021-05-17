@@ -10,3 +10,6 @@ no_xticks = dict(axis='x', which='both', width=0, length=0 )
 label_r14 = dict(labelpad=14, loc='right', fontsize=14)
 
 rotate_45 = dict(axis='x', which='both', labelrotation=45)
+rotate_0 = dict(axis='x', which='both', labelrotation=0)
+
+rotate_0 = dict(axis='x', which='both', labelrotation=90)
