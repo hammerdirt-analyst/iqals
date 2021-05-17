@@ -1,6 +1,5 @@
 code,material,description,source,source_two,source_three,parent_code,direct,single_use,micro,ospar_code
 G212,Chemicals,Oil nodules or coal fragments -- not from a BBQ,Undefined,Where does it come from,none,Parent code,False,False,False,none
-G214,Chemicals,Oil/tar,Construction,Where does it come from,none,Parent code,False,False,False,111
 G137,Cloth,"Clothing, towels & rags",Clothing,Where does it come from,none,Parent code,True,False,False,54
 G140,Cloth,"Bags, burlap, hessian, jute or hemp",Packaging,Agriculture,none,Parent code,False,False,False,56
 G141,Cloth,Carpet,Utility items,Where does it come from,none,Parent code,False,False,False,55
@@ -9,11 +8,13 @@ G201,Glass,"Jars, glass or pottery, includes pieces",Packaging,Where does it com
 G202,Glass,Light bulbs,Utility items,Where does it come from,,Parent code,True,False,False,
 G203,Glass,"Tableware ceramic or glass, cups, plates, pieces",Food,Where does it come from,none,Parent code,False,False,False,none
 G205,Glass,Fluorescent light tubes,Utility items,Where does it come from,,Parent code,True,False,False,
+G207,Glass,Octopus pots,Fishing,Where does it come from,,Parent code,True,False,False,
 G208,Glass,Glass or ceramic fragments > 2.5 cm,Undefined,Where does it come from,none,Parent code,True,False,False,none
 G209,Glass,Large glass objects,Undefined,Where does it come from,,Parent code,True,False,False,
 G210,Glass,Other glass/ceramic,Undefined,Where does it come from,none,Parent code,True,False,False,96
 G917,Glass,Terracotta balls,Utility items,Where does it come from,none,G210,False,False,False,96
 G180,Metal,Appliances,Utility items,Where does it come from,,Parent code,True,False,False,
+G184,Metal,Lobster pots,Fishing,Where does it come from,,Parent code,True,False,False,
 G185,Metal,Middle size containers,Utility items,Where does it come from,,Parent code,True,False,False,
 G193,Metal,car parts and batteries,Vehicle,Where does it come from,,Parent code,True,False,False,
 G196,Metal,Large metallic objects,Undefined,Where does it come from,,Parent code,True,False,False,
@@ -25,18 +26,24 @@ G156,Paper,Paper fragments,Undefined,Where does it come from,,Parent code,True,F
 G157,Paper,Paper,Undefined,Where does it come from,,Parent code,True,False,False,
 G158,Paper,Other paper items,Undefined,Where does it come from,,Parent code,True,False,False,
 G124,Plastic,Other plastic or foam products,Undefined,Where does it come from,,Parent code,True,False,False,
+G13,Plastic,"Bottles, containers, drums to transport, store material",Packaging,Industry,none,Parent code,False,False,False,12
 G19,Plastic,Car parts,Vehicle,Where does it come from,,Parent code,True,False,False,
 G37,Plastic,Mesh bags,Packaging,Where does it come from,,Parent code,True,False,False,
 G39,Plastic,Gloves,Clothing,Where does it come from,,Parent code,True,False,False,
 G40,Plastic,Gloves household/gardening,Clothing,Where does it come from,none,Parent code,True,False,False,25
+G42,Plastic,Crab lobster pots,Fishing,Where does it come from,,Parent code,True,False,False,
+G44,Plastic,Octopus pots,Fishing,Where does it come from,,Parent code,True,False,False,
+G45,Plastic,Mussel nets,Aquaculture,Where does it come from,,Parent code,True,False,False,
+G46,Plastic,Oyster trays,Aquaculture,Where does it come from,,Parent code,True,False,False,
+G47,Plastic,Sheeting from mussel culture,Aquaculture,Where does it come from,,Parent code,True,False,False,
 G64,Plastic,Fenders,Vehicle,Where does it come from,,Parent code,True,False,False,
 G77,Plastic,Plastic or polystyrene  > 50cm,Undefined,Where does it come from,,Parent code,True,False,False,
 G85,Plastic,Salt packaging,Packaging,Where does it come from,,Parent code,True,False,False,
-G90,Plastic,Plastic flower pots,Agriculture,Where does it come from,,Parent code,True,False,False,
 G927,Plastic,"String trimmer line, used to cut grass, weeds, and shrubbery",Utility items,Where does it come from,Where does it come from,G124,True,True,False,Ospar...
 G928,Plastic,Ribbons and bows,Recreation,Where does it come from,Where does it come from,G124,True,True,False,Ospar...
 G939,Plastic,"Flowers, plants plastic",Undefined,Where does it come from,Where does it come from,G124,False,False,False,Ospar...
 G942,Plastic,"Plastic shavings from lathes, CNC machining",Industry,Where does it come from,Where does it come from,G124,False,False,False,Ospar...
+G943,Plastic,"Fencing agriculture, plastic",Agriculture,Where does it come from,Where does it come from,G124,False,False,False,Ospar...
 G944,Plastic,Pellet mass from injection molding,Industry,Manufacturing,Where does it come from,G112,False,True,False,Ospar...
 G127,Rubber,Rubber boots,Clothing,Where does it come from,,Parent code,True,False,False,
 G128,Rubber,Tires and belts,Vehicle,Where does it come from,,Parent code,True,False,False,
