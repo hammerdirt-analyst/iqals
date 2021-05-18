@@ -173,7 +173,8 @@ def agg_fail_rate_by_city_feature_basin_all(som_data, levels, group='code',
 def agg_pcs_m_by_city_feature_basin_all(som_data, levels, group='code', agg_cols={"pcs_m":"median"}, level_names=[], dailycols={'pcs_m':'sum', 'quantity':'sum'}, national=True,  col_name="All river bassins", daily=False, **kwargs):
     new_dfs = []
     i = 0
-    if kwargs['bassin_summary']:
+    if 'bassin_summary' in kwargs.keys():
+    # if kwargs['bassin_summary']:
 
         a_switch = len(levels)-1
         for i, name in enumerate(levels):
