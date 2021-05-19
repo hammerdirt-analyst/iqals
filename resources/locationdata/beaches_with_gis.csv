@@ -48,6 +48,7 @@ camping-gwatt-strand,Camping Gwatt Strand,46.72714,7.62962,3645,CH,l,Thunersee,t
 canale-saleggi,Canale saleggi,46.2006245,9.015853,6500,CH,r,Ticino,bellinzona,ticino,True,Bellinzona,5002,43220,632129.844,120228.61300000001,0
 caprino,caprino,45.9879627,8.9862407,6876,CH,l,Lago di Lugano,caprino,lago-di-lugano,True,Lugano,5192,63185,25246.138,14877.861,0
 chriesbach_duebendorf_schneidera,chriesbach_duebendorf_schneidera,47.4029195,8.6051458,8600,CH,r,Chriesbach,dubendorf,chriesbach,False,Dübendorf,191,28678,1074784.28,156633.482,0
+clean-up-event-test,Clean up event test,46.457879,6.847148,1800,CH,r,Clean up tour vevey,vevey,clean-up-tour-vevey,True,Vevey,5890,19891,none,none,none
 cudrefin-alternate,Cudrefin alternate,46.96397,7.027448,1588,CH,l,Neuenburgersee,cudrefin,neuenburgersee,True,Cudrefin,5456,1633,106990.42300000001,37197.556000000004,6
 cully-plage,Cully plage,46.4888866,6.7413961,1096,CH,l,Lac Léman,bourg-en-lavaux,lac-leman,True,Bourg-en-Lavaux,5613,5369,123503.883,62762.416,8
 delta-park,Delta park,46.720078,7.635304,3645,CH,l,Thunersee,spiez,thunersee,True,Spiez,768,12812,278885.86600000004,56674.777,6
@@ -212,6 +213,7 @@ untertenzen,Untertenzen,47.11526,9.25478,8882,CH,l,Walensee,quarten,walensee,Tru
 urnaesch_urnaesch_meierr,urnaesch_urnaesch_meierr,47.3250986,9.2954188,9107,CH,r,Urnäsch,hundwil,urnasch,False,Hundwil,3002,941,96021.51,53452.473,0
 versoix,Versoix,46.289194,6.1705693,1290,CH,l,Lac Léman,versoix,lac-leman,True,Versoix,6644,13432,329631.706,66778.924,5
 veveyse,Veveyse,46.461022,6.834983,1800,CH,l,Lac Léman,vevey,lac-leman,False,Vevey,5890,19891,553264.024,72046.266,5
+via-brunari-spiaggia,Via Brunari spiaggia,46.20235,9.01691,6500,CH,r,Ticino,bellinzona,ticino,True,Bellinzona,5002,43220,none,none,none
 via-mirasole-spiaggia,Via Mirasole spiaggia,46.19953,9.01493,6500,CH,r,Ticino,bellinzona,ticino,True,Bellinzona,5002,43220,653697.429,121677.36,0
 vidy,Vidy,46.5147155,6.5985884,1007,CH,l,Lac Léman,lausanne,lac-leman,False,Lausanne,5586,139111,470618.894,93497.01400000001,2
 vidy-ruines,Vidy ruines,46.516221,6.596279,1007,CH,l,Lac Léman,lausanne,lac-leman,True,Lausanne,5586,139111,523737.12200000003,99630.212,2
