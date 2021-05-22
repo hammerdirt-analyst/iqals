@@ -1,0 +1,944 @@
+\documentclass[11pt]{article}
+
+    \usepackage[breakable]{tcolorbox}
+    \usepackage{parskip} % Stop auto-indenting (to mimic markdown behaviour)
+    
+    \usepackage{iftex}
+    \ifPDFTeX
+    	\usepackage[T1]{fontenc}
+    	\usepackage{mathpazo}
+    \else
+    	\usepackage{fontspec}
+    \fi
+
+    % Basic figure setup, for now with no caption control since it's done
+    % automatically by Pandoc (which extracts ![](path) syntax from Markdown).
+    \usepackage{graphicx}
+    % Maintain compatibility with old templates. Remove in nbconvert 6.0
+    \let\Oldincludegraphics\includegraphics
+    % Ensure that by default, figures have no caption (until we provide a
+    % proper Figure object with a Caption API and a way to capture that
+    % in the conversion process - todo).
+    \usepackage{caption}
+    \DeclareCaptionFormat{nocaption}{}
+    \captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+
+    \usepackage{float}
+    \floatplacement{figure}{H} % forces figures to be placed at the correct location
+    \usepackage{xcolor} % Allow colors to be defined
+    \usepackage{enumerate} % Needed for markdown enumerations to work
+    \usepackage{geometry} % Used to adjust the document margins
+    \usepackage{amsmath} % Equations
+    \usepackage{amssymb} % Equations
+    \usepackage{textcomp} % defines textquotesingle
+    % Hack from http://tex.stackexchange.com/a/47451/13684:
+    \AtBeginDocument{%
+        \def\PYZsq{\textquotesingle}% Upright quotes in Pygmentized code
+    }
+    \usepackage{upquote} % Upright quotes for verbatim code
+    \usepackage{eurosym} % defines \euro
+    \usepackage[mathletters]{ucs} % Extended unicode (utf-8) support
+    \usepackage{fancyvrb} % verbatim replacement that allows latex
+    \usepackage{grffile} % extends the file name processing of package graphics 
+                         % to support a larger range
+    \makeatletter % fix for old versions of grffile with XeLaTeX
+    \@ifpackagelater{grffile}{2019/11/01}
+    {
+      % Do nothing on new versions
+    }
+    {
+      \def\Gread@@xetex#1{%
+        \IfFileExists{"\Gin@base".bb}%
+        {\Gread@eps{\Gin@base.bb}}%
+        {\Gread@@xetex@aux#1}%
+      }
+    }
+    \makeatother
+    \usepackage[Export]{adjustbox} % Used to constrain images to a maximum size
+    \adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+
+    % The hyperref package gives us a pdf with properly built
+    % internal navigation ('pdf bookmarks' for the table of contents,
+    % internal cross-reference links, web links for URLs, etc.)
+    \usepackage{hyperref}
+    % The default LaTeX title has an obnoxious amount of whitespace. By default,
+    % titling removes some of it. It also provides customization options.
+    \usepackage{titling}
+    \usepackage{longtable} % longtable support required by pandoc >1.10
+    \usepackage{booktabs}  % table support for pandoc > 1.12.2
+    \usepackage[inline]{enumitem} % IRkernel/repr support (it uses the enumerate* environment)
+    \usepackage[normalem]{ulem} % ulem is needed to support strikethroughs (\sout)
+                                % normalem makes italics be italics, not underlines
+    \usepackage{mathrsfs}
+    
+
+    
+    % Colors for the hyperref package
+    \definecolor{urlcolor}{rgb}{0,.145,.698}
+    \definecolor{linkcolor}{rgb}{.71,0.21,0.01}
+    \definecolor{citecolor}{rgb}{.12,.54,.11}
+
+    % ANSI colors
+    \definecolor{ansi-black}{HTML}{3E424D}
+    \definecolor{ansi-black-intense}{HTML}{282C36}
+    \definecolor{ansi-red}{HTML}{E75C58}
+    \definecolor{ansi-red-intense}{HTML}{B22B31}
+    \definecolor{ansi-green}{HTML}{00A250}
+    \definecolor{ansi-green-intense}{HTML}{007427}
+    \definecolor{ansi-yellow}{HTML}{DDB62B}
+    \definecolor{ansi-yellow-intense}{HTML}{B27D12}
+    \definecolor{ansi-blue}{HTML}{208FFB}
+    \definecolor{ansi-blue-intense}{HTML}{0065CA}
+    \definecolor{ansi-magenta}{HTML}{D160C4}
+    \definecolor{ansi-magenta-intense}{HTML}{A03196}
+    \definecolor{ansi-cyan}{HTML}{60C6C8}
+    \definecolor{ansi-cyan-intense}{HTML}{258F8F}
+    \definecolor{ansi-white}{HTML}{C5C1B4}
+    \definecolor{ansi-white-intense}{HTML}{A1A6B2}
+    \definecolor{ansi-default-inverse-fg}{HTML}{FFFFFF}
+    \definecolor{ansi-default-inverse-bg}{HTML}{000000}
+
+    % common color for the border for error outputs.
+    \definecolor{outerrorbackground}{HTML}{FFDFDF}
+
+    % commands and environments needed by pandoc snippets
+    % extracted from the output of `pandoc -s`
+    \providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+    % Add ',fontsize=\small' for more characters per line
+    \newenvironment{Shaded}{}{}
+    \newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+    \newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+    \newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+    \newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+    \newcommand{\RegionMarkerTok}[1]{{#1}}
+    \newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\NormalTok}[1]{{#1}}
+    
+    % Additional commands for more recent versions of Pandoc
+    \newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+    \newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#1}}}
+    \newcommand{\ImportTok}[1]{{#1}}
+    \newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{{#1}}}}
+    \newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+    \newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+    \newcommand{\BuiltInTok}[1]{{#1}}
+    \newcommand{\ExtensionTok}[1]{{#1}}
+    \newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#1}}}
+    \newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+    \newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    
+    
+    % Define a nice break command that doesn't care if a line doesn't already
+    % exist.
+    \def\br{\hspace*{\fill} \\* }
+    % Math Jax compatibility definitions
+    \def\gt{>}
+    \def\lt{<}
+    \let\Oldtex\TeX
+    \let\Oldlatex\LaTeX
+    \renewcommand{\TeX}{\textrm{\Oldtex}}
+    \renewcommand{\LaTeX}{\textrm{\Oldlatex}}
+    % Document parameters
+    % Document title
+    \title{feature\_report}
+    
+    
+    
+    
+    
+% Pygments definitions
+\makeatletter
+\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
+    \let\PY@ul=\relax \let\PY@tc=\relax%
+    \let\PY@bc=\relax \let\PY@ff=\relax}
+\def\PY@tok#1{\csname PY@tok@#1\endcsname}
+\def\PY@toks#1+{\ifx\relax#1\empty\else%
+    \PY@tok{#1}\expandafter\PY@toks\fi}
+\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
+    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
+\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
+
+\expandafter\def\csname PY@tok@w\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\expandafter\def\csname PY@tok@c\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.74,0.48,0.00}{##1}}}
+\expandafter\def\csname PY@tok@k\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.69,0.00,0.25}{##1}}}
+\expandafter\def\csname PY@tok@o\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ow\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@ne\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.82,0.25,0.23}{##1}}}
+\expandafter\def\csname PY@tok@nv\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@no\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ni\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.60,0.60,0.60}{##1}}}
+\expandafter\def\csname PY@tok@na\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.49,0.56,0.16}{##1}}}
+\expandafter\def\csname PY@tok@nt\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@s\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sd\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@si\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@se\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sr\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@ss\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sx\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@m\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@gh\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gu\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gr\endcsname{\def\PY@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ge\endcsname{\let\PY@it=\textit}
+\expandafter\def\csname PY@tok@gs\endcsname{\let\PY@bf=\textbf}
+\expandafter\def\csname PY@tok@gp\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@go\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PY@tok@gt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\expandafter\def\csname PY@tok@err\endcsname{\def\PY@bc##1{\setlength{\fboxsep}{0pt}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}
+\expandafter\def\csname PY@tok@kc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kd\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kr\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@bp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@fm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@vc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vg\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sa\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@dl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s2\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s1\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@mb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@il\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mo\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ch\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cm\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cpf\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@c1\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cs\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+
+\def\PYZbs{\char`\\}
+\def\PYZus{\char`\_}
+\def\PYZob{\char`\{}
+\def\PYZcb{\char`\}}
+\def\PYZca{\char`\^}
+\def\PYZam{\char`\&}
+\def\PYZlt{\char`\<}
+\def\PYZgt{\char`\>}
+\def\PYZsh{\char`\#}
+\def\PYZpc{\char`\%}
+\def\PYZdl{\char`\$}
+\def\PYZhy{\char`\-}
+\def\PYZsq{\char`\'}
+\def\PYZdq{\char`\"}
+\def\PYZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYZat{@}
+\def\PYZlb{[}
+\def\PYZrb{]}
+\makeatother
+
+
+    % For linebreaks inside Verbatim environment from package fancyvrb. 
+    \makeatletter
+        \newbox\Wrappedcontinuationbox 
+        \newbox\Wrappedvisiblespacebox 
+        \newcommand*\Wrappedvisiblespace {\textcolor{red}{\textvisiblespace}} 
+        \newcommand*\Wrappedcontinuationsymbol {\textcolor{red}{\llap{\tiny$\m@th\hookrightarrow$}}} 
+        \newcommand*\Wrappedcontinuationindent {3ex } 
+        \newcommand*\Wrappedafterbreak {\kern\Wrappedcontinuationindent\copy\Wrappedcontinuationbox} 
+        % Take advantage of the already applied Pygments mark-up to insert 
+        % potential linebreaks for TeX processing. 
+        %        {, <, #, %, $, ' and ": go to next line. 
+        %        _, }, ^, &, >, - and ~: stay at end of broken line. 
+        % Use of \textquotesingle for straight quote. 
+        \newcommand*\Wrappedbreaksatspecials {% 
+            \def\PYGZus{\discretionary{\char`\_}{\Wrappedafterbreak}{\char`\_}}% 
+            \def\PYGZob{\discretionary{}{\Wrappedafterbreak\char`\{}{\char`\{}}% 
+            \def\PYGZcb{\discretionary{\char`\}}{\Wrappedafterbreak}{\char`\}}}% 
+            \def\PYGZca{\discretionary{\char`\^}{\Wrappedafterbreak}{\char`\^}}% 
+            \def\PYGZam{\discretionary{\char`\&}{\Wrappedafterbreak}{\char`\&}}% 
+            \def\PYGZlt{\discretionary{}{\Wrappedafterbreak\char`\<}{\char`\<}}% 
+            \def\PYGZgt{\discretionary{\char`\>}{\Wrappedafterbreak}{\char`\>}}% 
+            \def\PYGZsh{\discretionary{}{\Wrappedafterbreak\char`\#}{\char`\#}}% 
+            \def\PYGZpc{\discretionary{}{\Wrappedafterbreak\char`\%}{\char`\%}}% 
+            \def\PYGZdl{\discretionary{}{\Wrappedafterbreak\char`\$}{\char`\$}}% 
+            \def\PYGZhy{\discretionary{\char`\-}{\Wrappedafterbreak}{\char`\-}}% 
+            \def\PYGZsq{\discretionary{}{\Wrappedafterbreak\textquotesingle}{\textquotesingle}}% 
+            \def\PYGZdq{\discretionary{}{\Wrappedafterbreak\char`\"}{\char`\"}}% 
+            \def\PYGZti{\discretionary{\char`\~}{\Wrappedafterbreak}{\char`\~}}% 
+        } 
+        % Some characters . , ; ? ! / are not pygmentized. 
+        % This macro makes them "active" and they will insert potential linebreaks 
+        \newcommand*\Wrappedbreaksatpunct {% 
+            \lccode`\~`\.\lowercase{\def~}{\discretionary{\hbox{\char`\.}}{\Wrappedafterbreak}{\hbox{\char`\.}}}% 
+            \lccode`\~`\,\lowercase{\def~}{\discretionary{\hbox{\char`\,}}{\Wrappedafterbreak}{\hbox{\char`\,}}}% 
+            \lccode`\~`\;\lowercase{\def~}{\discretionary{\hbox{\char`\;}}{\Wrappedafterbreak}{\hbox{\char`\;}}}% 
+            \lccode`\~`\:\lowercase{\def~}{\discretionary{\hbox{\char`\:}}{\Wrappedafterbreak}{\hbox{\char`\:}}}% 
+            \lccode`\~`\?\lowercase{\def~}{\discretionary{\hbox{\char`\?}}{\Wrappedafterbreak}{\hbox{\char`\?}}}% 
+            \lccode`\~`\!\lowercase{\def~}{\discretionary{\hbox{\char`\!}}{\Wrappedafterbreak}{\hbox{\char`\!}}}% 
+            \lccode`\~`\/\lowercase{\def~}{\discretionary{\hbox{\char`\/}}{\Wrappedafterbreak}{\hbox{\char`\/}}}% 
+            \catcode`\.\active
+            \catcode`\,\active 
+            \catcode`\;\active
+            \catcode`\:\active
+            \catcode`\?\active
+            \catcode`\!\active
+            \catcode`\/\active 
+            \lccode`\~`\~ 	
+        }
+    \makeatother
+
+    \let\OriginalVerbatim=\Verbatim
+    \makeatletter
+    \renewcommand{\Verbatim}[1][1]{%
+        %\parskip\z@skip
+        \sbox\Wrappedcontinuationbox {\Wrappedcontinuationsymbol}%
+        \sbox\Wrappedvisiblespacebox {\FV@SetupFont\Wrappedvisiblespace}%
+        \def\FancyVerbFormatLine ##1{\hsize\linewidth
+            \vtop{\raggedright\hyphenpenalty\z@\exhyphenpenalty\z@
+                \doublehyphendemerits\z@\finalhyphendemerits\z@
+                \strut ##1\strut}%
+        }%
+        % If the linebreak is at a space, the latter will be displayed as visible
+        % space at end of first line, and a continuation symbol starts next line.
+        % Stretch/shrink are however usually zero for typewriter font.
+        \def\FV@Space {%
+            \nobreak\hskip\z@ plus\fontdimen3\font minus\fontdimen4\font
+            \discretionary{\copy\Wrappedvisiblespacebox}{\Wrappedafterbreak}
+            {\kern\fontdimen2\font}%
+        }%
+        
+        % Allow breaks at special characters using \PYG... macros.
+        \Wrappedbreaksatspecials
+        % Breaks at punctuation characters . , ; ? ! and / need catcode=\active 	
+        \OriginalVerbatim[#1,codes*=\Wrappedbreaksatpunct]%
+    }
+    \makeatother
+
+    % Exact colors from NB
+    \definecolor{incolor}{HTML}{303F9F}
+    \definecolor{outcolor}{HTML}{D84315}
+    \definecolor{cellborder}{HTML}{CFCFCF}
+    \definecolor{cellbackground}{HTML}{F7F7F7}
+    
+    % prompt
+    \makeatletter
+    \newcommand{\boxspacing}{\kern\kvtcb@left@rule\kern\kvtcb@boxsep}
+    \makeatother
+    \newcommand{\prompt}[4]{
+        {\ttfamily\llap{{\color{#2}[#3]:\hspace{3pt}#4}}\vspace{-\baselineskip}}
+    }
+    
+
+    
+    % Prevent overflowing lines due to hard-to-break entities
+    \sloppy 
+    % Setup hyperref package
+    \hypersetup{
+      breaklinks=true,  % so long urls are correctly broken across lines
+      colorlinks=true,
+      urlcolor=urlcolor,
+      linkcolor=linkcolor,
+      citecolor=citecolor,
+      }
+    % Slightly bigger margins than the latex defaults
+    
+    \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+    
+    
+
+\begin{document}
+    
+    \maketitle
+    
+    
+
+    
+    \#\# Identification, quantification and analysis of observable
+anthropogenic debris along swiss river and lakes (IQASL)
+
+    IQASL is a project sponosored by the Swiss Federal Office for the
+environment to quantify shoreline trash along swiss lakes and rivers in
+the Rhone, Aare, Ticino and Linth/Limmat catchment areas. This is
+accomplished by conducting multiple small scale and discrete
+\textbf{litter surveys} throughout the river bassin. The majority of
+samples are taken from lakes.
+
+\textbf{What is a litter survey?}
+
+A litter survey is the \textbf{identification and count of all objects
+found within a delimited area}, in this study all surveys were bordered
+on one side by water. Each object is placed into one of 260 categories¹.
+The location, date, survey dimensions and the total number of objects in
+each category is noted.
+
+\textbf{Purpose of the surveys}
+
+The survey results help ALL stakeholders identify the items that make up
+the mass of trash found in the natural environment on the shores of
+Swiss lakes and rivers. The surveys answer the following questions:
+
+\begin{itemize}
+\tightlist
+\item
+  What items are found?
+\item
+  How much is found ? (total weights and item counts)
+\item
+  How often are these items found?
+\item
+  Where do you find the most?
+\end{itemize}
+
+These are the most frequently asked questions and should be considered
+when determining any mitigation or reduction strategies.
+
+The project is based on the following assumptions:
+
+\begin{itemize}
+\tightlist
+\item
+  The more trash there is on the ground the more a person is likely to
+  find
+\item
+  The survey results represent the minimum amount of trash at that site²
+\item
+  For each survey: finding one item does not effect the chance of
+  finding another³
+\end{itemize}
+
+\textbf{Purpose of this report}
+
+Summarize the results for the survey area and define the magnitude of
+those results with respect to other survey areas.
+
+\textbf{The survey results are presented as follows:}
+
+\begin{itemize}
+\tightlist
+\item
+  Total object count, total weight and weight of plastics
+\item
+  The most abundant objects from the survey area and all the other
+  survey areas sorted by total object count
+\item
+  Pieces of trash per meter (pcs/m): the ratio of number of objects
+  found to the length of the shoreline
+\item
+  Objects that were found in at least 50\% of the surveys
+\end{itemize}
+
+\textbf{Contents of this report}
+
+\hyperref[scope]{Scope: description of river basin} * survey locations *
+lakes and rivers * municipalities and effected population
+
+\hyperref[aggregatedtotals]{Survey dimensions, locations, aggregated totals}
+* weights and measures: cumulative * weights and measures: cumulative by
+water feature * survey totals: pcs/m by date * material type: \% of
+total
+
+\hyperref[combinedtopten]{Trash removed: most abundant objects} * the
+most common objects from the survey area * the most common objects from
+all the survey areas * pcs/m of most common objects for all water
+features in the survey area
+
+\hyperref[frequency]{Trash removed the most often} * objects that are
+found in more than 50\% of surveys * objects that are the most abundant
+* objects found in less than 50\% of the surveys
+
+\hyperref[matanduse]{Trash removed: utility} * utility classification:
+\% total of all objects found
+
+\hyperref[annex]{Annex} * effective data: report of missing records *
+survey location coordinates * population profile and results by
+municipality * itemized list of objects removed
+
+\textbf{More information}
+
+For more information about the project visit
+\href{https://www.plagespropres.ch/}{project home}.
+
+If you would like more information specific information about this
+survey area please contact:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Swiss federal office for the environment - Municipal waste section
+\item
+  analyst@hammerdirt.ch
+\end{enumerate}
+
+¹ \href{https://mcc.jrc.ec.europa.eu/documents/201702074014.pdf}{The EU
+guide on monitoring marine litter} ² There is most likely more trash at
+the survey site, but certainly not less than what was recorded.³
+Independent observations :
+\href{https://stats.stackexchange.com/questions/116355/what-does-independent-observations-mean}{stats
+stackexchange}
+ 
+            
+    
+    \hypertarget{results-bielersee}{%
+\subsection{Results: Bielersee}\label{results-bielersee}}
+
+    
+
+    \hypertarget{scope}{%
+\subsubsection{Scope}\label{scope}}
+
+The Aare source is the Aare Glaciers in the Bernese Alps of
+south-central Switzerland. The Aare is the longest river entirely within
+Switzerland with a length of 295 km and drainage area of 17,779 km2.
+Following the Aare Gorge, the river expands into the glacial Lake
+Brienz. The Aare is canalized at Interlaken before entering Lake Thun
+and exiting through the city of Thun.⁵ The river then flows northwest
+surrounding the old city center of Bern on three sides. Continuing west
+to Lake Wohlen Reservoir it turns north to Aarberg and is diverted west
+into Lake Biel by the Hagneck Canal, one of a series of major water
+corrections made in the 19th and 20th centuries connecting Neuchatel,
+Biel and Morat lakes through canalization. From the upper end of Lake
+Biel, at Nidau, the river exits through the Nidau-Büren Canal/Aare
+Canal.⁶
+
+The Limmat and Reuss rivers⁷, two major tributaries converge into the
+Aare at the Limmatspitz between the cities of Brugg and Untersiggenthal
+in Canton Aargau.⁸ The Aare river ends in the north-western region of
+Koblenz, Switzerland where it joins the Rhine river which eventually
+terminates in the North Sea.
+
+{⁵ The Editors of Encyclopaedia Britannica. (1998, July 20). Aare River.
+Retrieved from Britannica.com:
+https://www.britannica.com/place/Aare-River ⁶ Standard Encyclopedia of
+Worlds Rivers and Lakes. (1965) R.K. Gresswell ⁷ The Limmat and Reuss
+are part of different survey areas ⁸ Pro Natura . (n.d.). Limmatspitz.
+Retrieved from Pro Natura :
+https://www.pronatura-ag.ch/de/Gebenstorf-limmatspitz}
+
+    
+
+    \hypertarget{survey-locations-municipalities}{%
+\paragraph{Survey locations,
+municipalities}\label{survey-locations-municipalities}}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\begin{Verbatim}[commandchars=\\\{\}]
+<IPython.core.display.HTML object>
+\end{Verbatim}
+\end{tcolorbox}
+         
+            
+    
+    For the period between 2020-01 and 2021-04, 4,618 objects were removed
+and identified in the course of 38 surveys. Those surveys were conducted
+at 9 different locations. There are 7 different municipalities
+represented in these results with a combined population of approximately
+69,425.0
+
+    
+ 
+            
+    
+    \textbf{The municipalities in this report:}
+
+Biel/Bienne, Gals, Le Landeron, Ligerz, Lüscherz, Nidau, Vinelz
+
+    
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\begin{Verbatim}[commandchars=\\\{\}]
+                              time to survey  meters surveyed  m² surveyed  \textbackslash{}
+location
+Bielersee\_Vinelz\_FankhauserS           39.67              238        536.0
+Camp des pêches                         3.33               37         93.0
+Gals reserve                            5.00               38         64.0
+Ligerz strand                           5.67               15         49.0
+Lüscherz plage                          9.91              236        517.0
+Lüscherz two                            2.25               21         21.0
+Müllermatte                            59.33              512       4291.0
+Nidau strand                            3.17               25        105.0
+Strandboden-Biel                        7.15               93        420.0
+
+                              total weight  plastic > 5mm weight  \textbackslash{}
+location
+Bielersee\_Vinelz\_FankhauserS         3.099                 1.864
+Camp des pêches                      0.045                 0.035
+Gals reserve                         0.430                 0.405
+Ligerz strand                        0.295                 0.294
+Lüscherz plage                       1.570                 0.232
+Lüscherz two                         0.148                 0.100
+Müllermatte                          5.588                 3.348
+Nidau strand                         0.130                 0.002
+Strandboden-Biel                     2.250                 0.440
+
+                              plastic < 5mm weight  staff  help  \# samples  \textbackslash{}
+location
+Bielersee\_Vinelz\_FankhauserS              0.000840     12     0         12
+Camp des pêches                           0.000000      1     0          1
+Gals reserve                              0.000001      2     0          2
+Ligerz strand                             0.000000      2     0          2
+Lüscherz plage                            0.000030      4     0          4
+Lüscherz two                              0.000000      1     0          1
+Müllermatte                               0.001819     14     1         13
+Nidau strand                              0.000236      1     0          1
+Strandboden-Biel                          0.000172      2     0          2
+
+                              labor hours  pieces of trash
+location
+Bielersee\_Vinelz\_FankhauserS           39              898
+Camp des pêches                         3               53
+Gals reserve                            5               48
+Ligerz strand                           5              143
+Lüscherz plage                          9              194
+Lüscherz two                            2                8
+Müllermatte                            59             2964
+Nidau strand                            3               63
+Strandboden-Biel                        7              247
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \hyperref[top]{top} \#\#\# Survey dimensions, location and aggregated
+totals.
+ 
+            
+    
+    \hypertarget{cumulative-totals-all-data}{%
+\paragraph{Cumulative totals all
+data}\label{cumulative-totals-all-data}}
+
+The cumulative results from 38 samples, weights are in kilograms, time
+is in hours
+
+    
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\begin{Verbatim}[commandchars=\\\{\}]
+index         \# samples pieces of trash meters surveyed m² surveyed  \textbackslash{}
+summary total
+Bielersee            38           4,618           1,215       6,096
+
+index         total weight  plastic > 5mm weight  plastic < 5mm weight  \textbackslash{}
+summary total
+Bielersee               13                  6.72                   0.0
+
+index          labor hours
+summary total
+Bielersee            132.0
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \hypertarget{cumulative-totals-by-water-feature}{%
+\paragraph{Cumulative totals by water
+feature}\label{cumulative-totals-by-water-feature}}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\begin{Verbatim}[commandchars=\\\{\}]
+                             \# samples pieces of trash meters surveyed  \textbackslash{}
+location
+Bielersee\_Vinelz\_FankhauserS        12             898             238
+Camp des pêches                      1              53              37
+Gals reserve                         2              48              38
+Ligerz strand                        2             143              15
+Lüscherz plage                       4             194             236
+Lüscherz two                         1               8              21
+Müllermatte                         13           2,964             512
+Nidau strand                         1              63              25
+Strandboden-Biel                     2             247              93
+
+                             m² surveyed total weight  plastic > 5mm weight  \textbackslash{}
+location
+Bielersee\_Vinelz\_FankhauserS         536            3                 1.864
+Camp des pêches                       93            0                 0.035
+Gals reserve                          64            0                 0.405
+Ligerz strand                         49            0                 0.294
+Lüscherz plage                       517            1                 0.232
+Lüscherz two                          21            0                 0.100
+Müllermatte                        4,291            5                 3.348
+Nidau strand                         105            0                 0.002
+Strandboden-Biel                     420            2                 0.440
+
+                              plastic < 5mm weight  labor hours
+location
+Bielersee\_Vinelz\_FankhauserS              0.000840           39
+Camp des pêches                           0.000000            3
+Gals reserve                              0.000001            5
+Ligerz strand                             0.000000            5
+Lüscherz plage                            0.000030            9
+Lüscherz two                              0.000000            2
+Müllermatte                               0.001819           59
+Nidau strand                              0.000236            3
+Strandboden-Biel                          0.000172            7
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \hypertarget{survey-totals-pieces-per-meter-material-type-of-total}{%
+\paragraph{Survey totals pieces per meter, material type \% of
+total}\label{survey-totals-pieces-per-meter-material-type-of-total}}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{feature_report_files/feature_report_21_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \hyperref[top]{top} \#\#\# The most abundant items
+ 
+            
+    
+    Combined, the ten most abundant objects from Bielersee represent 65\% of
+all objects found on Bielersee.
+
+    
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{feature_report_files/feature_report_25_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+     
+            
+    
+    Of the most abundant objects on Bielersee, 7 are also among the most
+abundant in the Aare survey area. 1. Industrial sheeting 2. Expanded
+polystyrene 3. Fragmented plastics 4. Food wrappers; candy, snack
+packaging 5. Cigarette butts and filters 6. Packaging plastic nonfood or
+unknown 7. Glass or ceramic drink bottles, pieces
+
+    
+
+    \hypertarget{the-most-abundant-objects-results-by-survey-location}{%
+\paragraph{The most abundant objects: results by survey
+location}\label{the-most-abundant-objects-results-by-survey-location}}
+
+Some objects are found throughout the survey area and some of those
+objects are found in all survey areas. Knowing which objects are most
+abundant and what those values are helps idenitify sources or zones of
+accumulation.
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{feature_report_files/feature_report_29_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \hyperref[top]{top} \#\#\# How often are these objects found?
+
+    Some objects are found often and in elevated quantities, others are
+found often and in small quantities and some times objects are found
+less often but in large quantities. Knowing the diffference can help
+find the sources.
+ 
+            
+    
+    \textbf{Objects found in at least 50\% of surveys AND among the most
+abundant objects found} Combined they had an average pieces per meter
+per survey of 2.68, a min of 0.05 and max of 10.0 1. Fragmented plastics
+2. Industrial sheeting 3. Food wrappers; candy, snack packaging 4.
+Cigarette butts and filters 5. Glass or ceramic drink bottles, pieces 6.
+Expanded polystyrene 7. Industrial pellets (nurdles) 8. Insulation:
+includes spray foams and foam board 9. Cotton bud/swab sticks
+
+    
+ 
+            
+    
+    \textbf{Objects found in less than 50\% of the surveys AND among the
+most abundant objects found}Combined they had an average pieces per
+meter per survey of 0.15, a min of 0.02 and max of 0.39 1. Styrofoam
+\textless{} 5mm
+
+    
+ 
+            
+    
+    \textbf{Objects found in at least 50\% of the surveys AND NOT among the
+most abundant objects found}Combined they had an average pieces per
+meter per survey of 0.56, a min of 0.02 and max of 2.86 1. Foil
+wrappers, aluminum foil 2. Metal bottle caps, lids \& pull tabs from
+cans 3. Other medical items (swabs, bandaging, adhesive plaster) 4.
+Tobacco; plastic packaging, containers 5. Plastic construction waste 6.
+Fireworks; rocket caps, exploded parts \& packaging 7. Packaging plastic
+nonfood or unknown
+
+    
+
+    \hyperref[top]{top} \#\#\# Utility: percent of total objects collected
+
+\textbf{Utility:} The utility type is based on the utilisation of the
+object prior to it being discarded. Objects are placed into to one of
+the 260 categories. Those categories are grouped according to
+utilisation.
+
+For example, a piece of plastic would be placed into the category
+`Fragmented plastics', depending on its size. However, a piece of
+plastic that was once a bucket and we know this because we are familiar
+with either the brand or the product, is placed in a code for buckets⁸.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{wastewater}: items released from water treatment plants
+  includes items likely toilet flushed\\
+\item
+  \textbf{micro plastics (\textless{} 5mm)}: fragmented plastic items
+  and pre-production plastic resins
+\item
+  \textbf{infrastructure}: items related to construction and maintenance
+  of all infratructure items
+\item
+  \textbf{food and drink}: primarily single use plastic items related to
+  consuming food and drinks outdoors\\
+\item
+  \textbf{agriculture}: primarily industrial sheeting includes
+\item
+  \textbf{tobacco}: primarily cigarette ends includes all smoking
+  related material
+\item
+  \textbf{recreation}: includes fishing, hunting, boating and beach
+  related objects, excludes food, drink and tobacco items\\
+\item
+  \textbf{packaging non food and drink}: packaging or wrapping material
+  not identified as food, drink nor tobacco related\\
+\item
+  \textbf{plastic fragments}: foam and plastic fragments of
+  indeterminate origin and use
+\item
+  \textbf{personal items}: accessories, hygiene and clothing related
+\end{itemize}
+
+{⁸ See the annex for the complete list of objects identified, includes
+category and group classification}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{feature_report_files/feature_report_41_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \hypertarget{more-information}{%
+\subsubsection{More information}\label{more-information}}
+
+Contact analyst@hammerdirt.ch for any questions about the content of
+this report. If you would like a report for your municipality contact
+the Swiss federal office for the environment: Municipal waste section.
+ 
+            
+    
+    \hypertarget{have-a-great-day}{%
+\subsubsection{\texorpdfstring{{Have a great
+day}}{Have a great day}}\label{have-a-great-day}}
+
+\textbf{This project was made possible by the Swiss federal office for
+the environment.} This document originates from
+https://github.com/hammerdirt-analyst/iqals all copyrights apply.
+\emph{roger@hammerdirt.ch} pushed the run button on 2021-05-22.
+
+    
+
+    \hyperref[top]{top} \#\#\# Annex
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \hyperref[data]{Effective data}
+\item
+  \hyperref[popinf]{Populaion profile}
+\item
+  \hyperref[gps]{Survey location GPS}
+\item
+  \hyperref[inventory]{Inventory of all objects removed}
+\end{enumerate}
+
+\hypertarget{effective-data}{%
+\subparagraph{Effective data}\label{effective-data}}
+
+The data is submitted in two parts. If a survey is missing either part
+we check the paper records and update when possible.
+ 
+            
+    
+    All the surveys found a home in the dimensional dataThese dimensional
+records have been dropped, there is no matching survey data:
+
+(`luscherz-plage', `2021-01-26').
+
+    
+
+    \textbf{Population profile}
+
+Survey results for each utility group, sorted by population.
+
+    \begin{Verbatim}[commandchars=\\\{\}, frame=single, framerule=2mm, rulecolor=\color{outerrorbackground}]
+\textcolor{ansi-red}{---------------------------------------------------------------------------}
+\textcolor{ansi-red}{ValueError}                                Traceback (most recent call last)
+\textcolor{ansi-green}{<ipython-input-37-c1c8d37b3f4c>} in \textcolor{ansi-cyan}{<module>}
+\textcolor{ansi-green-intense}{\textbf{     32}}     \textcolor{ansi-green}{for} spine \textcolor{ansi-green}{in} ax\textcolor{ansi-blue}{[}an\_ax\textcolor{ansi-blue}{]}\textcolor{ansi-blue}{.}spines\textcolor{ansi-blue}{.}values\textcolor{ansi-blue}{(}\textcolor{ansi-blue}{)}\textcolor{ansi-blue}{:}
+\textcolor{ansi-green-intense}{\textbf{     33}}         spine\textcolor{ansi-blue}{.}set\_visible\textcolor{ansi-blue}{(}\textcolor{ansi-green}{False}\textcolor{ansi-blue}{)}
+\textcolor{ansi-green}{---> 34}\textcolor{ansi-red}{     }ax\textcolor{ansi-blue}{[}an\_ax\textcolor{ansi-blue}{]}\textcolor{ansi-blue}{.}tick\_params\textcolor{ansi-blue}{(}bottom\textcolor{ansi-blue}{=}\textcolor{ansi-green}{False}\textcolor{ansi-blue}{,} labelbottom\textcolor{ansi-blue}{=}\textcolor{ansi-green}{False}\textcolor{ansi-blue}{,} eft\textcolor{ansi-blue}{=}\textcolor{ansi-green}{False}\textcolor{ansi-blue}{,} labelleft\textcolor{ansi-blue}{=}\textcolor{ansi-green}{False}\textcolor{ansi-blue}{)}
+\textcolor{ansi-green-intense}{\textbf{     35}} \textcolor{ansi-red}{\#     ax[new\_axs[0]].grid(False)}
+\textcolor{ansi-green-intense}{\textbf{     36}} 
+
+\textcolor{ansi-green}{\textasciitilde{}/anaconda3/envs/refactor\_process/lib/python3.8/site-packages/matplotlib/axes/\_base.py} in \textcolor{ansi-cyan}{tick\_params}\textcolor{ansi-blue}{(self, axis, **kwargs)}
+\textcolor{ansi-green-intense}{\textbf{   3081}}             xkw\textcolor{ansi-blue}{.}pop\textcolor{ansi-blue}{(}\textcolor{ansi-blue}{'labelleft'}\textcolor{ansi-blue}{,} \textcolor{ansi-green}{None}\textcolor{ansi-blue}{)}
+\textcolor{ansi-green-intense}{\textbf{   3082}}             xkw\textcolor{ansi-blue}{.}pop\textcolor{ansi-blue}{(}\textcolor{ansi-blue}{'labelright'}\textcolor{ansi-blue}{,} \textcolor{ansi-green}{None}\textcolor{ansi-blue}{)}
+\textcolor{ansi-green}{-> 3083}\textcolor{ansi-red}{             }self\textcolor{ansi-blue}{.}xaxis\textcolor{ansi-blue}{.}set\_tick\_params\textcolor{ansi-blue}{(}\textcolor{ansi-blue}{**}xkw\textcolor{ansi-blue}{)}
+\textcolor{ansi-green-intense}{\textbf{   3084}}         \textcolor{ansi-green}{if} axis \textcolor{ansi-green}{in} \textcolor{ansi-blue}{[}\textcolor{ansi-blue}{'y'}\textcolor{ansi-blue}{,} \textcolor{ansi-blue}{'both'}\textcolor{ansi-blue}{]}\textcolor{ansi-blue}{:}
+\textcolor{ansi-green-intense}{\textbf{   3085}}             ykw \textcolor{ansi-blue}{=} dict\textcolor{ansi-blue}{(}kwargs\textcolor{ansi-blue}{)}
+
+\textcolor{ansi-green}{\textasciitilde{}/anaconda3/envs/refactor\_process/lib/python3.8/site-packages/matplotlib/axis.py} in \textcolor{ansi-cyan}{set\_tick\_params}\textcolor{ansi-blue}{(self, which, reset, **kw)}
+\textcolor{ansi-green-intense}{\textbf{    821}}         """
+\textcolor{ansi-green-intense}{\textbf{    822}}         cbook\textcolor{ansi-blue}{.}\_check\_in\_list\textcolor{ansi-blue}{(}\textcolor{ansi-blue}{[}\textcolor{ansi-blue}{'major'}\textcolor{ansi-blue}{,} \textcolor{ansi-blue}{'minor'}\textcolor{ansi-blue}{,} \textcolor{ansi-blue}{'both'}\textcolor{ansi-blue}{]}\textcolor{ansi-blue}{,} which\textcolor{ansi-blue}{=}which\textcolor{ansi-blue}{)}
+\textcolor{ansi-green}{--> 823}\textcolor{ansi-red}{         }kwtrans \textcolor{ansi-blue}{=} self\textcolor{ansi-blue}{.}\_translate\_tick\_kw\textcolor{ansi-blue}{(}kw\textcolor{ansi-blue}{)}
+\textcolor{ansi-green-intense}{\textbf{    824}} 
+\textcolor{ansi-green-intense}{\textbf{    825}}         \textcolor{ansi-red}{\# the kwargs are stored in self.\_major/minor\_tick\_kw so that any}
+
+\textcolor{ansi-green}{\textasciitilde{}/anaconda3/envs/refactor\_process/lib/python3.8/site-packages/matplotlib/axis.py} in \textcolor{ansi-cyan}{\_translate\_tick\_kw}\textcolor{ansi-blue}{(kw)}
+\textcolor{ansi-green-intense}{\textbf{    891}}         \textcolor{ansi-green}{for} key \textcolor{ansi-green}{in} kw\textcolor{ansi-blue}{:}
+\textcolor{ansi-green-intense}{\textbf{    892}}             \textcolor{ansi-green}{if} key \textcolor{ansi-green}{not} \textcolor{ansi-green}{in} kwkeys\textcolor{ansi-blue}{:}
+\textcolor{ansi-green}{--> 893}\textcolor{ansi-red}{                 raise ValueError(
+}\textcolor{ansi-green-intense}{\textbf{    894}}                     \textcolor{ansi-blue}{"keyword \%s is not recognized; valid keywords are \%s"}
+\textcolor{ansi-green-intense}{\textbf{    895}}                     \% (key, kwkeys))
+
+\textcolor{ansi-red}{ValueError}: keyword eft is not recognized; valid keywords are ['size', 'width', 'color', 'tickdir', 'pad', 'labelsize', 'labelcolor', 'zorder', 'gridOn', 'tick1On', 'tick2On', 'label1On', 'label2On', 'length', 'direction', 'left', 'bottom', 'right', 'top', 'labelleft', 'labelbottom', 'labelright', 'labeltop', 'labelrotation', 'grid\_agg\_filter', 'grid\_alpha', 'grid\_animated', 'grid\_antialiased', 'grid\_clip\_box', 'grid\_clip\_on', 'grid\_clip\_path', 'grid\_color', 'grid\_contains', 'grid\_dash\_capstyle', 'grid\_dash\_joinstyle', 'grid\_dashes', 'grid\_data', 'grid\_drawstyle', 'grid\_figure', 'grid\_fillstyle', 'grid\_gid', 'grid\_in\_layout', 'grid\_label', 'grid\_linestyle', 'grid\_linewidth', 'grid\_marker', 'grid\_markeredgecolor', 'grid\_markeredgewidth', 'grid\_markerfacecolor', 'grid\_markerfacecoloralt', 'grid\_markersize', 'grid\_markevery', 'grid\_path\_effects', 'grid\_picker', 'grid\_pickradius', 'grid\_rasterized', 'grid\_sketch\_params', 'grid\_snap', 'grid\_solid\_capstyle', 'grid\_solid\_joinstyle', 'grid\_transform', 'grid\_url', 'grid\_visible', 'grid\_xdata', 'grid\_ydata', 'grid\_zorder', 'grid\_aa', 'grid\_c', 'grid\_ds', 'grid\_ls', 'grid\_lw', 'grid\_mec', 'grid\_mew', 'grid\_mfc', 'grid\_mfcalt', 'grid\_ms']
+    \end{Verbatim}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{feature_report_files/feature_report_52_1.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \hyperref[annex]{Annex}
+
+\textbf{Survey locations:}
+
+    \hyperref[annex]{Annex} \#\#\#\# Inventory of all items
+
+
+    % Add a bibliography block to the postdoc
+    
+    
+    
+\end{document}
