@@ -173,28 +173,29 @@ def agg_fail_rate_by_city_feature_basin_all(som_data, levels, group='code',
 def agg_pcs_m_by_city_feature_basin_all(som_data, levels, group='code', agg_cols={"pcs_m":"median"}, level_names=[], dailycols={'pcs_m':'sum', 'quantity':'sum'}, national=True,  col_name="All river bassins", daily=False, **kwargs):
     new_dfs = []
     i = 0
-    if kwargs['bassin_summary']:
+    if kwargs['bassin_summary'] == True:
 
-        a_switch = len(levels)-1
-        for i, name in enumerate(levels):
-            if i < a_switch:
-                level = 'water_name_slug'
-            else:
-                level = 'river_bassin'
+        # a_switch = len(levels)-1
+        for j, name in enumerate(levels):
+            # if j < a_switch:
+            #     level = kwargs['feature_component']
+            # else:
+            #     level = kwargs['feature_level']
+            for column in levels[name]:
 
-            if daily == True:
-                a_newdf = som_data[som_data[level] == name].groupby(['loc_date', group]).agg(dailycols)
-                a_newdf = a_newdf.groupby([group]).agg(agg_cols)
-                level_name = level_names[i]
-                a_newdf[level_name] = a_newdf[list(agg_cols.keys())[0]]
-                i += 1
-            else:
-                a_newdf = som_data[som_data[level] == levels[level]].groupby([group]).agg(agg_cols)
-                level_name = level_names[i]
-                a_newdf[level_name] = a_newdf[list(agg_cols.keys())[0]]
-                i += 1
+                if daily == True:
+                    a_newdf = som_data[som_data[name] == column].groupby(['loc_date', group]).agg(dailycols)
+                    a_newdf = a_newdf.groupby([group]).agg(agg_cols)
+                    level_name = level_names[i]
+                    a_newdf[level_name] = a_newdf[list(agg_cols.keys())[0]]
+                    i += 1
+                else:
+                    a_newdf = som_data[som_data[name].isin(levels[name])].groupby([group]).agg(agg_cols)
+                    level_name = level_names[i]
+                    a_newdf[level_name] = a_newdf[list(agg_cols.keys())[0]]
+                    i += 1
 
-            new_dfs.append(a_newdf[level_name])
+                new_dfs.append(a_newdf[level_name])
     else:
         for level in levels:
 
