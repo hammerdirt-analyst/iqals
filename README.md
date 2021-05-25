@@ -1,5 +1,5 @@
 ## Identification, quantififcation and analysis of observable anthropogenic debris along swiss freshwater systems.
-![map of bielersee and neuch](https://github.com/hammerdirt-analyst/iqals/blob/main/diffusionxweb.png)
+![map of bielersee and neuch](https://github.com/hammerdirt-analyst/iqals/blob/main/resources/maps/aare_scaled.jpeg)
 
 ### <span style="color:#008891">Purpose</span>
 
@@ -15,6 +15,7 @@ We removed the summary notebooks and added "use_a_class". We are defining the me
 2. The key_indicator notebook is an explanantion of the key indicators and an example of how you could use them to find specific objects or groups of objects
 3. The sitereport notebook gives a summary and analysis of the results for one municipality and compares those results to the water feature, the river bassin and the national results
 4. The code_groups notebook sets grouping levels for objects
+5. the bassin_report notebook is for generating a report for a survey area !still in development
 
 The most recent version is in the corresponding feature branch
 
