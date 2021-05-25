@@ -28,6 +28,7 @@
 /resources/locationdata/list_of_beaches.json
 /output/code_groups/*.jpeg
 /output/code_groups/*.jpg
+/utilities/__pycache__/*
 # /output/*
 # IPython
 profile_default/
