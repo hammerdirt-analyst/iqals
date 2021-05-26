@@ -173,7 +173,6 @@ def agg_fail_rate_by_city_feature_basin_all(som_data, levels, group='code',
 def agg_pcs_m_by_city_feature_basin_all(som_data, levels, group='code', agg_cols={"pcs_m":"median"}, level_names=[], dailycols={'pcs_m':'sum', 'quantity':'sum'}, national=True,  col_name="All river bassins", daily=False, **kwargs):
     new_dfs = []
     i = 0
-<<<<<<< HEAD
     if kwargs['bassin_summary'] == True:
 
         # a_switch = len(levels)-1
@@ -197,31 +196,7 @@ def agg_pcs_m_by_city_feature_basin_all(som_data, levels, group='code', agg_cols
                     i += 1
 
                 new_dfs.append(a_newdf[level_name])
-=======
-    if 'bassin_summary' in kwargs.keys():
-    # if kwargs['bassin_summary']:
 
-        a_switch = len(levels)-1
-        for i, name in enumerate(levels):
-            if i < a_switch:
-                level = 'water_name_slug'
-            else:
-                level = 'river_bassin'
-
-            if daily == True:
-                a_newdf = som_data[som_data[level] == name].groupby(['loc_date', group]).agg(dailycols)
-                a_newdf = a_newdf.groupby([group]).agg(agg_cols)
-                level_name = level_names[i]
-                a_newdf[level_name] = a_newdf[list(agg_cols.keys())[0]]
-                i += 1
-            else:
-                a_newdf = som_data[som_data[level] == levels[level]].groupby([group]).agg(agg_cols)
-                level_name = level_names[i]
-                a_newdf[level_name] = a_newdf[list(agg_cols.keys())[0]]
-                i += 1
-
-            new_dfs.append(a_newdf[level_name])
->>>>>>> main
     else:
         for level in levels:
 

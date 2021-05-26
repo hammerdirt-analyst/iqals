@@ -190,17 +190,17 @@ def use_this_key(x, key, column='no column'):
         try:
             data = key[x]
         except:
-            data = 'dict no data'
+            data = 'no data'
     elif this_type == pd.core.series.Series:
         try:
             data = key.loc[x]
         except:
-            data = 'series no data'
+            data = 'no data'
     else:
         try:
             data = key.loc[x, column][0]
         except:
-            data = 'df no data'
+            data = 'no data'
 
     return data
 def legend_style(t_fs=14, fs=11, b_box_a=(1,1.02), loc='upper left', title=None):
