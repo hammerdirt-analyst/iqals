@@ -9,15 +9,19 @@ Produce decision support packages using the data from beach litter surveys condu
 
 #### Developing the class and methods for the application
 
-We removed the summary notebooks and added "use_a_class". We are defining the methods for the backend of the application based on the comments and needs recieved from stakeholders over the past year.
+We removed the summary notebooks and replace them with reports for each aggregation level. We are defining the methods for the backend of the application based on the comments and needs recieved from stakeholders over the past year.
+
+Notebooks project indicaotrs:
 
 1. The project_scope notebook provides summary statistics on effected populations, time to survey, number of municipalities, geographic and administrative scope
 2. The key_indicator notebook is an explanantion of the key indicators and an example of how you could use them to find specific objects or groups of objects
-3. The sitereport notebook gives a summary and analysis of the results for one municipality and compares those results to the water feature, the river bassin and the national results
-4. The code_groups notebook sets grouping levels for objects
-5. the bassin_report notebook is for generating a report for a survey area !still in development
+3. The code_groups notebook sets grouping levels for objects
 
-The most recent version is in the corresponding feature branch
+Notebooks aggregated results:
+
+1. The sitereport notebook gives a summary and analysis of the results for one municipality and compares those results to the water feature, the river bassin and the national results
+2. The feature report notebook is for generating reports at the lake or river level
+3. The bassin_report notebook is for generating a report for a survey area
 
 ### About the data
 
