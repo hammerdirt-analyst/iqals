@@ -11,7 +11,7 @@ Produce decision support packages using the data from beach litter surveys condu
 
 We removed the summary notebooks and replace them with reports for each aggregation level. We are defining the methods for the backend of the application based on the comments and needs recieved from stakeholders over the past year.
 
-Notebooks project indicaotrs:
+Notebooks project indicators:
 
 1. The project_scope notebook provides summary statistics on effected populations, time to survey, number of municipalities, geographic and administrative scope
 2. The key_indicator notebook is an explanantion of the key indicators and an example of how you could use them to find specific objects or groups of objects
