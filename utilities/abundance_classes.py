@@ -159,7 +159,7 @@ def add_national_column(x, col_name="", group="", agg_cols={}):
 
 def agg_fail_rate_by_city_feature_basin_all(som_data, levels, group='code',
                                             agg_cols={'loc_date': 'nunique', 'fail': 'sum'}, national=True,
-                                            col_name="All river bassins", **kwargs):
+                                            col_name="All survey areas", **kwargs):
     new_dfs = []
     for level in levels:
         a_newdf = som_data[som_data[level] == levels[level]].groupby(group).agg(agg_cols)
