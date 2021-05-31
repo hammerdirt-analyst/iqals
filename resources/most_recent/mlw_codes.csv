@@ -111,12 +111,13 @@ G19,Plastic,Car parts,Vehicle,Where does it come from,,Parent code,True,False,Fa
 G2,Plastic,Bags,Packaging,Where does it come from,none,Parent code,True,True,False,none
 G20,Plastic,Caps and lids,Packaging,Where does it come from,none,Parent code,True,True,False,15
 G21,Plastic,Drink lids,Packaging,Food and drinks,none,Parent code,True,False,False,15
+G211,Plastic,"Other medical (swabs, bandaging, adhesive plaster)",Medical,Personal hygiene,none,Parent code,True,True,False,105
 G22,Plastic,"Lids for chemicals, detergents (non-food)",Packaging,Where does it come from,none,Parent code,True,False,False,15
 G23,Plastic,Lids unidentified,Packaging,Where does it come from,,Parent code,True,False,False,
 G24,Plastic,Lid/cap rings from plastic bottles/containers,Packaging,Where does it come from,none,Parent code,True,True,False,15
-G25,Plastic,"Tobacco; plastic  packaging, containers",Tobacco,Smoking related,Direct,Parent code,True,True,False,48
+G25,Plastic,"Tobacco; plastic packaging, containers",Tobacco,Smoking related,Direct,Parent code,True,True,False,48
 G26,Plastic,Cigarette lighters,Tobacco,Where does it come from,none,Parent code,True,False,False,16
-G27,Plastic,Cigarette butts and filters,Tobacco,Where does it come from,none,Parent code,True,True,False,64
+G27,Plastic,Cigarette filters,Tobacco,Where does it come from,none,Parent code,True,True,False,64
 G28,Plastic,"Pens, lids, mechanical pencils etc.",Utility items,Where does it come from,Direct,Parent code,True,False,False,17
 G29,Plastic,"Combs, brushes and sunglasses",Utility items,Where does it come from,Direct,Parent code,True,False,False,18
 G3,Plastic,Bags; plastic shopping/carrier/grocery and pieces,Packaging,Food and drink,none,Parent code,True,True,False,2
@@ -165,6 +166,7 @@ G68,Plastic,Fiberglass fragments,Fishing,Where does it come from,,Parent code,Tr
 G69,Plastic,Helmets or hardhats,Clothing,Where does it come from,,Parent code,True,False,False,
 G7,Plastic,Drink bottles < = 0.5L,Packaging,Food and drink,Where does it come from,Parent code,True,True,False,4
 G70,Plastic,Shotgun cartridges,Hunting,Where does it come from,,Parent code,True,False,False,
+G700,Plastic,The results from a clean up event,undefined,undefined,undefined,G700,True,True,True,0
 G71,Plastic,Shoes sandals,Clothing,Where does it come from,,Parent code,True,False,False,
 G72,Plastic,Traffic cones,Utility items,Where does it come from,,Parent code,True,False,False,
 G73,Plastic,Foamed items & pieces (non packaging/insulation) foamed sponge material,Recreation,Utility,Unknown,Parent code,True,False,False,45
@@ -241,7 +243,6 @@ G133,Rubber,Condoms incl. packaging,Personal hygiene,Water Treatment,none,Parent
 G134,Rubber,Other rubber,Undefined,Where does it come from,,Parent code,True,False,False,
 G900,Rubber,Gloves latex  personal protective equipment,Personal hygiene,Where does it come from,none,G134,True,True,False,53
 G998,Undefined,No exposed shoreline,Where does it come from,Where does it come from,Where does it come from,Parent code,True,False,False,Ospar...
-G211,Unidentified,"Other medical items (swabs, bandaging, adhesive plaster)",Medical,Where does it come from,none,Parent code,True,True,False,105
 G999,Unidentified,No objects found on this survey,Undefined,Where does it come from,,Parent code,True,False,False,
 G159,Wood,Corks,Packaging,Where does it come from,,Parent code,True,False,False,
 G160,Wood,Pallets,Packaging,Where does it come from,,Parent code,True,False,False,

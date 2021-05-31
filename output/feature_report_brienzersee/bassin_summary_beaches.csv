@@ -1,0 +1,4 @@
+location,latitude,longitude,post,country,water,water_name,city_slug,water_name_slug,is_2020,city,bfsnum,population,buildings,streets,intersects,pcs_m,t_pcs_m
+Häfeli,46.6902834,7.8985922,3806,CH,l,Brienzersee,bonigen,brienzersee,True,Bönigen,572,2536,302091,153155,5,3.1750000000000003,2.73
+Oben am see,46.74445107,8.049921099999999,3855,CH,l,Brienzersee,brienze-be,brienzersee,True,Brienz (BE),573,3092,382515,80832,12,5.039999999999998,3.49
+Wycheley,46.74037,8.048639999999999,3855,CH,l,Brienzersee,brienze-be,brienzersee,True,Brienz (BE),573,3092,801648,72715,11,4.22,2.8850000000000002

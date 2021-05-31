@@ -1,50 +1,52 @@
 location,latitude,longitude,post,country,water,water_name,city_slug,water_name_slug,is_2020,city,bfsnum,population,buildings,streets,intersects,pcs_m,t_pcs_m
-Aare Limmatspitz,47.501059999999995,8.237371000000001,5300,CH,r,Aare,gebenstorf,aare,True,Gebenstorf,4029,5414,491022,37439,0,0.6000000000000001,0.52
-Aare Solothurn Lido Strand,47.196949,7.521642999999999,4500,CH,r,Aare,solothurn,aare,True,Solothurn,2601,16777,64721,66513,0,2.44,1.63
-Aare_bern_gerberm,46.9893631,7.4520976999999995,3004,CH,r,Aare,bern,aare,False,Bern,351,133883,816375,26726,0,3.63,0.35
-aare_bern_scheurerk,46.970967200000004,7.4525857,3004,CH,r,Aare,bern,aare,True,Bern,351,133883,166253,103501,0,0.12,0.09
-Aare_Brugg_BuchiE,47.4948553,8.2365581,5200,CH,r,Aare,brugg,aare,False,Brugg,4095,11179,147931,178634,0,0.5999999999999999,0.45999999999999996
-aare_köniz_hoppej,46.934588500000004,7.458170299999999,3084,CH,r,Aare,koniz,aare,True,Köniz,355,41784,1657087,50844,0,0.16,0.09
-Aare_post,47.116665000000005,7.271953,2562,CH,r,Aare|Nidau-Büren-Kanal,port,aarenidau-buren-kanal,True,Port,745,3695,143166,127902,0,0.25,0.2
-aare_suhrespitz_badert,47.405669200000006,8.066018,5032,CH,r,Aare,aarau,aare,True,Aarau,4001,21506,96022,49473,0,0.35,0.15000000000000002
-AugustMützenbergStrandweg,46.686640000000004,7.689760000000001,3700,CH,l,Thunersee,spiez,thunersee,True,Spiez,768,12812,492941,28849,0,0.77,0.44
-Beich,47.048495,7.200528,3272,CH,r,Aare,walperswil,aare,True,Walperswil,754,1043,261752,64289,0,0.22,0.19
-Bern Fahrstrasse,46.975865999999996,7.444210000000001,3004,CH,r,Aare,bern,aare,True,Bern,351,133883,122838,126702,0,0.02,0.0
-Bern Tiergarten,46.9331574,7.4520041,3005,CH,r,Aare,bern,aare,True,Bern,351,133883,505702,42890,0,0.16,0.06
-Bielersee_Vinelz_FankhauserS,47.0383984,7.1083114,3234,CH,l,Bielersee,vinelz,bielersee,True,Vinelz,502,867,164725,119591,6,4.295,3.1900000000000004
-Brügg BE Büren BSG Standort,47.12222,7.28141,2555,CH,r,Aare|Nidau-Büren-Kanal,brugg,aarenidau-buren-kanal,True,Brügg,733,4390,365614,140814,0,1.02,0.67
-Camp des pêches,47.052812,7.074053,2525,CH,l,Bielersee,le-landeron,bielersee,True,Le Landeron,6455,4645,517577,48557,8,1.4500000000000002,1.06
-Camping Gwatt Strand,46.727140000000006,7.62962,3645,CH,l,Thunersee,thun,thunersee,True,Thun,942,43734,456410,156577,6,1.7200000000000002,0.9600000000000001
-Delta park,46.720078,7.635304,3645,CH,l,Thunersee,spiez,thunersee,True,Spiez,768,12812,142915,113124,6,2.0,1.58
-Evole plage,46.989477,6.92392,2000,CH,l,Neuenburgersee,neuchatel,neuenburgersee,True,Neuchâtel,6458,33489,85455,118708,1,2.6750000000000003,1.685
-Gals reserve,47.0462719,7.0850075,3238,CH,l,Bielersee,gals,bielersee,True,Gals,494,827,464249,130101,8,1.28,0.815
-Gummligrabbe,46.989290000000004,7.25073,3283,CH,r,Aare,kallnach,aare,True,Kallnach,304,1920,45103,152966,0,1.0699999999999998,0.6599999999999999
-Hauterive Petite plage,47.010797,6.980303999999999,2068,CH,l,Neuenburgersee,hauterive-ne,neuenburgersee,True,Hauterive (NE),6454,2623,512042,103324,1,2.96,2.37
-Häfeli,46.6902834,7.8985922,3806,CH,l,Brienzersee,bonigen,brienzersee,True,Bönigen,572,2536,302091,153155,5,3.1750000000000003,2.6599999999999997
-Impromptu_Cudrefin,46.964496000000004,7.027936,1588,CH,l,Neuenburgersee,cudrefin,neuenburgersee,True,Cudrefin,5456,1633,661366,87159,6,2.23,1.6600000000000001
-La Petite plage,46.785053999999995,6.656877000000001,1400,CH,l,Neuenburgersee,yverdon-les-bains,neuenburgersee,True,Yverdon-les-Bains,5938,30157,337244,130217,7,0.9100000000000001,0.615
-La Thièle_Le Mujon_confluence,46.77534,6.6309,1400,CH,r,La Thièle,yverdon-les-bains,la-thiele,True,Yverdon-les-Bains,5938,30157,2061509,40419,0,0.4600000000000001,0.41000000000000003
-Ligerz strand,47.083979,7.135894,2514,CH,l,Bielersee,ligerz,bielersee,True,Ligerz,740,544,93921,53452,4,9.099999999999998,6.949999999999999
-Lüscherz plage,47.0479551,7.151242,2576,CH,l,Bielersee,luscherz,bielersee,True,Lüscherz,497,560,240150,46161,6,0.7400000000000001,0.515
-Lüscherz two,47.047519,7.1528292,2573,CH,l,Bielersee,luscherz,bielersee,True,Lüscherz,497,560,543793,72385,6,0.39999999999999997,0.05
-Mannewil,46.996382000000004,7.239024000000001,3283,CH,r,Aare,kallnach,aare,True,Kallnach,304,1920,832686,42931,0,1.5600000000000005,1.02
-Müllermatte,47.133339,7.227907000000001,2505,CH,l,Bielersee,biel,bielersee,True,Biel/Bienne,371,55159,842757,99633,4,5.419999999999997,3.85
-Nidau strand,47.127196000000005,7.232613000000001,2560,CH,l,Bielersee,nidau,bielersee,True,Nidau,743,6823,113753,187838,4,2.52,2.16
-Nouvelle plage,46.856646399999995,6.848428,1470,CH,l,Neuenburgersee,estavayer,neuenburgersee,True,Estavayer,2054,9716,45847,43375,4,0.45,0.21000000000000002
-Oben am see,46.74445107,8.049921099999999,3855,CH,l,Brienzersee,brienze-be,brienzersee,True,Brienz (BE),573,3092,382515,80832,12,5.039999999999998,2.5200000000000005
-Oberi Chlihöchstetten,46.896025,7.532114,3113,CH,r,Aare,rubigen,aare,True,Rubigen,623,2929,361240,67175,0,3.2000000000000006,0.16999999999999998
-Pécos Plage,46.80359,6.63665,1422,CH,l,Neuenburgersee,grandson,neuenburgersee,True,Grandson,5561,3357,197704,68282,6,1.4100000000000004,0.7599999999999999
-Plage de Cheyres,46.818689,6.782255999999999,1468,CH,l,Neuenburgersee,cheyres,neuenburgersee,True,Cheyres-Châbles,2055,2320,1029031,108943,6,0.575,0.4
-Plage de Serrière,46.98485,6.91345,2000,CH,l,Neuenburgersee,neuchatel,neuenburgersee,True,Neuchâtel,6458,33489,569455,59499,2,1.9400000000000006,0.9900000000000001
-Pointe d'Areuse,46.94619,6.87097,2017,CH,l,Neuenburgersee,boudry,neuenburgersee,True,Boudry,6404,6154,56253,109589,7,0.32999999999999996,0.15
-Ruisseau de la croix plage,46.81392,6.7747,1468,CH,l,Neuenburgersee,cheyres,neuenburgersee,True,Cheyres-Châbles,2055,2320,718602,179104,7,0.6200000000000001,0.42
-Schútzenmatte,47.057666,7.634001,3400,CH,r,Emme,burgdorf,emme,True,Burgdorf,404,16420,319135,157177,0,0.8700000000000001,0.44
-Schüsspark strand,47.1465,7.268619999999999,2504,CH,r,Schüss,biel,schuss,True,Biel/Bienne,371,55159,518253,59790,0,1.0350000000000001,0.5950000000000001
-Signalpain,46.7862,6.647360000000001,1400,CH,l,Neuenburgersee,yverdon-les-bains,neuenburgersee,True,Yverdon-les-Bains,5938,30157,107653,36129,8,4.78,3.25
-Späckmatt,47.223749,7.576711,4542,CH,r,Aare,luterbach,aare,True,Luterbach,2527,3480,632530,64861,0,0.24,0.06
-Strandboden-Biel,47.132509999999996,7.233142,2503,CH,l,Bielersee,biel,bielersee,True,Biel/Bienne,371,55159,2052713,95597,4,3.4699999999999998,1.88
-Sundbach strand,46.684385999999996,7.7947679999999995,3803,CH,l,Thunersee,beatenberg,thunersee,True,Beatenberg,571,1195,140379,84442,6,2.4250000000000007,1.8699999999999999
-Thun Strandbad,46.739939,7.63352,3504,CH,l,Thunersee,thun,thunersee,True,Thun,942,43734,560912,135203,5,1.2400000000000002,0.9400000000000001
-thunersee_spiez_meierd_1,46.704436799999996,7.657882400000001,3646,CH,l,Thunersee,spiez,thunersee,True,Spiez,768,12812,62620,73422,3,0.675,0.52
-Weissenau-Neuhaus,46.676583,7.817528,3800,CH,l,Thunersee,unterseen,thunersee,True,Unterseen,593,5751,402243,39654,11,1.8000000000000005,1.29
-Wycheley,46.74037,8.048639999999999,3855,CH,l,Brienzersee,brienze-be,brienzersee,True,Brienz (BE),573,3092,801648,72715,11,4.22,2.805
+Aare Limmatspitz,47.501059999999995,8.237371000000001,5300,CH,r,Aare,gebenstorf,aare,True,Gebenstorf,4029,5414,440736,111923.78199999999,0,0.6000000000000001,0.52
+Aare Port,47.116170000000004,7.26955,2558,CH,r,Aare|Nidau-Büren-Kanal,port,aarenidau-buren-kanal,True,Port,745,3695,285438,120308.21699999999,0,2.5300000000000002,1.83
+Aare Solothurn Lido Strand,47.196949,7.521642999999999,4500,CH,r,Aare,solothurn,aare,True,Solothurn,2601,16777,271450,86254.84800000001,0,2.44,1.63
+Aare_bern_gerberm,46.9893631,7.4520976999999995,3004,CH,r,Aare,bern,aare,False,Bern,351,133883,402243,112332.698,0,3.6299999999999986,2.2699999999999996
+aare_bern_scheurerk,46.970967200000004,7.4525857,3004,CH,r,Aare,bern,aare,True,Bern,351,133883,151519,167238.886,0,0.12,0.09
+Aare_Brugg_BuchiE,47.4948553,8.2365581,5200,CH,r,Aare,brugg,aare,False,Brugg,4095,11179,469544,120294.775,0,0.6,0.45999999999999996
+aare_köniz_hoppej,46.934588500000004,7.458170299999999,3084,CH,r,Aare,koniz,aare,True,Köniz,355,41784,289003,157177.22,0,0.16000000000000003,0.09
+Aare_post,47.116665000000005,7.271953,2562,CH,r,Aare|Nidau-Büren-Kanal,port,aarenidau-buren-kanal,True,Port,745,3695,1275454,118707.64300000001,0,0.25,0.2
+aare_suhrespitz_badert,47.405669200000006,8.066018,5032,CH,r,Aare,aarau,aare,True,Aarau,4001,21506,458937,132795.405,0,0.35,0.15000000000000002
+AugustMützenbergStrandweg,46.686640000000004,7.689760000000001,3700,CH,l,Thunersee,spiez,thunersee,True,Spiez,768,12812,550897,78705.588,0,0.77,0.44
+Beich,47.048495,7.200528,3272,CH,r,Aare,walperswil,aare,True,Walperswil,754,1043,553264,67062.896,0,0.22,0.19
+Bern Fahrstrasse,46.975865999999996,7.444210000000001,3004,CH,r,Aare,bern,aare,True,Bern,351,133883,497170,135559.331,0,0.02,0.0
+Bern Tiergarten,46.9331574,7.4520041,3005,CH,r,Aare,bern,aare,True,Bern,351,133883,604046,152307.813,0,0.16,0.08
+Bielersee_Vinelz_FankhauserS,47.0383984,7.1083114,3234,CH,l,Bielersee,vinelz,bielersee,True,Vinelz,502,867,166341,58476.151,1,4.295,3.1900000000000004
+Brügg BE Büren BSG Standort,47.12222,7.28141,2555,CH,r,Aare|Nidau-Büren-Kanal,brugg,aarenidau-buren-kanal,True,Brügg,733,4390,319493,108795.659,0,1.02,0.67
+Camp des pêches,47.052812,7.074053,2525,CH,l,Bielersee,le-landeron,bielersee,True,Le Landeron,6455,4645,29783,74172.927,8,1.4500000000000002,1.06
+Camping Gwatt Strand,46.727140000000006,7.62962,3645,CH,l,Thunersee,thun,thunersee,True,Thun,942,43734,56253,66512.759,4,1.7200000000000002,0.9600000000000001
+Delta park,46.720078,7.635304,3645,CH,l,Thunersee,spiez,thunersee,True,Spiez,768,12812,1041379,56674.777,4,2.0,1.58
+Erlach camping strand,47.047159,7.097853999999999,3235,CH,l,Bielersee,erlach,bielersee,True,Erlach,492,1385,142915,38781.93,3,1.83,1.1600000000000001
+Evole plage,46.989477,6.92392,2000,CH,l,Neuenburgersee,neuchatel,neuenburgersee,True,Neuchâtel,6458,33489,329632,113864.659,1,2.6750000000000007,1.75
+Gals reserve,47.0462719,7.0850075,3238,CH,l,Bielersee,gals,bielersee,True,Gals,494,827,792451,58521.875,7,1.2800000000000002,0.8700000000000001
+Gummligrabbe,46.989290000000004,7.25073,3283,CH,r,Aare,kallnach,aare,True,Kallnach,304,1920,215131,58974.78,0,1.0699999999999998,0.6599999999999999
+Hauterive Petite plage,47.010797,6.980303999999999,2068,CH,l,Neuenburgersee,hauterive-ne,neuenburgersee,True,Hauterive (NE),6454,2623,579770,85235.82699999999,1,2.9600000000000004,2.39
+Häfeli,46.6902834,7.8985922,3806,CH,l,Brienzersee,bonigen,brienzersee,True,Bönigen,572,2536,126519,70326.767,1,3.175,2.6599999999999997
+Impromptu_Cudrefin,46.964496000000004,7.027936,1588,CH,l,Neuenburgersee,cudrefin,neuenburgersee,True,Cudrefin,5456,1633,1872468,36129.116,2,2.2299999999999995,1.6600000000000001
+La Petite plage,46.785053999999995,6.656877000000001,1400,CH,l,Neuenburgersee,yverdon-les-bains,neuenburgersee,True,Yverdon-les-Bains,5938,30157,661366,72127.352,1,0.9100000000000003,0.615
+La Thièle_Le Mujon_confluence,46.77534,6.6309,1400,CH,r,La Thièle,yverdon-les-bains,la-thiele,True,Yverdon-les-Bains,5938,30157,109487,116210.53,0,0.45999999999999996,0.41000000000000003
+Ligerz strand,47.083979,7.135894,2514,CH,l,Bielersee,ligerz,bielersee,True,Ligerz,740,544,471029,50824.652,4,9.099999999999998,6.949999999999999
+Lüscherz plage,47.0479551,7.151242,2576,CH,l,Bielersee,luscherz,bielersee,True,Lüscherz,497,560,240300,37311.242999999995,6,0.7400000000000002,0.515
+Lüscherz two,47.047519,7.1528292,2573,CH,l,Bielersee,luscherz,bielersee,True,Lüscherz,497,560,53516,39654.093,6,0.4,0.05
+Mannewil,46.996382000000004,7.239024000000001,3283,CH,r,Aare,kallnach,aare,True,Kallnach,304,1920,405379,68282.451,0,1.5600000000000005,1.02
+Müllermatte,47.133339,7.227907000000001,2505,CH,l,Bielersee,biel,bielersee,True,Biel/Bienne,371,55159,1582331,109589.276,1,5.419999999999996,3.85
+Nidau strand,47.127196000000005,7.232613000000001,2560,CH,l,Bielersee,nidau,bielersee,True,Nidau,743,6823,302091,119590.582,1,2.5200000000000005,2.16
+Nouvelle plage,46.856646399999995,6.848428,1470,CH,l,Neuenburgersee,estavayer,neuenburgersee,True,Estavayer,2054,9716,121252,52599.095,4,0.45,0.21000000000000002
+Oben am see,46.74445107,8.049921099999999,3855,CH,l,Brienzersee,brienze-be,brienzersee,True,Brienz (BE),573,3092,240483,58321.244000000006,12,5.04,2.52
+Oberi Chlihöchstetten,46.896025,7.532114,3113,CH,r,Aare,rubigen,aare,True,Rubigen,623,2929,610290,75212.454,0,3.2,2.56
+Pécos Plage,46.80359,6.63665,1422,CH,l,Neuenburgersee,grandson,neuenburgersee,True,Grandson,5561,3357,78820,59789.612,4,1.4100000000000004,0.7599999999999999
+Plage de Cheyres,46.818689,6.782255999999999,1468,CH,l,Neuenburgersee,cheyres,neuenburgersee,True,Cheyres-Châbles,2055,2320,417986,36327.418,6,0.575,0.4
+Plage de Serrière,46.98485,6.91345,2000,CH,l,Neuenburgersee,neuchatel,neuenburgersee,True,Neuchâtel,6458,33489,704668,103501.207,2,1.9400000000000004,1.1600000000000001
+Pointe d'Areuse,46.94619,6.87097,2017,CH,l,Neuenburgersee,boudry,neuenburgersee,True,Boudry,6404,6154,264879,32332.507,5,0.33000000000000007,0.15
+Ruisseau de la croix plage,46.81392,6.7747,1468,CH,l,Neuenburgersee,cheyres,neuenburgersee,True,Cheyres-Châbles,2055,2320,892173,32156.562,6,0.62,0.42000000000000004
+Schútzenmatte,47.057666,7.634001,3400,CH,r,Emme,burgdorf,emme,True,Burgdorf,404,16420,549215,117484.45599999999,0,0.87,0.44000000000000006
+Schüsspark strand,47.1465,7.268619999999999,2504,CH,r,Schüss,biel,schuss,True,Biel/Bienne,371,55159,1083634,140814.003,0,1.0350000000000001,0.6050000000000001
+Signalpain,46.7862,6.647360000000001,1400,CH,l,Neuenburgersee,yverdon-les-bains,neuenburgersee,True,Yverdon-les-Bains,5938,30157,96022,83907.65800000001,1,4.78,3.2700000000000005
+Späckmatt,47.223749,7.576711,4542,CH,r,Aare,luterbach,aare,True,Luterbach,2527,3480,1043362,96388.56300000001,0,0.24,0.06
+Strandboden-Biel,47.132509999999996,7.233142,2503,CH,l,Bielersee,biel,bielersee,True,Biel/Bienne,371,55159,209826,124399.969,1,3.470000000000001,1.88
+Sundbach strand,46.684385999999996,7.7947679999999995,3803,CH,l,Thunersee,beatenberg,thunersee,True,Beatenberg,571,1195,492941,40418.579,5,2.425,1.8699999999999999
+Thun Strandbad,46.739939,7.63352,3504,CH,l,Thunersee,thun,thunersee,True,Thun,942,43734,195716,97174.337,3,1.2400000000000002,0.9450000000000001
+thunersee_spiez_meierd_1,46.704436799999996,7.657882400000001,3646,CH,l,Thunersee,spiez,thunersee,True,Spiez,768,12812,653697,45839.319,0,0.675,0.52
+Weissenau-Neuhaus,46.676583,7.817528,3800,CH,l,Thunersee,unterseen,thunersee,True,Unterseen,593,5751,122838,46161.142,11,1.8000000000000003,1.29
+Wycheley,46.74037,8.048639999999999,3855,CH,l,Brienzersee,brienze-be,brienzersee,True,Brienz (BE),573,3092,714713,50843.538,11,4.22,2.805

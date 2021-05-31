@@ -1,0 +1,8 @@
+location,latitude,longitude,post,country,water,water_name,city_slug,water_name_slug,is_2020,city,bfsnum,population,buildings,streets,intersects,pcs_m,t_pcs_m
+AugustMützenbergStrandweg,46.686640000000004,7.689760000000001,3700,CH,l,Thunersee,spiez,thunersee,True,Spiez,768,12812,492941,28849,0,0.77,0.44
+Camping Gwatt Strand,46.727140000000006,7.62962,3645,CH,l,Thunersee,thun,thunersee,True,Thun,942,43734,456410,156577,6,1.7200000000000002,0.92
+Delta park,46.720078,7.635304,3645,CH,l,Thunersee,spiez,thunersee,True,Spiez,768,12812,142915,113124,6,2.0,1.58
+Sundbach strand,46.684385999999996,7.7947679999999995,3803,CH,l,Thunersee,beatenberg,thunersee,True,Beatenberg,571,1195,140379,84442,6,2.4250000000000007,1.825
+Thun Strandbad,46.739939,7.63352,3504,CH,l,Thunersee,thun,thunersee,True,Thun,942,43734,560912,135203,5,1.2400000000000002,0.9500000000000001
+thunersee_spiez_meierd_1,46.704436799999996,7.657882400000001,3646,CH,l,Thunersee,spiez,thunersee,True,Spiez,768,12812,62620,73422,3,0.675,0.52
+Weissenau-Neuhaus,46.676583,7.817528,3800,CH,l,Thunersee,unterseen,thunersee,True,Unterseen,593,5751,402243,39654,11,1.8000000000000005,1.3050000000000002
