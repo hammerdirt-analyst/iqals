@@ -1,4 +1,11 @@
 ## Identification, quantififcation and analysis of observable anthropogenic debris along swiss freshwater systems.
+
+### ! The finished repo is being moved to here [IQAASL-End-0f-Sampling-2021](https://github.com/hammerdirt-analyst/IQAASL-End-0f-Sampling-2021)
+
+If you are looking for analysis and the finished data set, use the link above. Starting July 5, 2021 **the notebooks and maps used to generate analysis and documentation from the beach-litter-surveys will no longer be available in this repo**. Starting July 12, 2021 the REST API for the new litter surveyor app will be developed here.
+
+contact dev@hammerdirt.ch for more information.
+
 ![map of bielersee and neuch](https://github.com/hammerdirt-analyst/iqals/blob/main/resources/maps/aare_scaled.jpeg)
 
 ### <span style="color:#008891">Purpose</span>
